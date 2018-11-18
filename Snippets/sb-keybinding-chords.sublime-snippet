@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+	{
+		"keys": ["ctrl+k", "ctrl+v"],
+		"command": "save_all"
+	}
+]]></content>
+<tabTrigger>sb-keybinding-chords</tabTrigger>
+<description>a</description>
+<scope>source.json.sublime, meta.structure.array.json</scope>
+</snippet>

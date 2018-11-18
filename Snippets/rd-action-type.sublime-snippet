@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+export const ${1:INCREMENT} = '${2:modulename}/${1:INCREMENT}'
+]]></content>
+<tabTrigger>rd-action-type</tabTrigger>
+<description>rd-action-type</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

@@ -1,0 +1,72 @@
+[{
+		"keys": ["shift+ctrl+space"],
+		"command": "code_intel_auto_complete"
+	},
+	{
+		"keys": ["super+alt+ctrl+up"],
+		"command": "goto_python_definition"
+	},
+	{
+		"keys": ["super+alt+ctrl+left"],
+		"command": "back_to_python_definition"
+	},
+
+	{
+		"keys": ["ctrl+alt+shift+q"],
+		"command": "chain",
+		"args": {
+			"commands": [
+				[
+					"expand_selection",
+					{
+						"to": "brackets"
+					}
+				],
+				["move",
+					{
+						"by": "characters",
+						"forward": true
+					}
+				],
+				["move",
+					{
+						"by": "characters",
+						"forward": true
+					}
+				],
+				["move_to",
+					{
+						"extend": false,
+						"to": "eol"
+					}
+				],
+				["insert",
+					{
+						"characters": "\n",
+					}
+				]
+			]
+		}
+	},
+	{
+		"keys": ["ctrl+k", "ctrl+v"],
+		"command": "paste_from_history"
+	},
+
+	{
+		"keys": ["ctrl+k", "ctrl+v"],
+		"command": "paste_from_history"
+	},
+	{
+		"keys": ["ctrl+k", "ctrl+s"],
+		"command": "save_all"
+	},
+
+	{
+		"keys": ["ctrl+k", "ctrl+k"],
+		"command": "js_prettier",
+
+	}
+
+
+]

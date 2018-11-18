@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+$1.forEach((item, index) => {
+	console.log(item)
+})
+]]></content>
+<tabTrigger>es6-forEach</tabTrigger>
+<description>a</description>
+<scope>source.js, variable.other.object.js, variable.other.object.js</scope>
+</snippet>

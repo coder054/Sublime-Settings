@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+{${1}.length && ${1}
+	? x.map((item, key) => (
+			<li key={key}>name: {item.name}</li>
+	  ))
+	: null
+}
+]]></content>
+<tabTrigger>rj-map-array</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, punctuation.section.embedded.begin.jsx</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+		<![CDATA[
+php artisan make:controller ${1:Photo}Controller ${2:--resource} --model=${3:Photo}
+]]>
+	</content>
+	<tabTrigger>lr-artisan-make-controller</tabTrigger>
+	<description>a</description>
+	<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, constant.other.php</scope>
+</snippet>

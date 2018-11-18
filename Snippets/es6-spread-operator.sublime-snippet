@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+// spread
+const arr1 = [1,2,3]
+const arr = [...arr1, 4] // 1, 2, 3, 4
+
+const person = {
+	name: "Brad",
+	age: 36
+}
+
+const newPerson = {
+	...person,
+	email: 'brad@gmail.com'
+}
+]]></content>
+<tabTrigger>es6-spread-operator</tabTrigger>
+<description>a</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

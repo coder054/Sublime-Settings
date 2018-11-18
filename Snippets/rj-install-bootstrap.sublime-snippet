@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+npm isntall bootstrap
+import "bootstrap/dist/css.bootstrap.min.css"
+]]></content>
+<tabTrigger>rj-install-bootstrap</tabTrigger>
+<description>a</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

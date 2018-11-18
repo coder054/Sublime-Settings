@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+use Illuminate\Http\Request;
+]]></content>
+<tabTrigger>lr-import-use-Request</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.use.php, keyword.other.use.php</scope>
+</snippet>

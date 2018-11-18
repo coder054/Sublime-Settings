@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+Route::prefix('admin')->group(function () {
+    Route::get('users', function () {
+        // Matches The "/admin/users" URL
+    });
+});
+]]></content>
+<tabTrigger>lr-route-prefix</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
+</snippet>

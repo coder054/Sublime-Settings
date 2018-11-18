@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+const ${1:ob} = { name: "Tram", age: 26 }
+
+for (let ${2:key} in ${1:ob}) {
+	console.log(${2:key})
+	console.log(${1:ob}[${2:key}])
+}
+
+]]></content>
+<tabTrigger>js-loop-object-for-in</tabTrigger>
+<description>a</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

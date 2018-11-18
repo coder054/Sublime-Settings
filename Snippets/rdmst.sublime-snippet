@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+const mapStateToProps = ({ counter }) => ({
+  count: counter.count,
+  isIncrementing: counter.isIncrementing,
+  isDecrementing: counter.isDecrementing
+})
+]]></content>
+<tabTrigger>rdmst</tabTrigger>
+<description>redux mapStateToProps</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

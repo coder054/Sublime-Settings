@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+// map actions
+const mapDispatchToProps = dispatch =>
+  bindActionCreators(
+    {
+      increment,
+      incrementAsync,
+      decrement,
+      decrementAsync,
+      changePage: () => push('/about-us'),
+      testt
+    },
+    dispatch
+  )
+]]></content>
+<tabTrigger>rd-map-dispatch-to-props</tabTrigger>
+<description>a</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)($1)
+]]></content>
+<tabTrigger>rdcn</tabTrigger>
+<description>redux connect</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

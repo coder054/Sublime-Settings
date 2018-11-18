@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+socket.emit("$1", $2) // tham so thu 2 la data (optional)
+]]></content>
+<tabTrigger>js-socket-emit</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.group.braces.round.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.group.braces.curly.js, meta.group.braces.curly.js, variable.other.object.js, variable.other.object.js</scope>
+</snippet>

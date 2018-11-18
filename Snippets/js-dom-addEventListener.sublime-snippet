@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+document.querySelector('$1').addEventListener('${2:click}', function(){
+	$3
+})
+]]></content>
+<tabTrigger>js-dom-addEventListener</tabTrigger>
+<description>a</description>
+<scope>source.js, support.type.object.dom.js</scope>
+</snippet>

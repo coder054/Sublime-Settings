@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+return redirect('${1:home/dashboard}');
+]]></content>
+<tabTrigger>lr-redirect</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, keyword.control.php</scope>
+</snippet>

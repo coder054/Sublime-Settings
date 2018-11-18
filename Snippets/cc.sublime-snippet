@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+const 
+]]></content>
+<tabTrigger>cc</tabTrigger>
+<description>cc const</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

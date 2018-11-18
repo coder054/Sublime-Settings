@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+<div className="$1">
+  $2
+</div>
+]]></content>
+<tabTrigger>dcl</tabTrigger>
+<description>dcl</description>
+<scope>source.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+// MODULES
+
+// file1.js
+export const name = 'Jeft'
+export const nums = [1,2,3]
+export default class Person {
+
+}
+
+// file2.js
+ import {name, nums} from './file1'
+ import Person from './file1'  // xxxx khong can {} khi export default
+]]></content>
+<tabTrigger>es6-module-export-import</tabTrigger>
+<description>a</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

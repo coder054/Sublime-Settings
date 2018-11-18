@@ -1,0 +1,27 @@
+<snippet>
+	<content>
+		<![CDATA[
+	{
+		"keys": ["ctrl+alt+shift+q"],
+		"command": "chain",
+		"args": {
+			"commands": [
+				[
+					"expand_selection",
+					{
+						"to": "brackets"
+					}
+				],
+				["copy"],
+				["new_file"],
+				["paste"],
+				["save"]
+			]
+		}
+	},
+]]>
+	</content>
+	<tabTrigger>sb-chain-command-keybinding</tabTrigger>
+	<description>a</description>
+	<scope>source.json.sublime, meta.structure.array.json</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+module.exports = $1
+]]></content>
+<tabTrigger>mdep</tabTrigger>
+<description>nj-module-export</description>
+<scope>source.js, support.type.object.module.js</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+// open sublime console (Ctrl + `)
+sublime.log_commands(True)
+]]></content>
+<tabTrigger>gist-log-command-sublime</tabTrigger>
+<description>a</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

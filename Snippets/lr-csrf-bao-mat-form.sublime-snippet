@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+<form method="POST" action="/profile">
+    {{ csrf_field() }}
+    
+</form>
+]]></content>
+<tabTrigger>lr-csrf-bao-mat-form</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic, meta.tag.block.form.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+ngandofdsklfdsjkk fdklsfdsfdsfdsfds fdsfsd ${1:phutho} and ${2}  aaaaaaa
+]]></content>
+<tabTrigger>jjtest2</tabTrigger>
+<description>jjtest2</description>
+<scope>text.html.basic</scope>
+</snippet>

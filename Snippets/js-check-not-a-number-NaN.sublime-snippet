@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+if (Number.isNaN($1)) {
+	$2
+}
+]]></content>
+<tabTrigger>js-check-not-a-number-NaN</tabTrigger>
+<description>a</description>
+<scope>source.js, keyword.control.conditional.js</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+const mapDispatchToProps = dispatch =>
+  bindActionCreators(
+    {
+      increment,
+      incrementAsync,
+      decrement,
+      decrementAsync,
+      changePage: () => push('/about-us'),
+      testt
+    },
+    dispatch
+  )
+]]></content>
+<tabTrigger>rdmdp</tabTrigger>
+<description>redux mapDispatchToProps</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

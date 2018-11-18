@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+// su dung middleware cho mot nhom routes
+Route::middleware(['first', 'second'])->group(function () {
+    Route::get('/', function () {
+        // Uses first & second Middleware
+    });
+
+    Route::get('user/profile', function () {
+        // Uses first & second Middleware
+    });
+});
+]]></content>
+<tabTrigger>lr-su-dung-middleware-mot-nhom-group-routes</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, comment.line.double-slash.php, punctuation.definition.comment.php</scope>
+</snippet>

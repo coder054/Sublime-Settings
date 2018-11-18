@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+<script>
+    console.log(<?= json_encode($1); ?>);
+</script>
+]]></content>
+<tabTrigger>lr-php-console-log</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic, meta.tag.script.begin.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
