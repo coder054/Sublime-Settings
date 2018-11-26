@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+export default {
+	Query: { // object
+		allUsers: (parent, args, context) => ... // function return something
+	},
+	Mutation: { // object
+		createUser: (parent, args, { models }) => models.User.create(args)
+	}
+}
+]]></content>
+<tabTrigger>nj-graphql-resolver-template</tabTrigger>
+<description>a</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

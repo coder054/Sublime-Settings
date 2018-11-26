@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+\c slack; // ket noi toi databasce slack
+\d users // xem bang users
+\d channels // xem bang channel
+]]></content>
+<tabTrigger>nj-posgres-psql</tabTrigger>
+<description>a</description>
+<scope>source.js</scope>
+</snippet>

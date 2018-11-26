@@ -1,0 +1,26 @@
+<snippet>
+<content><![CDATA[
+import React from 'react';
+import { gql, graphql } from 'react-apollo';
+
+
+// copy ket qua trong graphiql roi paste vao 
+// const Home = (...paste ket qua vao day...) => ...
+const Home = ({ data: { allUsers = [] } }) => allUsers.map(u => <h1 key={u.id}>{u.email}</h1>);
+
+// viet query trong graphiql roi paste vao ben trong
+const allUsersQuery = gql`
+  {
+    allUsers {
+      id
+      email
+    }
+  }
+`;
+
+export default graphql(allUsersQuery)(Home);
+]]></content>
+<tabTrigger>rj-template-component-graphql-apollo</tabTrigger>
+<description>a</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

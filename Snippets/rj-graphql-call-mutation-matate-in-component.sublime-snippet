@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+const response = await this.props.mutate({
+  variables: this.state
+})
+
+console.log("response: ", response)
+]]></content>
+<tabTrigger>rj-graphql-call-mutation-matate-in-component</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, storage.type.js</scope>
+</snippet>

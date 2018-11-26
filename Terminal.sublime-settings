@@ -3,7 +3,8 @@
 	// See https://github.com/wbond/sublime_terminal#examples for examples
 	// "terminal": "C:\\Program Files\\Git\\git-bash.exe",
 
-	"terminal": "C:\\Program Files (x86)\\cmder\\Cmder.exe",
+	// "terminal": "C:\\Program Files (x86)\\cmder\\Cmder.exe",
+	"terminal": "C:\\Windows\\System32\\cmd.exe",
 
 	// A list of default parameters to pass to the terminal, this can be
 	// overridden by passing the "parameters" key with a list value to the args

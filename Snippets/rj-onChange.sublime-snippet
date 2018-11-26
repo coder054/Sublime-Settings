@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+  onChange = e => {
+    const { name, value } = e.target
+    // name = "email" hoac "password" ... //  trong input nho them name="email" hoac name="password"...
+    this.setState({
+      [name]: value
+    })
+  }
+]]></content>
+<tabTrigger>rj-onChange</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.class.js, meta.class.property.js</scope>
+</snippet>
