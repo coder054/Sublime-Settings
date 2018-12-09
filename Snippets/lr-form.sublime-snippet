@@ -1,0 +1,20 @@
+<snippet>
+	<content>
+		<![CDATA[
+<form action="{{route('$1')}}" method="post">
+    {{ csrf_field() }}
+    <input type="text" name="username">
+    <input type="text" name="email">
+    <input type="submit" name="submit">
+</form>
+
+Route::post('$1', function (Request $request) {
+    echo $request->input('username');
+    echo $request->has('email')
+})->name('$1');
+]]>
+	</content>
+	<tabTrigger>lr-form</tabTrigger>
+	<description>a</description>
+	<scope>embedding.php, text.html.basic, meta.tag.block.form.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

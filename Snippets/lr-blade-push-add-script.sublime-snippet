@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@push('scripts')
+    <script src="/example.js"></script>
+@endpush
+]]></content>
+<tabTrigger>lr-blade-push-add-script</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic</scope>
+</snippet>

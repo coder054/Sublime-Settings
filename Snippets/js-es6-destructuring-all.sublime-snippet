@@ -6,11 +6,14 @@
 const args = {
 	name: "tuananh",
 	age: 26,
-	address: "hanoi"
+	address: "hanoi",
+	hobby: "juggling"
 }
-const { name, ...otherArgs } = args
+const { name, age: tuoi, ...otherArgs } = args
 console.log(name) // tuananh
-console.log(otherArgs) // { age: 26, address: 'hanoi' }
+console.log(tuoi) // 26 xxxx
+console.log(otherArgs) // { address: 'hanoi', hobby: "juggling" }
+console.log(age) // ReferenceError: age is not defined xxxx
 
 // tuong tu nhu vay ta co the destructuring trong argument cua dinh nghia function
 const register1 = async (parent, args) => {}
@@ -54,6 +57,7 @@ console.log(allCountries) // []
 
 
 //////////////////////////////////////////////////////
+
 
 ]]>
 	</content>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+${TM_FILENAME/(\w+)\.js/\1/g}
+]]></content>
+<tabTrigger>gist-sublime-snippet-filename</tabTrigger>
+<description>a</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

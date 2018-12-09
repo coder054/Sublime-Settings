@@ -1,0 +1,18 @@
+<snippet>
+	<content>
+		<![CDATA[
+let updatedUser = await User.update(
+  { _id: req.user._id },
+  {
+    \$pull: {
+      tweets: { tweet: deletedTweet._id },
+      // tweets: deletedTweet._id
+    }
+  }
+)
+]]>
+	</content>
+	<tabTrigger>nj-mg-mongoose-update-pull</tabTrigger>
+	<description>a</description>
+	<scope>source.js, storage.type.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+		<![CDATA[
+aa $SELECTION aa
+]]>
+	</content>
+	<tabTrigger>aaa</tabTrigger>
+	<description>a</description>
+	<scope>source.js, constant.other.object.key.js, string.unquoted.label.js</scope>
+</snippet>

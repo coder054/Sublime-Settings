@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+@if (count($records) === 1)
+    I have one record!
+@elseif (count($records) > 1)
+    I have multiple records!
+@else
+    I don't have any records!
+@endif
+]]></content>
+<tabTrigger>lr-blade-if</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic</scope>
+</snippet>

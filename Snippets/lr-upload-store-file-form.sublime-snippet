@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+<form action="{{route('postForm')}}" method="post" enctype="multipart/form-data">
+    {{ csrf_field() }}
+    <input type="file" name="${1:myFile}">
+    <input type="submit" name="submit">
+</form>
+
+if ($request->hasFile('${1:myFile}') && $request->file('${1:myFile}')->isValid()) {
+$file = $request->file('${1:myFile}');
+$path = $file->store('images'); // luu trong thu muc storage/app/images
+}
+]]></content>
+<tabTrigger>lr-upload-store-file-form</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic, meta.tag.block.form.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

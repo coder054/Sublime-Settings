@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+Route::get('querystring', function (Request $request) {
+    echo $request->query('name'); // http://localhost/webtintuc/public/querystring?name=tuananh&age=26
+});
+]]></content>
+<tabTrigger>lr-query-string</tabTrigger>
+<description>a</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
+</snippet>

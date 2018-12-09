@@ -30,6 +30,14 @@
 		".hg",
 		"CVS"
 	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
 	"ignored_packages":
 	[
 		"Vintage"

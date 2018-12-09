@@ -1,0 +1,16 @@
+<snippet>
+	<content>
+		<![CDATA[
+let dsfds = await User.update(
+  {
+    _id: req.params.id,
+    followers: { \$ne: req.user._id } // trong array followers khong chua req.user._id
+  }, 
+  { \$push: { followers: req.user._id } }
+)
+]]>
+	</content>
+	<tabTrigger>nj-mg-mongoose-update-push</tabTrigger>
+	<description>a</description>
+	<scope>source.js, storage.type.js</scope>
+</snippet>
