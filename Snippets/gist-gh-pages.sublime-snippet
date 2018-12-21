@@ -1,0 +1,14 @@
+<snippet>
+	<content>
+		<![CDATA[
+    "homepage": "https://coder054.github.io/cv",
+    npm install --save gh-pages
+    "rmcache": "rm -rf node_modules/gh-pages/.cache",
+    "predeploy": "npm run rmcache & npm run build",
+    "deploy": "gh-pages -d build"
+]]>
+	</content>
+	<tabTrigger>gist-gh-pages</tabTrigger>
+	<description>a</description>
+	<scope>source.json.npm, source.js, keyword.operator.module.js</scope>
+</snippet>

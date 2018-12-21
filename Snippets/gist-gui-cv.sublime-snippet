@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+Minh gui cv nhe
+https://www.topcv.vn/xem-cv/3c11ef66ff7ea37a2e78c3040fb0900f
+https://coder054.github.io/cv/
+]]></content>
+<tabTrigger>gist-gui-cv</tabTrigger>
+<description>a</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>
