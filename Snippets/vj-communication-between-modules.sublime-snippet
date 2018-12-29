@@ -1,0 +1,17 @@
+<snippet>
+	<content>
+		<![CDATA[
+/* communication between modules */
+// const actions = { // inside images module, we want to access the token of auth module
+  async fetchImages({rootState}){
+    const {token} = rootState.auth
+//    const result =  await api.fetchImages(token)
+//    console.log("resulttttttttttttttt",result)
+//  }
+// }
+]]>
+	</content>
+	<tabTrigger>vj-communication-between-modules</tabTrigger>
+	<description>a</description>
+	<scope>source.js, comment.block.js, punctuation.definition.comment.begin.js</scope>
+</snippet>

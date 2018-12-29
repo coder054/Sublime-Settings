@@ -28,6 +28,7 @@
 		"GotoLastEditEnhanced",
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
+		"Invisible Tabs Spaces Switcher",
 		"JsPrettier",
 		"JSX",
 		"Laravel 5 Artisan",
@@ -50,6 +51,9 @@
 		"Tomorrow Color Schemes",
 		"TrailingSpaces",
 		"Transparency",
-		"View In Browser"
+		"View In Browser",
+		"Vue Syntax Highlight",
+		"Vuejs Complete Package",
+		"Vuejs Snippets"
 	]
 }

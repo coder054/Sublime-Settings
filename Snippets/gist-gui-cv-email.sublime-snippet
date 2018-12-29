@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+Chào bạn,
+Được biết bạn đang tìm kiếm lập trình viên $1, mình gửi CV ứng tuyển vị trí này
+Cảm ơn bạn!
+]]></content>
+<tabTrigger>gist-gui-cv-email</tabTrigger>
+<description>a</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

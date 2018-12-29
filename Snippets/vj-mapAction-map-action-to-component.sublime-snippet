@@ -1,0 +1,28 @@
+<snippet>
+	<content>
+		<![CDATA[
+import {mapActions} from 'vuex'
+
+//export default {
+//name: 'Header',
+	methods: mapActions([ 'login', 'logout', 'finalizeLogin' ])
+	methods: { // dung khi muon them methods ben ngoai module vuex
+		...mapActions([ 'login', 'logout', 'finalizeLogin' ]),
+		showAlert(){ alert('call outside module vuex') } 
+	}
+//create: (  ) => {
+//	this.finalizeLogin()
+//}
+//}
+
+/* su dung */
+// @click="login"
+// this.finalizeLogin()
+
+
+]]>
+	</content>
+	<tabTrigger>vj-mapAction-map-action-to-component</tabTrigger>
+	<description>a</description>
+	<scope>text.html.vue, source.js.embedded.html, source.js, meta.import.js, keyword.control.import-export.js</scope>
+</snippet>

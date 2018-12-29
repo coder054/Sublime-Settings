@@ -1,0 +1,23 @@
+<snippet>
+<content><![CDATA[
+<!--  -->
+<div v-if="type === 'A'">
+  A
+</div>
+<div v-else-if="type === 'B'">
+  B
+</div>
+<div v-else-if="type === 'C'">
+  C
+</div>
+<div v-else>
+  Not A/B/C
+</div>
+
+Similar to v-else, a v-else-if element must immediately follow a v-if or a v-else-if element.
+<!--  -->
+]]></content>
+<tabTrigger>vj-v-if-else-directive</tabTrigger>
+<description>a</description>
+<scope>text.html.vue, comment.block.html, punctuation.definition.comment.begin.html</scope>
+</snippet>

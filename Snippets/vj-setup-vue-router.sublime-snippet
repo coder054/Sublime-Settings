@@ -1,0 +1,41 @@
+<snippet>
+	<content>
+		<![CDATA[
+// import Vue from "vue"
+// import App from "./App"
+import VueRouter from "vue-router"
+import AuthHandler from "./components/AuthHandler"
+import About from "./components/About"
+// import store from "./store"
+
+Vue.use(VueRouter)
+const router = new VueRouter({
+  mode: "history", // to use browser router (default is hash router)
+  routes: [
+    { path: "/oauth2/callback", component: AuthHandler },
+    { path: "/about", component: About },
+  ]
+})
+
+// new Vue({
+  router,
+//  store,
+//  render: h => h(App)
+// }).$mount("#app")
+
+
+/* App.vue */
+//<template>
+//  <div>
+//    <Header></Header>
+    <router-view></router-view>  
+//  </div>
+//</template>
+
+
+]]>
+	</content>
+	<tabTrigger>vj-setup-vue-router</tabTrigger>
+	<description>a</description>
+	<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

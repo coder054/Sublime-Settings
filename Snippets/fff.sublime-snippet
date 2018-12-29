@@ -1,10 +1,10 @@
 <snippet>
-<content><![CDATA[
-( $1 ) => {
-	$2
-}
-]]></content>
-<tabTrigger>fff</tabTrigger>
-<description>arrow function full format</description>
-<scope>source.js, meta.function.arrow.js, punctuation.definition.parameters.begin.js</scope>
+	<content>
+		<![CDATA[
+( $1 ) => $2
+]]>
+	</content>
+	<tabTrigger>fff</tabTrigger>
+	<description>arrow function full format</description>
+	<scope>source.js, meta.function.arrow.js, punctuation.definition.parameters.begin.js</scope>
 </snippet>

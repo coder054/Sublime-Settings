@@ -1,0 +1,10 @@
+<snippet>
+	<content>
+		<![CDATA[
+<router-link to="/$1"> $2 </router-link>
+]]>
+	</content>
+	<tabTrigger>vj-router-link</tabTrigger>
+	<description>a</description>
+	<scope>text.html.vue, meta.tag.custom.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

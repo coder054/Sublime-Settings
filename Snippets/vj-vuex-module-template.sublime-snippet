@@ -1,0 +1,35 @@
+<snippet>
+	<content>
+		<![CDATA[
+const state = {
+  token: null
+}
+
+const getters = {
+  isLoggedIn: state => !!state.token
+}
+
+const actions = {
+  logout({commit}) {
+    commit('setToken', null) // the second parameter is the data of mutation
+  }
+}
+
+const mutations = {
+  setToken ( state, data ) {
+    state.token = data
+  }
+}
+
+export default {
+  state,
+  getters,
+  actions,
+  mutations
+}
+]]>
+	</content>
+	<tabTrigger>vj-vuex-module-template</tabTrigger>
+	<description>a</description>
+	<scope>source.js, storage.type.js</scope>
+</snippet>

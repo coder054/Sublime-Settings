@@ -1,0 +1,54 @@
+<snippet>
+<content><![CDATA[
+
+Here is an example of the Named Export and Import functionality in ES6:
+/////////////////////////////////////////////////////////////////////
+Named Export:
+
+//foobar.js
+
+function foo() { return 'foo'; }
+function bar() { return 'bar'; }
+export { foo, bar };
+
+2 Ways to Import:
+
+//main.js
+
+import {foo, bar} from 'foobar';
+foo();
+bar();
+
+import * as lib from 'foobar';
+lib.foo();
+lib.bar();
+
+Here is an example of Default Export and Importing:
+///////////////////////////////////////////////////
+Default Export:
+
+//foobar.js
+
+export default function foo() {
+  return 'default foo';
+};
+
+export function bar() { return 'bar'; };
+
+2 ways to Import:
+
+//main.js
+
+// These will only get you foo
+import mylib from 'foobar';
+import {default as mylib} from 'foobar';
+
+// This will get you both foo and bar
+import mylib, {bar} from 'foobar';
+
+
+]]></content>
+<tabTrigger>es6-import-export-module</tabTrigger>
+<description>a</description>
+<scope>source.js</scope>
+</snippet>
