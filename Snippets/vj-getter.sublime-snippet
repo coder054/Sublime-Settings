@@ -1,10 +1,10 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 $1: state => state.$1,
 ]]>
-	</content>
-	<tabTrigger>vj-getter</tabTrigger>
-	<description>a</description>
-	<scope>source.js, meta.group.braces.curly.js, meta.function.json.arrow.js, string.unquoted.js, entity.name.function.js</scope>
+  </content>
+  <tabTrigger>vj-getter</tabTrigger>
+  <description>a</description>
+  <scope>source.js, meta.group.braces.curly.js, meta.function.json.arrow.js, string.unquoted.js, entity.name.function.js</scope>
 </snippet>

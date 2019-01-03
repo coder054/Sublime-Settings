@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{{ $route.params.${1:id} }}
+]]></content>
+<tabTrigger>vj-param-vue-router</tabTrigger>
+<description>a</description>
+<scope>text.html.vue, punctuation.definition.template.begin.html</scope>
+</snippet>

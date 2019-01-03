@@ -1,0 +1,25 @@
+<snippet>
+<content><![CDATA[
+
+      <transition  name="$1">
+        $2
+       </transition>
+
+.$1-enter-active, .$1-leave-active {
+  transition: all .6s ease;
+  opacity: 1;
+  max-height: 36px;
+
+}
+.$1-enter, .$1-leave-to
+/* .deletebox-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  max-height: 0;
+  transition: all .4s ease;
+}
+
+]]></content>
+<tabTrigger>vj-transition2</tabTrigger>
+<description>a</description>
+<scope>text.html.vue, source.css.embedded.html, source.css, meta.selector.css</scope>
+</snippet>

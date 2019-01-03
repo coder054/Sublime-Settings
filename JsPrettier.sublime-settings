@@ -253,7 +253,7 @@
 		// "all"  - Trailing commas wherever possible (function arguments)
 		// --------------------------------------------------------------------
 
-		"trailingComma": "none",
+		"trailingComma": "es5",
 
 		// --------------------------------------------------------------------
 		// bracketSpacing

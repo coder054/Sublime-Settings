@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+display: flex; 
+flex-direction: row;
+justify-content: center; /* rat quan trong */
+flex-wrap: wrap;
+]]></content>
+<tabTrigger>css-flex</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.selector.css</scope>
+</snippet>

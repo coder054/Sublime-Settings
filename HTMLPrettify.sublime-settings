@@ -2,15 +2,14 @@
     // Simply using `node` without specifying a path sometimes doesn't work :(
     // https://github.com/victorporof/Sublime-HTMLPrettify#oh-noez-command-not-found
     // http://nodejs.org/#download
-    "node_path":
-    {
+    "node_path": {
         "windows": "C:/Program Files/nodejs/node.exe",
         "linux": "/usr/bin/nodejs",
         "osx": "/usr/local/bin/node"
     },
 
     // Automatically format when a file is saved.
-    "format_on_save": true,
+    "format_on_save": false,
 
     // Automatically format when a file is opened. (Sublime Text 3 only)
     "format_on_open": false,
@@ -32,36 +31,31 @@
 
     // Settings determining which files are allowed to be prettified.
     // !!! All the keys below need to be included in your user settings for them to work. !!!
-    "global_file_rules":
-    {
+    "global_file_rules": {
         // Be sure to include all of the `html`, `css`, `js` and `json` keys in your user settings
         // if you want to be able to prettify the default files as well.
-        "html":
-        {
+        "html": {
             "allowed_file_extensions": ["htm", "html", "xhtml", "shtml", "xml", "svg", "vue"],
             "allowed_file_syntaxes": ["html", "xml", "vue"],
             "disallowed_file_patterns": []
         },
         // Be sure to include all of the `html`, `css`, `js` and `json` keys in your user settings
         // if you want to be able to prettify the default files as well.
-        "css":
-        {
+        "css": {
             "allowed_file_extensions": ["css", "scss", "sass", "less"],
             "allowed_file_syntaxes": ["css", "sass", "less"],
             "disallowed_file_patterns": []
         },
         // Be sure to include all of the `html`, `css`, `js` and `json` keys in your user settings
         // if you want to be able to prettify the default files as well.
-        "js":
-        {
+        "js": {
             "allowed_file_extensions": ["js", "jsx"],
             "allowed_file_syntaxes": ["javascript", "ecma", "react", "babel"],
             "disallowed_file_patterns": []
         },
         // Be sure to include all of the `html`, `css`, `js` and `json` keys in your user settings
         // if you want to be able to prettify the default files as well.
-        "json":
-        {
+        "json": {
             "allowed_file_extensions": [
                 "json",
                 "babelrc",

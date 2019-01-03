@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+ :style="{ ${1:columnCount: column} }" 
+]]></content>
+<tabTrigger>vj-bind-style-dynamic-style-css</tabTrigger>
+<description>a</description>
+<scope>text.html.vue, meta.tag.block.any.html</scope>
+</snippet>

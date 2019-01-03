@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+${TM_FILENAME/(.+)\..+|.*/$1/:component_name}
+]]></content>
+<tabTrigger>sn-filename-without-extension</tabTrigger>
+<description>a</description>
+<scope>text.xml, string.unquoted.cdata.xml, source.js</scope>
+</snippet>

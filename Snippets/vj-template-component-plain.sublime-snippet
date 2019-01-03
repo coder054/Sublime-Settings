@@ -1,6 +1,6 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 <template>
   <h3 class="app-wrapper"> Images App! </h3>
 </template>
@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: '$TM_FILENAME'
+  name: '${TM_FILENAME/(.+)\..+|.*/$1/:component_name}'
 }
 
 </script>
@@ -22,8 +22,8 @@ export default {
 </style>
 
 ]]>
-	</content>
-	<tabTrigger>vj-template-component-plain</tabTrigger>
-	<description>a</description>
-	<scope>text.html.vue, meta.tag.template.begin.html, punctuation.definition.tag.begin.html</scope>
+  </content>
+  <tabTrigger>vj-template-component-plain</tabTrigger>
+  <description>a</description>
+  <scope>text.html.vue, meta.tag.template.begin.html, punctuation.definition.tag.begin.html</scope>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 const state = {
   token: null
 }
@@ -28,8 +28,8 @@ export default {
   mutations
 }
 ]]>
-	</content>
-	<tabTrigger>vj-vuex-module-template</tabTrigger>
-	<description>a</description>
-	<scope>source.js, storage.type.js</scope>
+  </content>
+  <tabTrigger>vj-vuex-module-template</tabTrigger>
+  <description>a</description>
+  <scope>source.js, storage.type.js</scope>
 </snippet>
