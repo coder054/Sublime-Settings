@@ -1,15 +1,15 @@
 <snippet>
 <content><![CDATA[
 {
-	"keys": ["ctrl+alt+shift+q"],
-	"command": "expand_selection",
-	"args":
-	{
-		"to": "brackets"
-	}
+  "keys": ["ctrl+alt+shift+q"],
+  "command": "expand_selection",
+  "args":
+  {
+    "to": "brackets"
+  }
 }
 ]]></content>
 <tabTrigger>sb-make-new-keybinding</tabTrigger>
 <description>a</description>
-<scope>source.json.sublime, meta.structure.array.json, meta.structure.dictionary.json, punctuation.section.dictionary.begin.json</scope>
+<scope>source.json.sublime, meta.structure.array.json, meta.structure.dictionary.json, punctuation.section.dictionary.begin.json, source.js</scope>
 </snippet>

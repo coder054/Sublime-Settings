@@ -1,4 +1,6 @@
 {
+	"caret_extra_width": 0.1,
+	"caret_style": "solid",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"extra_file_exclude_patterns":
 	[
@@ -30,15 +32,35 @@
 		".hg",
 		"CVS"
 	],
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
 	"folder_exclude_patterns":
 	[
 		".svn",
 		".git",
 		".hg",
-		"CVS",
-		"node_modules",
-		"dist",
-		"build"
+		"CVS"
 	],
 	"font_size": 11,
 	"ignored_packages":
@@ -47,5 +69,6 @@
 	],
 	"skin": "Skins/Monokai",
 	"tab_size": 2,
-	"theme": "Soda Light 3.sublime-theme"
+	"theme": "Soda Light 3.sublime-theme",
+	"bold_folder_labels": true,
 }

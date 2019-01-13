@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+for(let i = 0; i < $2; i++){
+  $3
+}
+]]></content>
+<tabTrigger>for-anhdt</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.class.js, meta.class-method.js, string.unquoted.js, entity.name.function.js</scope>
+</snippet>

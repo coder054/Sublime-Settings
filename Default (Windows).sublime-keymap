@@ -1,4 +1,5 @@
-[{
+[
+	{
 		"keys": ["shift+ctrl+space"],
 		"command": "code_intel_auto_complete"
 	},
@@ -22,27 +23,31 @@
 						"to": "brackets"
 					}
 				],
-				["move",
+				[
+					"move",
 					{
 						"by": "characters",
 						"forward": true
 					}
 				],
-				["move",
+				[
+					"move",
 					{
 						"by": "characters",
 						"forward": true
 					}
 				],
-				["move_to",
+				[
+					"move_to",
 					{
 						"extend": false,
 						"to": "eol"
 					}
 				],
-				["insert",
+				[
+					"insert",
 					{
-						"characters": "\n",
+						"characters": "\n"
 					}
 				]
 			]
@@ -64,9 +69,25 @@
 
 	{
 		"keys": ["ctrl+k", "ctrl+k"],
-		"command": "js_prettier",
+		"command": "js_prettier"
+	},
 
-	}
+	{
+		"keys": ["ctrl+k", "ctrl+a"],
+		"command": "run_macro_file",
+		"args": {
+			"file": "Packages/User/new-line-curly.sublime-macro"
+		}
+	},
 
-
+	  {
+	    "keys": ["ctrl+v"],
+	    "command": "chain",
+	    "args": {
+	      "commands": [
+	        ["paste"],
+	        ["js_prettier"]
+	      ]
+	    }
+	  },
 ]
