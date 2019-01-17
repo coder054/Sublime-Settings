@@ -1,0 +1,69 @@
+<snippet>
+<content><![CDATA[
+
+// import { 
+//  Component, 
+//  OnInit, 
+  ViewChild 
+// } 
+  // from "@angular/core"
+
+
+
+
+
+// add this the line above constructor
+@ViewChild("${2:userForm}") form: any
+// constructor() {}
+
+
+
+${1:onSubmit}({ value, valid }) {
+  // add values (default)
+  value.isActive = true
+  value.hide = true
+  this.users.unshift(value)
+  this.form.reset()
+}
+
+<form #${2:userForm}="ngForm" (ngSubmit)="${1:onSubmit}(${2:userForm})">
+  <div class="form-group">
+    <label  for="${3:firstName}">First Name</label>
+    <input
+      class="form-control"
+      required
+      minlength="2"
+      [(ngModel)]="$4"
+      type="${5:text}"
+      name="${3:firstName}"
+      placeholder="First Name"
+      [ngClass]="{ 'is-invalid': ${3:firstName}.errors && ${3:firstName}.touched }"
+      #${3:firstName}="ngModel"
+    />
+    <div
+      class="invalid-feedback"
+      *ngIf="${3:firstName}.errors?.required && ${3:firstName}.touched"
+    >
+      Field is required
+    </div>
+    <div
+      class="invalid-feedback"
+      *ngIf="${3:firstName}.errors?.minlength && ${3:firstName}.touched"
+    >
+      Must be at least 2 characters
+    </div>
+  </div>
+
+  <button
+    [disabled]="!${2:userForm}.form.valid"
+    type="submit"
+    class="btn btn-primary"
+  >
+    Add user!!
+  </button>
+</form>
+]]></content>
+<tabTrigger>ng-template-driven-form</tabTrigger>
+<description>a</description>
+<scope>text.html.basic, source.ts</scope>
+</snippet>

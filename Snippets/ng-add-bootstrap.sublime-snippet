@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+npm install bootstrap@4.0.0-beta.2 --save
+// package.json, trong muc dependencies, xoa "^"
+// angular.json, add vao styles: [...]
+"./node_modules/bootstrap/dist/css/bootstrap.css"
+]]></content>
+<tabTrigger>ng-add-bootstrap</tabTrigger>
+<description>a</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\${$2:$1}
+]]></content>
+<tabTrigger>ff</tabTrigger>
+<description>field-in-snippet-file</description>
+<scope>text.xml, string.unquoted.cdata.xml</scope>
+</snippet>

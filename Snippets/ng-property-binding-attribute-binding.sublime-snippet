@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+[$1]="$2" 
+]]></content>
+<tabTrigger>ng-property-binding-attribute-binding</tabTrigger>
+<description>a</description>
+<scope>text.html.basic, meta.tag.block.any.html, meta.attribute-with-value.html, entity.other.attribute-name.html</scope>
+</snippet>

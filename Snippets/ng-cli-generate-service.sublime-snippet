@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+ng g s services/$1 --module=app.module
+]]></content>
+<tabTrigger>ng-cli-generate-service</tabTrigger>
+<description>a</description>
+<scope>source.ts, variable.other.readwrite.ts</scope>
+</snippet>

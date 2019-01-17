@@ -1,12 +1,12 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 function $1 ($2){
-	$3
+  $3
 }
 ]]>
-	</content>
-	<tabTrigger>ff</tabTrigger>
-	<description>function php</description>
-	<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.closure.php, storage.type.function.php</scope>
+  </content>
+  <tabTrigger>ff</tabTrigger>
+  <description>function php</description>
+  <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.closure.php, storage.type.function.php</scope>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+[(ngModel)]="$1" 
+]]></content>
+<tabTrigger>ng-model-two-2-ways-binding</tabTrigger>
+<description>a</description>
+<scope>text.html.basic, meta.tag.inline.form.html</scope>
+</snippet>

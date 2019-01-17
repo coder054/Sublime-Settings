@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{{ user.firstName | uppercase }}
+]]></content>
+<tabTrigger>ng-pipe</tabTrigger>
+<description>a</description>
+<scope>text.html.basic</scope>
+</snippet>

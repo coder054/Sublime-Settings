@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+export interface ${TM_FILENAME/(.+)\..+|.*//:component_name} {
+  firstName: string
+  lastName: string
+  age?: number
+
+  address?: {
+    street?: string
+    city?: string
+  }
+}
+
+]]></content>
+<tabTrigger>ng-template-interface-model</tabTrigger>
+<description>a</description>
+<scope>source.ts, meta.interface.ts, keyword.control.export.ts</scope>
+</snippet>

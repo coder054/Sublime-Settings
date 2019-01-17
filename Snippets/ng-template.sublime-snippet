@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+<ng-template #$1>
+  $2
+</ng-template>
+]]></content>
+<tabTrigger>ng-template</tabTrigger>
+<description>a</description>
+<scope>text.html.basic, meta.tag.custom.html, punctuation.definition.tag.begin.html</scope>
+</snippet>

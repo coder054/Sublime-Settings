@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+console.log( $1 )
+]]></content>
+<tabTrigger>col</tabTrigger>
+<description>console.log typescript</description>
+<scope>source.ts, meta.class.ts, meta.method.declaration.ts, meta.block.ts, meta.function-call.ts, support.class.console.ts</scope>
+</snippet>

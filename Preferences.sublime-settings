@@ -1,4 +1,5 @@
 {
+	"bold_folder_labels": true,
 	"caret_extra_width": 0.1,
 	"caret_style": "solid",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
@@ -60,15 +61,16 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		"node_modules"
 	],
 	"font_size": 11,
 	"ignored_packages":
 	[
+		"Nodejs",
 		"Vintage"
 	],
 	"skin": "Skins/Monokai",
 	"tab_size": 2,
-	"theme": "Soda Light 3.sublime-theme",
-	"bold_folder_labels": true,
+	"theme": "Soda Light 3.sublime-theme"
 }

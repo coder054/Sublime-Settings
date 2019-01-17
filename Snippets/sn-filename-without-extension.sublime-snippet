@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-${TM_FILENAME/(.+)\..+|.*/$1/:component_name}
+\${TM_FILENAME/(.+)\..+|.*/$1/:component_name}
 ]]></content>
 <tabTrigger>sn-filename-without-extension</tabTrigger>
 <description>a</description>
