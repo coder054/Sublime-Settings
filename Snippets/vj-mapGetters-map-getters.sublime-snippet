@@ -1,21 +1,26 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
+////////////////////////////////////
 // import { mapActions } from 'vuex'
 import { mapGetters } from 'vuex'
 
 // export default {
 //  name: 'Header',
-    computed: mapGetters(['isLoggedIn']),
+    computed: 
+    {
+      ...mapGetters(['isLoggedIn']),
+    }
 //  methods: mapActions(['login', 'logout'])
 //}
 
 //<template>
   <div> is Login: {{isLoggedIn}} </div>
 //</template>
+///////////////////////////////////
 ]]>
-	</content>
-	<tabTrigger>vj-mapGetters-map-getters</tabTrigger>
-	<description>a</description>
-	<scope>text.html.vue, source.js.embedded.html, source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+  </content>
+  <tabTrigger>vj-mapGetters-map-getters</tabTrigger>
+  <description>a</description>
+  <scope>text.html.vue, source.js.embedded.html, source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

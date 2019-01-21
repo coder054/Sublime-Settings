@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+:class="{ active: isActive, 'text-danger': hasError }"
+]]></content>
+<tabTrigger>vj-class-binding-multiple</tabTrigger>
+<description>a</description>
+<scope>text.html.vue, meta.tag.block.any.html, punctuation.definition.attribute.html</scope>
+</snippet>

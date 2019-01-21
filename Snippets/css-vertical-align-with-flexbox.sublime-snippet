@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+]]></content>
+<tabTrigger>css-vertical-align-with-flexbox</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css, meta.property-name.css, support.type.property-name.css</scope>
+</snippet>

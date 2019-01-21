@@ -1,0 +1,43 @@
+<snippet>
+<content><![CDATA[
+.notification-wr {
+  width: 300px;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  position: fixed;
+  right: 20px;
+  top: 30px;
+  animation-name: nottification;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  z-index: 100;
+}
+
+@keyframes nottification {
+  0% {
+    top: 30px;
+    opacity: 0;
+  }
+  10% {
+    top: 80px;
+    opacity: 1;
+  }
+
+  90% {
+    top: 80px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 80px;
+    opacity: 0;
+  }
+}
+
+]]></content>
+<tabTrigger>css-animation-notification</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.selector.css, entity.other.attribute-name.class.css, punctuation.definition.entity.css</scope>
+</snippet>

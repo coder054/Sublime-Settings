@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+  setter({ commit }, { propertyName, value }) {
+    commit("setter", { propertyName, value })
+  },
+
+  setter(state, { propertyName, value }) {
+    state[propertyName] = value
+  },
+]]></content>
+<tabTrigger>vj-setter-action-and-mutation</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.group.braces.curly.js</scope>
+</snippet>

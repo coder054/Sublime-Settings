@@ -1,0 +1,44 @@
+<snippet>
+<content><![CDATA[
+  /**/
+
+  width: 300px;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  position: fixed;
+  right: 20px;
+  top: 30px; /* same with 0% */
+  animation-name: nottification;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  z-index: 100;
+
+  @keyframes nottification {
+    0% {
+      top: 30px;
+      opacity: 0;
+    }
+    10% {
+      top: 80px;
+      opacity: 1;
+    }
+
+    90% {
+      top: 80px;
+      opacity: 1;
+    }
+
+    100% {
+      top: 80px;
+      opacity: 0;
+    }
+  }
+
+  /**/
+]]></content>
+<tabTrigger>css-animation-notification2</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>

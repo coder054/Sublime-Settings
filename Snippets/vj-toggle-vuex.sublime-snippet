@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+  toggle({ commit }, propertyName) {
+    commit("toggle", propertyName)
+  },
+  toggle(state, propertyName) {
+    state[propertyName] = !state[propertyName]
+  },
+]]></content>
+<tabTrigger>vj-toggle-vuex</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.group.braces.curly.js</scope>
+</snippet>

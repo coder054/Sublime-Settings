@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+    Vue.component("\$1", {
+        // The todo-item component now accepts a
+        // "prop", which is like a custom attribute.
+        // This prop is called todo.
+        props: ["todo"],
+        template: "<li>{{ todo.text }}</li>",
+    })
+]]></content>
+<tabTrigger>vj-create-component</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.group.braces.curly.js</scope>
+</snippet>
