@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+  "settings": {
+    "color_scheme": "Packages/Color Scheme - Default/Amy.tmTheme"
+  }
+]]></content>
+<tabTrigger>sb-color-scheme-project</tabTrigger>
+<description>a</description>
+<scope>source.json.sublime, meta.structure.dictionary.json</scope>
+</snippet>

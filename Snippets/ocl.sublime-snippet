@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+onClick={$1}
+]]></content>
+<tabTrigger>ocl</tabTrigger>
+<description>rj-onClick</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.round.js, meta.jsx.js, entity.other.attribute-name.jsx</scope>
+</snippet>

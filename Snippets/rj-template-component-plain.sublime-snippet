@@ -1,21 +1,22 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 import React, {Component} from 'react'
 
 class ${TM_FILENAME/(\w+)\.js/\1/g} extends Component{
-	render(){
-		return 
-		<div className="${TM_FILENAME/(\w+)\.js/\1/g}-wrapper">
-		  ${TM_FILENAME/(\w+)\.js/\1/g}
-		</div>
-	}
+  render(){
+    return (
+      <div className="${TM_FILENAME/(\w+)\.js/\1/g}-wrapper">
+        ${TM_FILENAME/(\w+)\.js/\1/g}
+      </div>
+    )
+  }
 }
 
 export default ${TM_FILENAME/(\w+)\.js/\1/g}
 ]]>
-	</content>
-	<tabTrigger>rj-template-component-plain</tabTrigger>
-	<description>a</description>
-	<scope>source.js, keyword.operator.module.js</scope>
+  </content>
+  <tabTrigger>rj-template-component-plain</tabTrigger>
+  <description>a</description>
+  <scope>source.js, keyword.operator.module.js</scope>
 </snippet>

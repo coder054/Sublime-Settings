@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<Route exact path="/$1" component={$2} />
+]]></content>
+<tabTrigger>rj-Route-xact-path-component</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+export const $1 = () => {
+	return dispatch => {
+		
+	}
+}
+]]></content>
+<tabTrigger>rd-action-creator</tabTrigger>
+<description>a</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

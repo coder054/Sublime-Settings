@@ -2,7 +2,7 @@
 	<content>
 		<![CDATA[
 dispatch({
-  type: DECREMENT_REQUESTED
+	type: DECREMENT_REQUESTED
 })
 ]]>
 	</content>

@@ -1,0 +1,36 @@
+<snippet>
+<content><![CDATA[
+//////////////////////////////
+import { push } from 'connected-react-router'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
+import {
+  action1, action2
+} from '../../modules/...'
+
+const mapStateToProps = ({ module1, module2 }) => ({
+  data1: module1.data1,
+  data2: module1.data2,
+  data3: module2.data3
+})
+
+const mapDispatchToProps = dispatch =>
+  bindActionCreators(
+    {
+      action1,
+      action2,
+      changePage: () => push('/about-us')
+    },
+    dispatch
+  )
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(ComponentName)
+//////////////////////////////////////
+]]></content>
+<tabTrigger>rd-setup-redux-component-from-plain</tabTrigger>
+<description>a</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

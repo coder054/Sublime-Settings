@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+this.props.$1 
+]]></content>
+<tabTrigger>tpr</tabTrigger>
+<description>this.props.</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, variable.language.this.js</scope>
+</snippet>

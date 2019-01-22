@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+/////////////////////
+// export const redirect = url => {
+//  return dispatch => {
+//    dispatch(push(url))
+//  }
+// }
+
+// export const redirect2 = url => {
+//  return dispatch => {
+      dispatch(redirect(url))
+//  }
+// }
+////////////////////////
+]]></content>
+<tabTrigger>rd-dispatch-another-action-inside-an-action</tabTrigger>
+<description>a</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>
