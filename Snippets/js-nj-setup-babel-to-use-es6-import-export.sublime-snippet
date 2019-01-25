@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+////////////////////////////
+yarn add babel-cli babel-preset-env --dev
+
+create .babelrc with the content below (in root folder)
+{
+  "presets": ["env"]
+}
+
+
+// package.json
+"scripts": {
+    // "start": "node server/server.js",
+    "dev": "./node_modules/.bin/babel-node server/server.js"
+},
+///////////////////////////
+]]></content>
+<tabTrigger>js-nj-setup-babel-to-use-es6-import-export</tabTrigger>
+<description>a</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

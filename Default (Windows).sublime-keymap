@@ -80,30 +80,34 @@
 	},
 
 	{
-		"keys": ["alt+i", "alt+l"],
+		"keys": ["ctrl+i", "ctrl+s"],
 		"command": "chain",
 		"args": {
-			"commands": [["save_all"], ["update_source_modules"], ["list_imports"]]
+			"commands": [["save_all"], ["update_source_modules"]]
 		}
 	},
 
 	{
-		"keys": ["alt+i", "alt+i"],
+		"keys": ["ctrl+i", "ctrl+l"],
 		"command": "chain",
 		"args": {
-			"commands": [["list_imports"]]
+			"commands": [["update_source_modules"], ["list_imports"]]
 		}
 	},
 
 	{
-		"keys": ["alt+i", "alt+k"],
+		"keys": ["ctrl+i", "ctrl+i"],
 		"command": "chain",
 		"args": {
-			"commands": [
-				["save_all"],
-				["update_source_modules"],
-				["import_from_clipboard"]
-			]
+			"commands": [["update_source_modules"], ["list_imports"]]
+		}
+	},
+
+	{
+		"keys": ["ctrl+i", "ctrl+k"],
+		"command": "chain",
+		"args": {
+			"commands": [["update_source_modules"], ["import_from_clipboard"]]
 		}
 	},
 

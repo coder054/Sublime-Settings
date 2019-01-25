@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+////////////////////
+const name1 = "name1"
+const name2 = "name2"
+
+module.exports = { name1, name2 }
+/////////////////////
+]]></content>
+<tabTrigger>js-es5-import-export</tabTrigger>
+<description>nj-import-export-module</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

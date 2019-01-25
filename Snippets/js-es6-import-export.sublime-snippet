@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+////////////////////////////////////////////////////////////////////////////
+import { a, b } from './test'
+import anhdt from './test'
+
+const anhdt = 'dsfds'
+export const a = 1
+export const b = 2
+export default anhdt
+
+// khi dung export default luon luon tach ra 2 dong, va dat ten cho variable se export default
+// khi dung export (normal), luon dung 1 dong (khong viet const a = 1; export a)
+////////////////////////////////////////////////////////////////////////////
+]]></content>
+<tabTrigger>js-es6-import-export</tabTrigger>
+<description>import export trong es6</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>
