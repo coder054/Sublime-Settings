@@ -5,6 +5,13 @@ const name1 = "name1"
 const name2 = "name2"
 
 module.exports = { name1, name2 }
+
+// trong mot file chi su dung module.exports mot lan (khong nhu es6 co export default va export thuong)
+// neu chi muon export mot variable trong mot file, van nen dung
+// module.exports = { name1 }
+// khong nen dung
+// module.exports = name1
+
 /////////////////////
 ]]></content>
 <tabTrigger>js-es5-import-export</tabTrigger>
