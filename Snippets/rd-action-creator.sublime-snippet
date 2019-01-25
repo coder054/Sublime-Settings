@@ -1,9 +1,9 @@
 <snippet>
 <content><![CDATA[
 export const $1 = () => {
-	return dispatch => {
-		
-	}
+  return dispatch => {
+    
+  }
 }
 ]]></content>
 <tabTrigger>rd-action-creator</tabTrigger>

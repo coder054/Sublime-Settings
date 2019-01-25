@@ -1,10 +1,10 @@
 <snippet>
 <content><![CDATA[
 {${1}.length && ${1}
-	? x.map((item, key) => (
-			<li key={key}>name: {item.name}</li>
-	  ))
-	: null
+  ? ${1}.map((item, key) => (
+      <li key={key}>name: {item.name}</li>
+    ))
+  : null
 }
 ]]></content>
 <tabTrigger>rj-map-array</tabTrigger>
