@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+let a = ['sontay', 'ha noi', 'thai binh', 'phu tho']
+const [,,b,] = a
+console.log(b)
+
+
+]]></content>
+<tabTrigger>js-es6-destructuring-an-array</tabTrigger>
+<description>a</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

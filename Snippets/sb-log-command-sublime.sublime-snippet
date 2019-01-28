@@ -1,6 +1,5 @@
 <snippet>
 <content><![CDATA[
-// open sublime console (Ctrl + `)
 sublime.log_commands(True)
 ]]></content>
 <tabTrigger>sb-log-command-sublime</tabTrigger>

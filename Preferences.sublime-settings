@@ -31,6 +31,9 @@
 		".svn",
 		".git",
 		".hg",
+		"CVS",
+		"node_modules",
+		"dist",
 		"CVS"
 	],
 	"file_exclude_patterns":
@@ -61,9 +64,7 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS",
-		"node_modules",
-		"dist"
+		"CVS"
 	],
 	"font_size": 11,
 	"ignored_packages":
