@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 0.1,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
 	"extra_file_exclude_patterns":
 	[
 		"*.pyc",

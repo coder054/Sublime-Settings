@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+@media screen and (min-width: $1) and (max-width: $2) {
+  .introduction .registernow-wr {
+    color: green !important;
+  }
+}
+]]></content>
+<tabTrigger>css-media-min-max</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>

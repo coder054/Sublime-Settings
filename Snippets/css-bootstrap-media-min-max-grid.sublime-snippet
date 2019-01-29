@@ -1,0 +1,26 @@
+<snippet>
+<content><![CDATA[
+@media screen and (min-width: 0px) and (max-width: 575.9999px) {
+
+}
+
+@media screen and (min-width: 576.0001px) and (max-width: 767.9999px) {
+
+}
+
+@media screen and (min-width: 768.0001px) and (max-width: 991.9999px) {
+
+}
+
+@media screen and (min-width: 992.0001px) and (max-width: 1199.9999px) {
+
+}
+
+@media screen and (min-width: 1200.0001px) and (max-width: 10000px) {
+  
+}
+]]></content>
+<tabTrigger>css-bootstrap-media-min-max-grid</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>

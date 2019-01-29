@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+/*$1*/
+$2
+/*end $1*/
+]]></content>
+<tabTrigger>css-comment-section</tabTrigger>
+<description>a</description>
+<scope>source.css, comment.block.css, punctuation.definition.comment.css, source.css, meta.property-list.css, meta.selector.css</scope>
+</snippet>

@@ -73,10 +73,7 @@
 
 	{
 		"keys": ["ctrl+k", "ctrl+s"],
-		"command": "chain",
-		"args": {
-			"commands": [["save_all"], ["update_source_modules"]]
-		}
+		"command": "save_all"
 	},
 
 	{
