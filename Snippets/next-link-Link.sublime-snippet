@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+<Link href="/$1">
+  <a> $2 </a>
+</Link>
+]]></content>
+<tabTrigger>next-link-Link</tabTrigger>
+<description>chua co import</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>
