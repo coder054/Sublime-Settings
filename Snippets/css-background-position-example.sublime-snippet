@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+  background-position: 0% 0%; /* default, tuong duong top left */
+  background-position: 100% 0%; /*  tuong duong top right */
+  background-position: 50% 50%; /*  tuong duong center center */
+  background-position: 60%; /*  tuong duong 60% 60% */
+  background-position: 100px; /*  can lam ro truong hop nay */
+  background-position: center; /*  tuong duong center center */
+  background-position: 100% 100%; /*  tuong duong bottom right */
+  background-position: 10px 100px; /* cach le trai 10px, cach le tren 100px */
+]]></content>
+<tabTrigger>css-background-position-example</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>

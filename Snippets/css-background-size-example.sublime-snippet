@@ -1,0 +1,28 @@
+<snippet>
+<content><![CDATA[
+  background-size: auto; /* mac dinh (neu dung auto coi nhu khong set gi cho background-size) 
+  , hoac viet auto auto cung duoc */
+  background-size: 600px auto;
+  background-size: 200px auto;
+  background-size: contain; /* se scale hinh nen (giu nguyen ti le) 
+  scales the background image to be as large as possible (but both its width and its height must fit inside the content area) 
+  tuy nhien neu dung thuoc tinh background-position thi anh nen van co the khong nhin
+   thay duoc toan bo (vi tran ra ngoai ma minh khong nhin duoc phan tran ra)
+  */
+
+  background-size: cover;
+  /*The cover keyword scales the background image so that the content area is completely 
+  covered by the background image (both its width and height are equal to or exceed the
+   content area). As such, some parts of the background image may not be visible in the
+    background positioning area.
+    khi dung thuoc tinh background-position: van co the mot phan cua element khong duoc cover;
+    */
+
+  background-size: 500px; /* neu chi cung cap mot kich thuoc, tuong duong voi 500px auto (chieu rong 500px) */
+  /* neu co 1 chieu la auto, hinh nen se giu nguyen ti le giua hai chieu */
+  /* neu ca hai chieu deu dua ra kich thuoc, hinh se tu scale nen co the bi meo hinh */
+]]></content>
+<tabTrigger>css-background-size-example</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>

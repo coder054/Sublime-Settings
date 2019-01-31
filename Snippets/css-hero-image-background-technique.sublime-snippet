@@ -1,0 +1,41 @@
+<snippet>
+<content><![CDATA[
+/**/
+.background-wr:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(img_man.jpg) no-repeat center; 
+    background-size: cover; 
+  z-index: 1;
+}
+
+.background-wr {
+  height: 500px; /**/
+  position: relative;
+  z-index: 2;
+}
+
+.background-wr * {
+  z-index: 2;
+}
+
+.$1 {
+  position: absolute;
+}
+
+<div class="background-wr">
+  <div class="$1">
+    <h1 style="font-size:50px">I am John Doe</h1>
+    <h3>And I'm a Photographer</h3>
+    <button>Hire me</button>
+  </div>
+</div>
+
+  /**/
+]]></content>
+<tabTrigger>css-hero-image-background-technique</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css, comment.block.css, punctuation.definition.comment.css</scope>
+</snippet>

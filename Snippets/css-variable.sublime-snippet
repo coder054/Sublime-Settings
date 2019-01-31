@@ -1,0 +1,24 @@
+<snippet>
+<content><![CDATA[
+:root {
+  --$1: coral;
+}
+
+.selector {
+  background-color: var(--$1);
+}
+
+/*change those value with js example*/
+let root = document.documentElement;
+
+root.addEventListener("mousemove", e => {
+  root.style.setProperty('--mouse-x', e.clientX + "px");
+  root.style.setProperty('--mouse-y', e.clientY + "px");
+});
+
+
+]]></content>
+<tabTrigger>css-variable</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css, punctuation.separator.key-value.css</scope>
+</snippet>

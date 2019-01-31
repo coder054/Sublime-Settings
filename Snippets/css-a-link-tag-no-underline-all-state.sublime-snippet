@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+  a,
+  a:hover,
+  a:active,
+  a:visited,
+  a:focus {
+    text-decoration: none;
+  }
+]]></content>
+<tabTrigger>css-a-link-tag-no-underline-all-state</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>

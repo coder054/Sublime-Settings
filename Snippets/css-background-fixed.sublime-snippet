@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+background-attachment: fixed;
+]]></content>
+<tabTrigger>css-background-fixed</tabTrigger>
+<description>background se fixed (so voi view) khi scroll</description>
+<scope>source.css, meta.property-list.css, meta.property-name.css, support.type.property-name.css</scope>
+</snippet>

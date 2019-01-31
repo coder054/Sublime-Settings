@@ -64,9 +64,10 @@
 		".svn",
 		".git",
 		".hg",
-		"CVS"
+		"CVS",
+		"node_modules"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"jsfmt",

@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+  <div class="$1">
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+  </div>
+\$(document).ready(function(){
+  \$('.$1').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1
+  });
+});
+]]></content>
+<tabTrigger>js-slick</tabTrigger>
+<description>set up slick js file</description>
+<scope>source.js, meta.jsx.js</scope>
+</snippet>

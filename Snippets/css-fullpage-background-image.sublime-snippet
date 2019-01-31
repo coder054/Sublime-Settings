@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+  html {
+    background: url(img_man.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+]]></content>
+<tabTrigger>css-fullpage-background-image</tabTrigger>
+<description>a</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>
