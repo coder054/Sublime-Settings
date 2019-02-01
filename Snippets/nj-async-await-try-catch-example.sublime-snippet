@@ -1,0 +1,24 @@
+<snippet>
+<content><![CDATA[
+//////////////
+  try {
+    let user = await User.findByCredentials(body.email, body.password)
+    if (
+      user == "wrongpassword" ||
+      user == "user with that email does not exist"
+    ) {
+      res.status(400).send()
+      return
+    }
+    let token = await user.generateAuthToken()
+    if (!token) return
+    res.header("x-auth", token).send(user)
+  } catch (e) {
+    console.log(e)
+  }
+////////////////////
+]]></content>
+<tabTrigger>nj-async-await-try-catch-example</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.group.braces.round.js, meta.group.braces.curly.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

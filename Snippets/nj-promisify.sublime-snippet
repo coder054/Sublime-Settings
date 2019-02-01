@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+  const { promisify } = require("util")
+  $1 = promisify($1)
+]]></content>
+<tabTrigger>nj-promisify</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.group.braces.curly.js</scope>
+</snippet>

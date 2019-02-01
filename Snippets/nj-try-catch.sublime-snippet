@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+  try{
+
+  }catch(e){
+    
+  }
+]]></content>
+<tabTrigger>nj-try-catch</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.group.braces.curly.js</scope>
+</snippet>
