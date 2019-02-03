@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+# import * from './generated/prisma.graphql'
+]]></content>
+<tabTrigger>gr-import-*-prisma</tabTrigger>
+<description>a</description>
+<scope>source.graphql, comment.line.graphql, punctuation.definition.comment.graphql</scope>
+</snippet>

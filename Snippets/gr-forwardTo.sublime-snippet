@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+//var {forwardTo} = require("prisma-binding")
+
+
+
+//const Query = {
+ ${1:query-or-mutation-name}: forwardTo('db'),
+
+//}
+]]></content>
+<tabTrigger>gr-forwardTo</tabTrigger>
+<description>a</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

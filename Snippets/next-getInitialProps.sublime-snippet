@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+static async getInitialProps({ $1 }) {
+  $2
+}
+]]></content>
+<tabTrigger>next-getInitialProps</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.class.js</scope>
+</snippet>
