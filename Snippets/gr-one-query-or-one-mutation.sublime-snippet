@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+${1:name-of-query-or-mutation} ( ${2:arguments-or-empty} ): ${3:return-type}
+
+]]></content>
+<tabTrigger>gr-one-query-or-one-mutation</tabTrigger>
+<description>a</description>
+<scope>source.graphql</scope>
+</snippet>

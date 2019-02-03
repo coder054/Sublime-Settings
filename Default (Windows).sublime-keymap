@@ -135,5 +135,9 @@
 		"args": {
 			"commands": [["select_all"], ["copy"], ["new_file"], ["paste"], ["save"]]
 		}
+	},
+	{
+		"keys": ["ctrl+k", "ctrl+f"],
+		"command": "js_prettier"
 	}
 ]
