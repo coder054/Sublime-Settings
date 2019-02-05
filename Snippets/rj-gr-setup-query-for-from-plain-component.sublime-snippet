@@ -1,0 +1,40 @@
+<snippet>
+<content><![CDATA[
+//////////////////////
+import { Query } from 'react-apollo'
+import gql from 'graphql-tag'
+
+const ${1:QUERY_NAME} = gql`
+  query ${1:QUERY_NAME} {
+    items {
+      id
+      title
+      price
+      description
+      image
+      largeImage
+    }
+  }
+`
+
+// class Items extends Component {
+//  render() {
+//    return (
+      <Query query={${1:QUERY_NAME}}>
+        {({ data, error, loading }) => {
+          if (loading) return <p>Loading...</p>
+          if (error) return <p>Error: {error.message}</p>
+          return (
+            $2
+          )
+        }}
+      </Query>
+//    )
+//  }
+// }
+///////////////////////////////////////
+]]></content>
+<tabTrigger>rj-gr-setup-query-for-from-plain-component</tabTrigger>
+<description>a</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

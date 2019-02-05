@@ -10,12 +10,12 @@ const Home = ({ data: { allUsers = [] } }) => allUsers.map(u => <h1 key={u.id}>{
 
 // viet query trong graphiql roi paste vao ben trong
 const allUsersQuery = gql`
-  {
-    allUsers {
-      id
-      email
-    }
-  }
+	{
+		allUsers {
+			id
+			email
+		}
+	}
 `;
 
 export default graphql(allUsersQuery)(Home);

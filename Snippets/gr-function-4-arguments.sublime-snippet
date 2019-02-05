@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
 dogs(parent, args, ctx, info) {
-	$1
+  $1
 },
 ]]></content>
 <tabTrigger>gr-function-4-arguments</tabTrigger>

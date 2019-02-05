@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
 export default connect(
-  mapStateToProps,
-  mapDispatchToProps
+	mapStateToProps,
+	mapDispatchToProps
 )($1)
 ]]></content>
 <tabTrigger>rdcn</tabTrigger>

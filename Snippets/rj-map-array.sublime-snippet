@@ -1,11 +1,16 @@
 <snippet>
 <content><![CDATA[
-{${1}.length && ${1}
-  ? ${1}.map((item, key) => (
-      <li key={key}>name: {item.name}</li>
+{$1.length && $1
+  ? $1.map((${2:item}) => (
+      <$4 key={$3} ${2:item}={${2:item}} />
     ))
   : null
 }
+
+const $4 = ({${2:item}}) => (
+  $5
+)
+
 ]]></content>
 <tabTrigger>rj-map-array</tabTrigger>
 <description>a</description>
