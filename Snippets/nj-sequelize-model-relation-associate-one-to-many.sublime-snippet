@@ -3,21 +3,21 @@
 		<![CDATA[
 ///////////////////////////
 userId: {
-  type: DataTypes.INTEGER,
-  references: {
-    model: "User",
-    key: "id",
-    as: "userId"
-  }
+	type: DataTypes.INTEGER,
+	references: {
+		model: "User",
+		key: "id",
+		as: "userId"
+	}
 }
 
 Book.belongsTo(models.User, {
-  foreignKey: "userId",
-  onDelete: "CASCADE"  // delete user will delete all books belong to that users
+	foreignKey: "userId",
+	onDelete: "CASCADE"  // delete user will delete all books belong to that users
 })
 
 User.hasMany(models.Book, {
-  foreignKey: "userId"
+	foreignKey: "userId"
 })
 ////////////////////////////
 ]]>

@@ -1,0 +1,27 @@
+<snippet>
+<content><![CDATA[
+ <div>
+  .....
+  <style jsx global>
+    {`
+      a {
+        color: white;
+      }
+      a:link {
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        color: white;
+      }
+      .card-columns {
+        column-count: 3;
+      }
+    `}
+  </style>
+</div>
+]]></content>
+<tabTrigger>rj-style-css-inline</tabTrigger>
+<description>a</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.curly.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

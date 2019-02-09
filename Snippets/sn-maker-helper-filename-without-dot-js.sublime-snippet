@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\${TM_FILENAME/(\w+)\.js/\1/g}
+]]></content>
+<tabTrigger>sn-maker-helper-filename-without-dot-js</tabTrigger>
+<description>sn-maker-helper-filename-without-dot-js</description>
+<scope>text.xml, string.unquoted.cdata.xml</scope>
+</snippet>

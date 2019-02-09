@@ -14,7 +14,7 @@ const ${1:QUERY_NAME} = gql`
 class ${TM_FILENAME/(\w+)\.js/\1/g} extends Component{
   render(){
     return (
-      <Query query={${1:QUERY_NAME}}>
+      <Query query={${1:QUERY_NAME}} variables={{ id: ... }}>
         {({ data, error, loading }) => {
           if (loading) return <p>Loading...</p>
           if (error) return <p>Error: {error.message}</p>
@@ -27,7 +27,7 @@ class ${TM_FILENAME/(\w+)\.js/\1/g} extends Component{
 
 export default ${TM_FILENAME/(\w+)\.js/\1/g}
 ]]></content>
-<tabTrigger>rj-gr-setup-query-for-from-plain-component</tabTrigger>
+<tabTrigger>rj-gr-template-component-with-query</tabTrigger>
 <description>a</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

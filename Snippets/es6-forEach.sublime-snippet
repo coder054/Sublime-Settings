@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
 $1.forEach((item, index) => {
-	console.log(item)
+  console.log(item)
 })
 ]]></content>
 <tabTrigger>es6-forEach</tabTrigger>

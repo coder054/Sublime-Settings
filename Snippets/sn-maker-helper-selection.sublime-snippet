@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+\$0\${SELECTION/([ \t]*)([^\n]*)/\t\$1\$2/g}
+\${SELECTION/([ \t]*).*/\$1/}
+]]></content>
+<tabTrigger>sn-maker-helper-selection</tabTrigger>
+<description>sn-maker-helper-selection</description>
+<scope>text.xml, string.unquoted.cdata.xml</scope>
+</snippet>

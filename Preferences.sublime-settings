@@ -33,6 +33,7 @@
 		".hg",
 		"CVS",
 		"node_modules",
+		".next",
 		"dist",
 		"CVS"
 	],
@@ -65,13 +66,15 @@
 		".git",
 		".hg",
 		"CVS",
-		"node_modules"
+		"node_modules",
+		".next"
 	],
 	"font_size": 11,
 	"ignored_packages":
 	[
 		"jsfmt",
 		"Nodejs",
+		"SublimeLinter-eslint",
 		"Vintage"
 	],
 	"skin": "Skins/Monokai",
