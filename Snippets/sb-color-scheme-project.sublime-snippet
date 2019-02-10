@@ -5,6 +5,6 @@
   }
 ]]></content>
 <tabTrigger>sb-color-scheme-project</tabTrigger>
-<description>a</description>
+<description>sb-color-scheme-project</description>
 <scope>source.json.sublime, meta.structure.dictionary.json</scope>
 </snippet>

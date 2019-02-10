@@ -22,6 +22,6 @@
 ]]>
   </content>
   <tabTrigger>sb-chain-command-keybinding</tabTrigger>
-  <description>a</description>
+  <description>sb-chain-command-keybinding</description>
   <scope>source.json.sublime, meta.structure.array.json, source.js</scope>
 </snippet>

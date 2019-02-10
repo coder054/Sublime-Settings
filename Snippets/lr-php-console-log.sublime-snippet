@@ -5,6 +5,6 @@
 </script>
 ]]></content>
 <tabTrigger>lr-php-console-log</tabTrigger>
-<description>a</description>
+<description>lr-php-console-log</description>
 <scope>embedding.php, text.html.basic, meta.tag.script.begin.html, punctuation.definition.tag.begin.html</scope>
 </snippet>

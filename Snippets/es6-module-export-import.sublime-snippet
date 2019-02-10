@@ -14,6 +14,6 @@ export default class Person {
  import Person from './file1'  // xxxx khong can {} khi export default
 ]]></content>
 <tabTrigger>es6-module-export-import</tabTrigger>
-<description>a</description>
+<description>es6-module-export-import</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

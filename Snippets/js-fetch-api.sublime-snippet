@@ -15,6 +15,6 @@ fetch(url, {
 .catch(error => console.error('Error:', error));
 ]]></content>
 <tabTrigger>js-fetch-api</tabTrigger>
-<description>a</description>
+<description>js-fetch-api</description>
 <scope>source.js, storage.type.js</scope>
 </snippet>

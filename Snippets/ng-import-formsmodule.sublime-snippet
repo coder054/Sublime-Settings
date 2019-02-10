@@ -21,6 +21,6 @@ FormsModule
 ////////////////////////////////////////////////////////////////
 ]]></content>
 <tabTrigger>ng-import-formsmodule</tabTrigger>
-<description>a</description>
+<description>ng-import-formsmodule</description>
 <scope>source.ts, meta.import.ts, keyword.control.import.ts</scope>
 </snippet>

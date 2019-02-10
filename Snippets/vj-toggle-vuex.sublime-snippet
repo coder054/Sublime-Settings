@@ -8,6 +8,6 @@
   },
 ]]></content>
 <tabTrigger>vj-toggle-vuex</tabTrigger>
-<description>a</description>
+<description>vj-toggle-vuex</description>
 <scope>source.js, meta.group.braces.curly.js</scope>
 </snippet>

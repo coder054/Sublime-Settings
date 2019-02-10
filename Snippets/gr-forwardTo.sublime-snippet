@@ -10,6 +10,6 @@
 //}
 ]]></content>
 <tabTrigger>gr-forwardTo</tabTrigger>
-<description>a</description>
+<description>gr-forwardTo</description>
 <scope>source.js, storage.type.js</scope>
 </snippet>

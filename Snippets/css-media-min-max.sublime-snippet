@@ -7,6 +7,6 @@
 }
 ]]></content>
 <tabTrigger>css-media-min-max</tabTrigger>
-<description>a</description>
+<description>css-media-min-max</description>
 <scope>source.css, meta.property-list.css</scope>
 </snippet>

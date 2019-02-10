@@ -6,6 +6,6 @@ display: flex;
   text-align: center;
 ]]></content>
 <tabTrigger>css-vertical-align-with-flexbox</tabTrigger>
-<description>a</description>
+<description>css-vertical-align-with-flexbox</description>
 <scope>source.css, meta.property-list.css, meta.property-name.css, support.type.property-name.css</scope>
 </snippet>

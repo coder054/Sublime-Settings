@@ -3,6 +3,6 @@
 "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow Night - Blue.sublime-color-scheme"
 ]]></content>
 <tabTrigger>sb-color-scheme-blue-tomorrow-night</tabTrigger>
-<description>a</description>
+<description>sb-color-scheme-blue-tomorrow-night</description>
 <scope>source.json.sublime, meta.structure.dictionary.json, meta.structure.dictionary.value.json, meta.structure.dictionary.json, meta.structure.dictionary.key.json, string.quoted.double.json, punctuation.definition.string.begin.json</scope>
 </snippet>

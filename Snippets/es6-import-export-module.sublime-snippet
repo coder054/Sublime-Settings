@@ -49,6 +49,6 @@ import mylib, {bar} from 'foobar';
 
 ]]></content>
 <tabTrigger>es6-import-export-module</tabTrigger>
-<description>a</description>
+<description>es6-import-export-module</description>
 <scope>source.js</scope>
 </snippet>

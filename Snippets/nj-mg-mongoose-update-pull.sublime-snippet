@@ -1,6 +1,6 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 let updatedUser = await User.update(
   { _id: req.user._id },
   {
@@ -11,8 +11,8 @@ let updatedUser = await User.update(
   }
 )
 ]]>
-	</content>
-	<tabTrigger>nj-mg-mongoose-update-pull</tabTrigger>
-	<description>a</description>
-	<scope>source.js, storage.type.js</scope>
+  </content>
+  <tabTrigger>nj-mg-mongoose-update-pull</tabTrigger>
+  <description>nj-mg-mongoose-update-pull</description>
+  <scope>source.js, storage.type.js</scope>
 </snippet>

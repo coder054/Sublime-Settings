@@ -76,6 +76,6 @@ render(
 
 ]]></content>
 <tabTrigger>rd-setup-tomtat</tabTrigger>
-<description>a</description>
+<description>rd-setup-tomtat</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

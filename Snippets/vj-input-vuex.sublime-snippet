@@ -3,6 +3,6 @@
 :value="${1:title}" @input="setter({propertyName: '${1:title}', value: \$event.target.value })" 
 ]]></content>
 <tabTrigger>vj-input-vuex</tabTrigger>
-<description>a</description>
+<description>vj-input-vuex</description>
 <scope>text.html.vue, meta.tag.inline.form.html, punctuation.definition.attribute.html</scope>
 </snippet>

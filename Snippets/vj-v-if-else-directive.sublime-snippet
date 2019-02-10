@@ -18,6 +18,6 @@ Similar to v-else, a v-else-if element must immediately follow a v-if or a v-els
 <!--  -->
 ]]></content>
 <tabTrigger>vj-v-if-else-directive</tabTrigger>
-<description>a</description>
+<description>vj-v-if-else-directive</description>
 <scope>text.html.vue, comment.block.html, punctuation.definition.comment.begin.html</scope>
 </snippet>

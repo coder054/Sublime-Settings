@@ -4,6 +4,6 @@ ${1:name-of-query-or-mutation} ( ${2:arguments-or-delete()-if-empty} ): ${3:retu
 
 ]]></content>
 <tabTrigger>gr-one-query-or-one-mutation</tabTrigger>
-<description>a</description>
+<description>gr-one-query-or-one-mutation</description>
 <scope>source.graphql</scope>
 </snippet>

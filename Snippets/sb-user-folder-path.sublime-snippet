@@ -3,6 +3,6 @@
 C:\Users\$1\AppData\Roaming\Sublime Text 3\Packages\User\
 ]]></content>
 <tabTrigger>sb-user-folder-path-sublime</tabTrigger>
-<description>a</description>
+<description>sb-user-folder-path</description>
 <scope>source.js, constant.other.object.key.js, string.unquoted.label.js</scope>
 </snippet>

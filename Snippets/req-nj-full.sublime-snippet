@@ -3,6 +3,6 @@
 var {$1} = require("$2")
 ]]></content>
 <tabTrigger>req-nj-full</tabTrigger>
-<description>a</description>
+<description>req-nj-full</description>
 <scope>source.js, storage.type.js</scope>
 </snippet>

@@ -3,6 +3,6 @@
 import classNames from 'classnames'
 ]]></content>
 <tabTrigger>rj-import-classNames-classnames</tabTrigger>
-<description>a</description>
+<description>rj-import-classNames-classnames</description>
 <scope>source.js, keyword.operator.module.js</scope>
 </snippet>

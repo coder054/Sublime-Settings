@@ -7,6 +7,6 @@
 
 ]]></content>
 <tabTrigger>css-font-face-@font</tabTrigger>
-<description>a</description>
+<description>css-font-face-@font</description>
 <scope>source.css, meta.at-rule.font-face.css, keyword.control.at-rule.font-face.css, punctuation.definition.keyword.css</scope>
 </snippet>

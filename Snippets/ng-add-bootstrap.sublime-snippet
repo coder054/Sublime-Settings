@@ -6,6 +6,6 @@ npm install bootstrap@4.0.0-beta.2 --save
 "./node_modules/bootstrap/dist/css/bootstrap.css"
 ]]></content>
 <tabTrigger>ng-add-bootstrap</tabTrigger>
-<description>a</description>
+<description>ng-add-bootstrap</description>
 <scope>source.js, variable.other.readwrite.js</scope>
 </snippet>

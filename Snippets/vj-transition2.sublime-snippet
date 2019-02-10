@@ -20,6 +20,6 @@
 
 ]]></content>
 <tabTrigger>vj-transition2</tabTrigger>
-<description>a</description>
+<description>vj-transition2</description>
 <scope>text.html.vue, source.css.embedded.html, source.css, meta.selector.css</scope>
 </snippet>

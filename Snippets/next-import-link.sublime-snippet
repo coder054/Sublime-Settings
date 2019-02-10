@@ -3,6 +3,6 @@
 import Link from 'next/link'
 ]]></content>
 <tabTrigger>next-import-link</tabTrigger>
-<description>a</description>
+<description>next-import-link</description>
 <scope>source.js, keyword.operator.module.js</scope>
 </snippet>

@@ -38,6 +38,6 @@
 
 ]]></content>
 <tabTrigger>css-animation-notification</tabTrigger>
-<description>a</description>
+<description>css-animation-notification</description>
 <scope>source.css, meta.selector.css, entity.other.attribute-name.class.css, punctuation.definition.entity.css</scope>
 </snippet>

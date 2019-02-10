@@ -6,6 +6,6 @@
 </form>
 ]]></content>
 <tabTrigger>lr-csrf-bao-mat-form</tabTrigger>
-<description>a</description>
+<description>lr-csrf-bao-mat-form</description>
 <scope>embedding.php, text.html.basic, meta.tag.block.form.html, punctuation.definition.tag.begin.html</scope>
 </snippet>

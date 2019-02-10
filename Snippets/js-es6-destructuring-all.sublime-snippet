@@ -1,13 +1,13 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 ////////////////////////////////////////////////////
 // vd1: spread + destructuring
 const args = {
-	name: "tuananh",
-	age: 26,
-	address: "hanoi",
-	hobby: "juggling"
+  name: "tuananh",
+  age: 26,
+  address: "hanoi",
+  hobby: "juggling"
 }
 const { name, age: tuoi, ...otherArgs } = args
 console.log(name) // tuananh
@@ -18,24 +18,24 @@ console.log(age) // ReferenceError: age is not defined xxxx
 // tuong tu nhu vay ta co the destructuring trong argument cua dinh nghia function
 const register1 = async (parent, args) => {}
 const register2 = async (parent, { name, ...otherArgs }) => {
-	try {
-		const hashedPassword = await bcrypt.hash(password, 12)
-		await models.User.create({ ...otherArgs, password: hashedPassword }) // 
-		return true
-	} catch (err) {
-		return false
-	}
+  try {
+    const hashedPassword = await bcrypt.hash(password, 12)
+    await models.User.create({ ...otherArgs, password: hashedPassword }) // 
+    return true
+  } catch (err) {
+    return false
+  }
 }
 
 // vd2: deep nested
 const person = {
-	name: "tuananh",
-	age: 26,
-	appearance: { handsome: true, tall: true }
+  name: "tuananh",
+  age: 26,
+  appearance: { handsome: true, tall: true }
 }
 const {
-	appearance: { handsome },
-	age
+  appearance: { handsome },
+  age
 } = person
 // console.log(appearance) // error: not defined xxxx => chi lay duoc gia tri trong cung (deepest)
 console.log(age) // 26
@@ -43,12 +43,12 @@ console.log(handsome) // true
 
 // vi du ve default value
 const ob1 = {
-	data: {
-		allUsers: [{ name: "tram" }, { name: "hanh" }]
-	}
+  data: {
+    allUsers: [{ name: "tram" }, { name: "hanh" }]
+  }
 }
 const {
-	data: { allUsers, allCountries = [] } // default value
+  data: { allUsers, allCountries = [] } // default value
 } = ob1
 console.log(allCountries) // []
 
@@ -60,8 +60,8 @@ console.log(allCountries) // []
 
 
 ]]>
-	</content>
-	<tabTrigger>js-es6-destructuring-all</tabTrigger>
-	<description>a</description>
-	<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+  </content>
+  <tabTrigger>js-es6-destructuring-all</tabTrigger>
+  <description>js-es6-destructuring-all</description>
+  <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

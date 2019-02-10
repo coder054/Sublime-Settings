@@ -9,6 +9,6 @@
 @endif
 ]]></content>
 <tabTrigger>lr-blade-if</tabTrigger>
-<description>a</description>
+<description>lr-blade-if</description>
 <scope>embedding.php, text.html.basic</scope>
 </snippet>

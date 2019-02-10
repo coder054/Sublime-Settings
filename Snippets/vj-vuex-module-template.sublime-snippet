@@ -30,6 +30,6 @@ export default {
 ]]>
   </content>
   <tabTrigger>vj-vuex-module-template</tabTrigger>
-  <description>a</description>
+  <description>vj-vuex-module-template</description>
   <scope>source.js, storage.type.js</scope>
 </snippet>

@@ -7,6 +7,6 @@ if (typeof $1 === "undefined") {
 }
 ]]></content>
 <tabTrigger>js-check-undefined</tabTrigger>
-<description>a</description>
+<description>js-check-undefined</description>
 <scope>text.html.basic, source.js.embedded.html, source.js, meta.conditional.js, keyword.control.conditional.js</scope>
 </snippet>

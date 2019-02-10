@@ -3,6 +3,6 @@
 {{ user.firstName | uppercase }}
 ]]></content>
 <tabTrigger>ng-pipe</tabTrigger>
-<description>a</description>
+<description>ng-pipe</description>
 <scope>text.html.basic</scope>
 </snippet>

@@ -6,6 +6,6 @@
 },
 ]]></content>
 <tabTrigger>nj-nodemon-config-delay-ignore-package-json</tabTrigger>
-<description>a</description>
+<description>nj-nodemon-config-delay-ignore-package-json</description>
 <scope>source.json.npm, meta.structure.dictionary.json, meta.structure.dictionary.key.json, string.quoted.double.json, punctuation.definition.string.begin.json</scope>
 </snippet>

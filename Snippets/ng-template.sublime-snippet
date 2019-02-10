@@ -5,6 +5,6 @@
 </ng-template>
 ]]></content>
 <tabTrigger>ng-template</tabTrigger>
-<description>a</description>
+<description>ng-template</description>
 <scope>text.html.basic, meta.tag.custom.html, punctuation.definition.tag.begin.html</scope>
 </snippet>

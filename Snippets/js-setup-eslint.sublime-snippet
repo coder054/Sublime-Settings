@@ -5,26 +5,26 @@ yarn add eslint --dev
 
 // tao file .eslintrc.js
 module.exports = {
-	env: {
-		browser: true,
-		es6: true,
-		node: true,
-	},
-	extends: 'eslint:recommended',
-	parserOptions: {
-		ecmaVersion: 2015,
-	},
-	rules: {
-		indent: ['error', 'tab'],
-		'linebreak-style': ['error', 'unix'],
-		quotes: ['error', 'single'],
-		semi: ['error', 'never'],
-	},
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
+  },
+  extends: 'eslint:recommended',
+  parserOptions: {
+    ecmaVersion: 2015,
+  },
+  rules: {
+    indent: ['error', 'tab'],
+    'linebreak-style': ['error', 'unix'],
+    quotes: ['error', 'single'],
+    semi: ['error', 'never'],
+  },
 }
 ///////////////////////
 
 ]]></content>
 <tabTrigger>js-setup-eslint</tabTrigger>
-<description>a</description>
+<description>js-setup-eslint</description>
 <scope>source.js.eslint, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

@@ -5,6 +5,6 @@ Chào bạn,
 Cảm ơn bạn!
 ]]></content>
 <tabTrigger>gist-gui-cv-email</tabTrigger>
-<description>a</description>
+<description>gist-gui-cv-email</description>
 <scope>source.js, variable.other.readwrite.js</scope>
 </snippet>

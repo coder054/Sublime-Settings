@@ -1,10 +1,10 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 ($1) $2
 ]]>
-	</content>
-	<tabTrigger>dd</tabTrigger>
-	<description>($1)</description>
-	<scope>source.js, meta.group.braces.round.js, meta.brace.round.begin.js</scope>
+  </content>
+  <tabTrigger>dd</tabTrigger>
+  <description>($1)</description>
+  <scope>source.js, meta.group.braces.round.js, meta.brace.round.begin.js</scope>
 </snippet>

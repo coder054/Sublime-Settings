@@ -10,17 +10,17 @@ const Home = ({ data: { allUsers = [] } }) => allUsers.map(u => <h1 key={u.id}>{
 
 // viet query trong graphiql roi paste vao ben trong
 const allUsersQuery = gql`
-	{
-		allUsers {
-			id
-			email
-		}
-	}
+  {
+    allUsers {
+      id
+      email
+    }
+  }
 `;
 
 export default graphql(allUsersQuery)(Home);
 ]]></content>
 <tabTrigger>rj-template-component-graphql-apollo</tabTrigger>
-<description>a</description>
+<description>rj-template-component-graphql-apollo</description>
 <scope>source.js, keyword.operator.module.js</scope>
 </snippet>

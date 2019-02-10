@@ -13,6 +13,6 @@ export interface ${TM_FILENAME/(.+)\..+|.*//:component_name} {
 
 ]]></content>
 <tabTrigger>ng-template-interface-model</tabTrigger>
-<description>a</description>
+<description>ng-template-interface-model</description>
 <scope>source.ts, meta.interface.ts, keyword.control.export.ts</scope>
 </snippet>

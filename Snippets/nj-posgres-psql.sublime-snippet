@@ -5,6 +5,6 @@
 \d channels // xem bang channel
 ]]></content>
 <tabTrigger>nj-posgres-psql</tabTrigger>
-<description>a</description>
+<description>nj-posgres-psql</description>
 <scope>source.js</scope>
 </snippet>

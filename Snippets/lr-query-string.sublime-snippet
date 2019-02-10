@@ -5,6 +5,6 @@ Route::get('querystring', function (Request $request) {
 });
 ]]></content>
 <tabTrigger>lr-query-string</tabTrigger>
-<description>a</description>
+<description>lr-query-string</description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
 </snippet>

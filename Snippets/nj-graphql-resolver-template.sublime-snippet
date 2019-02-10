@@ -10,6 +10,6 @@ export default {
 }
 ]]></content>
 <tabTrigger>nj-graphql-resolver-template</tabTrigger>
-<description>a</description>
+<description>nj-graphql-resolver-template</description>
 <scope>source.js, keyword.operator.module.js</scope>
 </snippet>

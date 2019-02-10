@@ -19,6 +19,6 @@ Team.belongsToMany(models.User, {
 //////////////////////
 ]]></content>
 <tabTrigger>nj-sequelize-many-to-many-relation-associate</tabTrigger>
-<description>a</description>
+<description>nj-sequelize-many-to-many-relation-associate</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

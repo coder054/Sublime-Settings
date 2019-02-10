@@ -64,6 +64,6 @@ ${1:onSubmit}({ value, valid }) {
 </form>
 ]]></content>
 <tabTrigger>ng-template-driven-form</tabTrigger>
-<description>a</description>
+<description>ng-template-driven-form</description>
 <scope>text.html.basic, source.ts</scope>
 </snippet>

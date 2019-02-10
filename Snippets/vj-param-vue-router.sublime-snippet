@@ -3,6 +3,6 @@
 {{ $route.params.${1:id} }}
 ]]></content>
 <tabTrigger>vj-param-vue-router</tabTrigger>
-<description>a</description>
+<description>vj-param-vue-router</description>
 <scope>text.html.vue, punctuation.definition.template.begin.html</scope>
 </snippet>

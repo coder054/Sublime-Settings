@@ -1,16 +1,16 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 // set cookie
 return response('Hello World')->cookie(
-    	'name', 'Tuan Anh', 1 // time in minute
-		);
+      'name', 'Tuan Anh', 1 // time in minute
+    );
 
 // get cookie
 $request->cookie('name')
 ]]>
-	</content>
-	<tabTrigger>lr-cookie</tabTrigger>
-	<description>a</description>
-	<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, meta.group.php, meta.function.php, meta.block.php, keyword.control.php</scope>
+  </content>
+  <tabTrigger>lr-cookie</tabTrigger>
+  <description>lr-cookie</description>
+  <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, meta.group.php, meta.function.php, meta.block.php, keyword.control.php</scope>
 </snippet>

@@ -98,6 +98,6 @@
 ]]>
   </content>
   <tabTrigger>gist-modal</tabTrigger>
-  <description>a</description>
+  <description>gist-modal</description>
   <scope>text.html.basic, source.css, meta.property-list.css</scope>
 </snippet>

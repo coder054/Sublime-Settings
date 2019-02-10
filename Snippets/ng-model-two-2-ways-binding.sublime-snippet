@@ -3,6 +3,6 @@
 [(ngModel)]="$1" 
 ]]></content>
 <tabTrigger>ng-model-two-2-ways-binding</tabTrigger>
-<description>a</description>
+<description>ng-model-two-2-ways-binding</description>
 <scope>text.html.basic, meta.tag.inline.form.html</scope>
 </snippet>

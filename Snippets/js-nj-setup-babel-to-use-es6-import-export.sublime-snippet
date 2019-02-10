@@ -17,6 +17,6 @@ create .babelrc with the content below (in root folder)
 ///////////////////////////
 ]]></content>
 <tabTrigger>js-nj-setup-babel-to-use-es6-import-export</tabTrigger>
-<description>a</description>
+<description>js-nj-setup-babel-to-use-es6-import-export</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

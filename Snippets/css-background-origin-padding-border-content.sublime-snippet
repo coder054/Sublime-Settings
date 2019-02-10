@@ -6,6 +6,6 @@
   background-origin: content-box; /* background bat dau trong content, ngay sau khi padding ket thuc */
 ]]></content>
 <tabTrigger>css-background-origin-padding-border-content</tabTrigger>
-<description>a</description>
+<description>css-background-origin-padding-border-content</description>
 <scope>source.css, meta.property-list.css</scope>
 </snippet>

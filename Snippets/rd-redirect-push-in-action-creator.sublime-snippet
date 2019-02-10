@@ -13,6 +13,6 @@ dispatch(push(url))
 //////////////////////
 ]]></content>
 <tabTrigger>rd-redirect-push-in-action-creator</tabTrigger>
-<description>a</description>
+<description>rd-redirect-push-in-action-creator</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

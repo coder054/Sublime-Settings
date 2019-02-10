@@ -3,6 +3,6 @@
 return redirect('${1:home/dashboard}');
 ]]></content>
 <tabTrigger>lr-redirect</tabTrigger>
-<description>a</description>
+<description>lr-redirect</description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, keyword.control.php</scope>
 </snippet>

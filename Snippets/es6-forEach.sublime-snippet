@@ -5,6 +5,6 @@ $1.forEach((item, index) => {
 })
 ]]></content>
 <tabTrigger>es6-forEach</tabTrigger>
-<description>a</description>
+<description>es6-forEach</description>
 <scope>source.js, variable.other.object.js, variable.other.object.js</scope>
 </snippet>

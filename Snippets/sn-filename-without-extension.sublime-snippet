@@ -3,6 +3,6 @@
 \${TM_FILENAME/(.+)\..+|.*/$1/:component_name}
 ]]></content>
 <tabTrigger>sn-filename-without-extension</tabTrigger>
-<description>a</description>
+<description>sn-filename-without-extension</description>
 <scope>text.xml, string.unquoted.cdata.xml, source.js</scope>
 </snippet>

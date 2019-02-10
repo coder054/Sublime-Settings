@@ -12,6 +12,6 @@ $path = $file->store('images'); // luu trong thu muc storage/app/images
 }
 ]]></content>
 <tabTrigger>lr-upload-store-file-form</tabTrigger>
-<description>a</description>
+<description>lr-upload-store-file-form</description>
 <scope>embedding.php, text.html.basic, meta.tag.block.form.html, punctuation.definition.tag.begin.html</scope>
 </snippet>

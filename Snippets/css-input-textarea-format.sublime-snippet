@@ -20,6 +20,6 @@
   border: 1px solid #1bb76e;*/
 ]]></content>
 <tabTrigger>css-input-textarea-format</tabTrigger>
-<description>a</description>
+<description>css-input-textarea-format</description>
 <scope>source.css, meta.property-list.css</scope>
 </snippet>

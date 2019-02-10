@@ -10,6 +10,6 @@
   background-position: 10px 100px; /* cach le trai 10px, cach le tren 100px */
 ]]></content>
 <tabTrigger>css-background-position-example</tabTrigger>
-<description>a</description>
+<description>css-background-position-example</description>
 <scope>source.css, meta.property-list.css</scope>
 </snippet>

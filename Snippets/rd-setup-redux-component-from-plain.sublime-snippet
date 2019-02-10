@@ -31,6 +31,6 @@ export default connect(
 //////////////////////////////////////
 ]]></content>
 <tabTrigger>rd-setup-redux-component-from-plain</tabTrigger>
-<description>a</description>
+<description>rd-setup-redux-component-from-plain</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

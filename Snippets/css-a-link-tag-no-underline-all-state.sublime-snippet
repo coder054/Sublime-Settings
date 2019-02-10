@@ -9,6 +9,6 @@
   }
 ]]></content>
 <tabTrigger>css-a-link-tag-no-underline-all-state</tabTrigger>
-<description>a</description>
+<description>css-a-link-tag-no-underline-all-state</description>
 <scope>source.css, meta.property-list.css</scope>
 </snippet>

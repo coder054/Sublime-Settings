@@ -1,14 +1,14 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 class ${1} {
-	constructor(){
-		$2
-	}
+  constructor(){
+    $2
+  }
 }
 ]]>
-	</content>
-	<tabTrigger>js-create-class</tabTrigger>
-	<description>a</description>
-	<scope>source.js, meta.class.js, storage.type.class.js, storage.type.class.js</scope>
+  </content>
+  <tabTrigger>js-create-class</tabTrigger>
+  <description>js-create-class</description>
+  <scope>source.js, meta.class.js, storage.type.class.js, storage.type.class.js</scope>
 </snippet>

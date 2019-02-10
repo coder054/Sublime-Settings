@@ -6,6 +6,6 @@ Route::get('$1', function () {
 
 ]]></content>
 <tabTrigger>lr-new-route-get-view</tabTrigger>
-<description>a</description>
+<description>lr-new-route-get-view</description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
 </snippet>

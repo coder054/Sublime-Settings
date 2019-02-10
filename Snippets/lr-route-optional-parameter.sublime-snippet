@@ -1,13 +1,13 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 Route::get('user/{$1?}', function (\$$1 = 'John') {
     return \$$1;
 });
 
 ]]>
-	</content>
-	<tabTrigger>lr-route-optional-parameter</tabTrigger>
-	<description>a</description>
-	<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
+  </content>
+  <tabTrigger>lr-route-optional-parameter</tabTrigger>
+  <description>lr-route-optional-parameter</description>
+  <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
 </snippet>

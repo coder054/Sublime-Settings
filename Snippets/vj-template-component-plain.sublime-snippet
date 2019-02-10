@@ -24,6 +24,6 @@ export default {
 ]]>
   </content>
   <tabTrigger>vj-template-component-plain</tabTrigger>
-  <description>a</description>
+  <description>vj-template-component-plain</description>
   <scope>text.html.vue, meta.tag.template.begin.html, punctuation.definition.tag.begin.html</scope>
 </snippet>

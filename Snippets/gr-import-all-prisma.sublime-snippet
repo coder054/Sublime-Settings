@@ -3,6 +3,6 @@
 # import * from './generated/prisma.graphql'
 ]]></content>
 <tabTrigger>gr-import-*-prisma</tabTrigger>
-<description>a</description>
+<description>gr-import-all-prisma</description>
 <scope>source.graphql, comment.line.graphql, punctuation.definition.comment.graphql</scope>
 </snippet>

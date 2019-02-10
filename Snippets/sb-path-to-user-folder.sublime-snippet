@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+C:\Users\Win7_Pro\AppData\Roaming\Sublime Text 3\Packages\User
+]]></content>
+<tabTrigger>sb-path-to-user-folder</tabTrigger>
+<description>sb-path-to-user-folder</description>
+<scope>source.js, constant.other.object.key.js, string.unquoted.label.js</scope>
+</snippet>

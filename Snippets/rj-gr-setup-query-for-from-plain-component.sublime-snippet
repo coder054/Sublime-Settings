@@ -28,6 +28,6 @@ class ${TM_FILENAME/(\w+)\.js/\1/g} extends Component{
 export default ${TM_FILENAME/(\w+)\.js/\1/g}
 ]]></content>
 <tabTrigger>rj-gr-setup-query-for-from-plain-component</tabTrigger>
-<description>a</description>
+<description>rj-gr-setup-query-for-from-plain-component</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

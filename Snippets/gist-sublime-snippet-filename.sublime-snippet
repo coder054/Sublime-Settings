@@ -3,6 +3,6 @@
 ${TM_FILENAME/(\w+)\.js/\1/g}
 ]]></content>
 <tabTrigger>gist-sublime-snippet-filename</tabTrigger>
-<description>a</description>
+<description>gist-sublime-snippet-filename</description>
 <scope>source.js, variable.other.readwrite.js</scope>
 </snippet>

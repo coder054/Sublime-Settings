@@ -26,6 +26,6 @@
 }
 ]]></content>
 <tabTrigger>vj-animation-transition</tabTrigger>
-<description>a</description>
+<description>vj-animation1</description>
 <scope>text.html.vue, source.css.embedded.html, source.css</scope>
 </snippet>

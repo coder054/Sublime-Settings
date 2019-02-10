@@ -7,6 +7,6 @@ flex-wrap: wrap;
 
 ]]></content>
 <tabTrigger>css-flex</tabTrigger>
-<description>a</description>
+<description>css-flex</description>
 <scope>source.css, meta.selector.css</scope>
 </snippet>

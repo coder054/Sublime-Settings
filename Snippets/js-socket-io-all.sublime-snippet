@@ -1,29 +1,29 @@
 <snippet>
-	<content>
-		<![CDATA[
-	// setup server
-	const io = require('socket.io')(server);
-	//setup client
-	var socket = io.connect('http://localhost:3004');
+  <content>
+    <![CDATA[
+  // setup server
+  const io = require('socket.io')(server);
+  //setup client
+  var socket = io.connect('http://localhost:3004');
 
-	/////////////////////////////////////////////
-	//server gui
-	socket.emit('$1', 'data from server'); // dat trong in.on('connection', fucntion(socket){...})
-	// client nhan
-	socket.on('$1', function(data) {
-		
-	});
+  /////////////////////////////////////////////
+  //server gui
+  socket.emit('$1', 'data from server'); // dat trong in.on('connection', fucntion(socket){...})
+  // client nhan
+  socket.on('$1', function(data) {
+    
+  });
 
-	// client gui
-	socket.emit('$2', 'data from client');
+  // client gui
+  socket.emit('$2', 'data from client');
 
-	// server nhan // dat trong in.on('connection', fucntion(socket){...})
-	socket.on('$2', function(data) {
+  // server nhan // dat trong in.on('connection', fucntion(socket){...})
+  socket.on('$2', function(data) {
     console.log(data);
   });
 ]]>
-	</content>
-	<tabTrigger>js-socket-io-all</tabTrigger>
-	<description>a</description>
-	<scope>text.html.basic, source.js.embedded.html, source.js</scope>
+  </content>
+  <tabTrigger>js-socket-io-all</tabTrigger>
+  <description>js-socket-io-all</description>
+  <scope>text.html.basic, source.js.embedded.html, source.js</scope>
 </snippet>

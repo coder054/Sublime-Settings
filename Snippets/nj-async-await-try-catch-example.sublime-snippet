@@ -19,6 +19,6 @@
 ////////////////////
 ]]></content>
 <tabTrigger>nj-async-await-try-catch-example</tabTrigger>
-<description>a</description>
+<description>nj-async-await-try-catch-example</description>
 <scope>source.js, meta.group.braces.round.js, meta.group.braces.curly.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

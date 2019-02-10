@@ -40,6 +40,6 @@ export default (state = initialState, action) => {
 }
 ]]></content>
 <tabTrigger>rd-template-reducer-initial-state</tabTrigger>
-<description>a</description>
+<description>rd-template-reducer-initial-state</description>
 <scope>source.js, storage.type.js</scope>
 </snippet>

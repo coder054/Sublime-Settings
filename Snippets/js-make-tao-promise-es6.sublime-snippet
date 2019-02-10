@@ -1,12 +1,12 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 return new Promise((resolve, reject) => {
-	$1
+  $1
 });
 ]]>
-	</content>
-	<tabTrigger>js-make-tao-promise-es6</tabTrigger>
-	<description>a</description>
-	<scope>source.js, meta.group.braces.curly.js, keyword.control.flow.js</scope>
+  </content>
+  <tabTrigger>js-make-tao-promise-es6</tabTrigger>
+  <description>js-make-tao-promise-es6</description>
+  <scope>source.js, meta.group.braces.curly.js, keyword.control.flow.js</scope>
 </snippet>

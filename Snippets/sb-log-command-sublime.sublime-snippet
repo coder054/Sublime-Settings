@@ -3,6 +3,6 @@
 sublime.log_commands(True)
 ]]></content>
 <tabTrigger>sb-log-command-sublime</tabTrigger>
-<description>a</description>
+<description>sb-log-command-sublime</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

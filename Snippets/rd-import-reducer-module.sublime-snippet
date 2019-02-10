@@ -1,10 +1,10 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 import $1 from './$1'
 ]]>
-	</content>
-	<tabTrigger>rd-import-reducer-module</tabTrigger>
-	<description>a</description>
-	<scope>source.js, keyword.operator.module.js</scope>
+  </content>
+  <tabTrigger>rd-import-reducer-module</tabTrigger>
+  <description>rd-import-reducer-module</description>
+  <scope>source.js, keyword.operator.module.js</scope>
 </snippet>

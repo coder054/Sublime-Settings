@@ -17,6 +17,6 @@ export default ${TM_FILENAME/(\w+)\.js/\1/g}
 ]]>
   </content>
   <tabTrigger>rj-template-component-plain</tabTrigger>
-  <description>a</description>
+  <description>rj-template-component-plain</description>
   <scope>source.js, keyword.operator.module.js</scope>
 </snippet>

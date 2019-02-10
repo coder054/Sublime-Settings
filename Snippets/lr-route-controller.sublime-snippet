@@ -3,6 +3,6 @@
 Route::get('/$1', '${2:MyController@XinChao}');
 ]]></content>
 <tabTrigger>lr-route-controller</tabTrigger>
-<description>a</description>
+<description>lr-route-controller</description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
 </snippet>

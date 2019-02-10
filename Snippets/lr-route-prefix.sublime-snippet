@@ -7,6 +7,6 @@ Route::prefix('admin')->group(function () {
 });
 ]]></content>
 <tabTrigger>lr-route-prefix</tabTrigger>
-<description>a</description>
+<description>lr-route-prefix</description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
 </snippet>

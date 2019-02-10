@@ -6,6 +6,6 @@ JSON.parse(data1.toString()) // => data (vi data1 den duoi dang buffer)
 ///
 ]]></content>
 <tabTrigger>js-stringify-parse</tabTrigger>
-<description>a</description>
+<description>js-stringify-parse</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

@@ -9,6 +9,6 @@
   }
 ]]></content>
 <tabTrigger>rj-onChange</tabTrigger>
-<description>a</description>
+<description>rj-onChange</description>
 <scope>source.js, meta.class.js, meta.class.property.js</scope>
 </snippet>

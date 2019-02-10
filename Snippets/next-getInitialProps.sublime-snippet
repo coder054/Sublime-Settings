@@ -5,6 +5,6 @@ static async getInitialProps({ $1 }) {
 }
 ]]></content>
 <tabTrigger>next-getInitialProps</tabTrigger>
-<description>a</description>
+<description>next-getInitialProps</description>
 <scope>source.js, meta.class.js</scope>
 </snippet>

@@ -7,6 +7,6 @@
   (thuong la background-color chu khong phai image) */
 ]]></content>
 <tabTrigger>css-background-clip</tabTrigger>
-<description>a</description>
+<description>css-background-clip</description>
 <scope>source.css, meta.property-list.css</scope>
 </snippet>

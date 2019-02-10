@@ -1,6 +1,6 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 // import Vue from "vue"
 // import App from "./App"
 import VueRouter from "vue-router"
@@ -34,8 +34,8 @@ const router = new VueRouter({
 
 
 ]]>
-	</content>
-	<tabTrigger>vj-setup-vue-router</tabTrigger>
-	<description>a</description>
-	<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+  </content>
+  <tabTrigger>vj-setup-vue-router</tabTrigger>
+  <description>vj-setup-vue-router</description>
+  <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

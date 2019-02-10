@@ -9,6 +9,6 @@
   },
 ]]></content>
 <tabTrigger>vj-setter-action-and-mutation</tabTrigger>
-<description>a</description>
+<description>vj-setter-action-and-mutation</description>
 <scope>source.js, meta.group.braces.curly.js</scope>
 </snippet>

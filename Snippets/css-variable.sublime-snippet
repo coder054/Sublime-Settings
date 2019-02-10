@@ -19,6 +19,6 @@ root.addEventListener("mousemove", e => {
 
 ]]></content>
 <tabTrigger>css-variable</tabTrigger>
-<description>a</description>
+<description>css-variable</description>
 <scope>source.css, meta.property-list.css, punctuation.separator.key-value.css</scope>
 </snippet>

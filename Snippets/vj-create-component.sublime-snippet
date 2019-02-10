@@ -9,6 +9,6 @@
     })
 ]]></content>
 <tabTrigger>vj-create-component</tabTrigger>
-<description>a</description>
+<description>vj-create-component</description>
 <scope>source.js, meta.group.braces.curly.js</scope>
 </snippet>

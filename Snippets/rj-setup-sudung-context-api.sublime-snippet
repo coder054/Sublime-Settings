@@ -6,20 +6,20 @@ import React, { Component } from "react";
 const Context = React.createContext();
 
 export class Provider extends Component {
-	state = {
-		contacts: [
-			{ id: 1, name: "hanh", address: "phung thuong" },
-			{ id: 2, name: "tram", address: "dan phuong" }
-		]
-	};
+  state = {
+    contacts: [
+      { id: 1, name: "hanh", address: "phung thuong" },
+      { id: 2, name: "tram", address: "dan phuong" }
+    ]
+  };
 
-	render() {
-		return (
-			<Context.Provider value={this.state}>
-				{this.props.children}
-			</Context.Provider>
-		);
-	}
+  render() {
+    return (
+      <Context.Provider value={this.state}>
+        {this.props.children}
+      </Context.Provider>
+    );
+  }
 }
 
 export const Consumer = Context.Consumer;
@@ -33,23 +33,23 @@ import { Provider } from "...context.js";
 /// SU DUNG Consumer
 import { Consumer } from "...context.js";
 <Consumer>
-	{value => {
-		return (
-			<div>
-					<ul>
-						{value.contacts.length && value.contacts
-							? value.contacts.map((item, key) => (
-									<li key={key}>name: {item.name}</li>
-							  ))
-							: "no"}
-					</ul>
-			</div>
-		);
-	}}
+  {value => {
+    return (
+      <div>
+          <ul>
+            {value.contacts.length && value.contacts
+              ? value.contacts.map((item, key) => (
+                  <li key={key}>name: {item.name}</li>
+                ))
+              : "no"}
+          </ul>
+      </div>
+    );
+  }}
 </Consumer>
 /////////////////////////////////////////////
 ]]></content>
 <tabTrigger>rj-setup-sudung-context-api</tabTrigger>
-<description>a</description>
+<description>rj-setup-sudung-context-api</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

@@ -15,6 +15,6 @@ const mapDispatchToProps = dispatch =>
   )
 ]]></content>
 <tabTrigger>rd-map-dispatch-to-props</tabTrigger>
-<description>a</description>
+<description>rd-map-dispatch-to-props</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

@@ -4,6 +4,6 @@
 <input type="hidden" name="_token" value="{{ csrf_token() }}">
 ]]></content>
 <tabTrigger>lr-form-method-delete-put-patch-csrf-token</tabTrigger>
-<description>a</description>
+<description>lr-form-method-delete-put-patch-csrf-token</description>
 <scope>embedding.php, text.html.basic, meta.tag.inline.form.html, punctuation.definition.tag.begin.html</scope>
 </snippet>

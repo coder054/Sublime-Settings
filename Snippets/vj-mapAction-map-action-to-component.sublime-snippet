@@ -23,6 +23,6 @@ import {mapActions} from 'vuex'
 ]]>
   </content>
   <tabTrigger>vj-mapAction-map-action-to-component</tabTrigger>
-  <description>a</description>
+  <description>vj-mapAction-map-action-to-component</description>
   <scope>text.html.vue, source.js.embedded.html, source.js, meta.import.js, keyword.control.import-export.js</scope>
 </snippet>

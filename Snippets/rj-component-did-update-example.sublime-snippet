@@ -8,6 +8,6 @@
   }
 ]]></content>
 <tabTrigger>rj-component-did-update-example</tabTrigger>
-<description>a</description>
+<description>rj-component-did-update-example</description>
 <scope>source.js, meta.class.js, meta.class.property.js</scope>
 </snippet>

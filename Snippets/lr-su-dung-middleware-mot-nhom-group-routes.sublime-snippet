@@ -12,6 +12,6 @@ Route::middleware(['first', 'second'])->group(function () {
 });
 ]]></content>
 <tabTrigger>lr-su-dung-middleware-mot-nhom-group-routes</tabTrigger>
-<description>a</description>
+<description>lr-su-dung-middleware-mot-nhom-group-routes</description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, comment.line.double-slash.php, punctuation.definition.comment.php</scope>
 </snippet>

@@ -5,6 +5,6 @@ $2
 return clonedState
 ]]></content>
 <tabTrigger>rd-clonedState-and-return-clonedState</tabTrigger>
-<description>a</description>
+<description>rd-clonedState-and-return-clonedState</description>
 <scope>source.js, meta.group.braces.curly.js, meta.switch.js</scope>
 </snippet>

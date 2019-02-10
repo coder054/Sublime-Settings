@@ -21,6 +21,6 @@ import { mapGetters } from 'vuex'
 ]]>
   </content>
   <tabTrigger>vj-mapGetters-map-getters</tabTrigger>
-  <description>a</description>
+  <description>vj-mapGetters-map-getters</description>
   <scope>text.html.vue, source.js.embedded.html, source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

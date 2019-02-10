@@ -3,6 +3,6 @@
 this.$1
 ]]></content>
 <tabTrigger>tt</tabTrigger>
-<description>this dot</description>
+<description>this-dot-this.</description>
 <scope>source.ts, meta.class.ts, meta.method.declaration.ts, meta.block.ts, variable.language.this.ts, source.js</scope>
 </snippet>

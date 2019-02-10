@@ -5,6 +5,6 @@ dogs(parent, args, ctx, info) {
 },
 ]]></content>
 <tabTrigger>gr-function-4-arguments</tabTrigger>
-<description>a</description>
+<description>gr-function-4-arguments</description>
 <scope>source.js, meta.group.braces.curly.js</scope>
 </snippet>

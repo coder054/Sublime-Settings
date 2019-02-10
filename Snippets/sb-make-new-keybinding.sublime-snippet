@@ -10,6 +10,6 @@
 }
 ]]></content>
 <tabTrigger>sb-make-new-keybinding</tabTrigger>
-<description>a</description>
+<description>sb-make-new-keybinding</description>
 <scope>source.json.sublime, meta.structure.array.json, meta.structure.dictionary.json, punctuation.section.dictionary.begin.json, source.js</scope>
 </snippet>

@@ -13,6 +13,6 @@ const $4 = ({${2:item}}) => (
 
 ]]></content>
 <tabTrigger>rj-map-array</tabTrigger>
-<description>a</description>
+<description>rj-map-array</description>
 <scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, punctuation.section.embedded.begin.jsx</scope>
 </snippet>

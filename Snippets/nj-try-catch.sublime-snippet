@@ -7,6 +7,6 @@
   }
 ]]></content>
 <tabTrigger>nj-try-catch</tabTrigger>
-<description>a</description>
+<description>nj-try-catch</description>
 <scope>source.js, meta.group.braces.curly.js</scope>
 </snippet>

@@ -3,6 +3,6 @@
 \${TM_FILENAME/(\w+)\.js/\1/g}
 ]]></content>
 <tabTrigger>jj-filename-without-extension-in-snippet-creating</tabTrigger>
-<description>a</description>
+<description>jj-filename-without-extension-in-snippet-creating</description>
 <scope>source.js, variable.other.readwrite.js</scope>
 </snippet>

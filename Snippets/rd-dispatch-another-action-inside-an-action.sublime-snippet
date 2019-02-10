@@ -15,6 +15,6 @@
 ////////////////////////
 ]]></content>
 <tabTrigger>rd-dispatch-another-action-inside-an-action</tabTrigger>
-<description>a</description>
+<description>rd-dispatch-another-action-inside-an-action</description>
 <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

@@ -3,6 +3,6 @@
 :class="{ active: isActive, 'text-danger': hasError }"
 ]]></content>
 <tabTrigger>vj-class-binding-multiple</tabTrigger>
-<description>a</description>
+<description>vj-class-binding-multiple</description>
 <scope>text.html.vue, meta.tag.block.any.html, punctuation.definition.attribute.html</scope>
 </snippet>

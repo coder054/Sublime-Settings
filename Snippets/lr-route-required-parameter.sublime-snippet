@@ -1,12 +1,12 @@
 <snippet>
-	<content>
-		<![CDATA[
+  <content>
+    <![CDATA[
 Route::get('user/{${1:id}}', function (\$${1:id}) {
     return 'User '.\$${1:id};
 });
 ]]>
-	</content>
-	<tabTrigger>lr-route-required-parameter</tabTrigger>
-	<description>a</description>
-	<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
+  </content>
+  <tabTrigger>lr-route-required-parameter</tabTrigger>
+  <description>lr-route-required-parameter</description>
+  <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.path.php, support.class.php</scope>
 </snippet>

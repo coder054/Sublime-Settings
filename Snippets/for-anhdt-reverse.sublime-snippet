@@ -5,6 +5,6 @@ for(let i = $2; i >= 0; i--){
 }
 ]]></content>
 <tabTrigger>for-anhdt-reverse</tabTrigger>
-<description>a</description>
+<description>for-anhdt-reverse</description>
 <scope>source.js, meta.class.js, meta.class-method.js, string.unquoted.js, entity.name.function.js</scope>
 </snippet>

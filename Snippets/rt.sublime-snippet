@@ -3,6 +3,6 @@
 return $1
 ]]></content>
 <tabTrigger>rt</tabTrigger>
-<description>return $1</description>
+<description>rt return $1</description>
 <scope>source.js, meta.class.js, meta.group.braces.curly.js, keyword.control.flow.js</scope>
 </snippet>

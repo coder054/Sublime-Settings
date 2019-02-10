@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+${TM_FILENAME/(\w+)\.sublime-snippet/\1/g}
+]]></content>
+<tabTrigger>ghjk</tabTrigger>
+<description>sn-filename-without-dot-sublime-snippet</description>
+<scope>text.xml</scope>
+</snippet>
+
