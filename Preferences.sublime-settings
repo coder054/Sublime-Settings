@@ -75,6 +75,7 @@
 		"jsfmt",
 		"Nodejs",
 		"SublimeLinter-eslint",
+		"TypeScript",
 		"Vintage"
 	],
 	"skin": "Skins/Monokai",

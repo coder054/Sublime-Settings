@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+const ${1:ComponentName} = observer(
+  $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
+  ${SELECTION/([ \t]*).*/$1/}
+)
+]]></content>
+<tabTrigger>rj-wrap-selection-observer-mobx</tabTrigger>
+<description>rj-wrap-selection-mobx-observer</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+import { decorate, observable, flow, computed, action } from "mobx"
+import { observer, inject } from "mobx-react"
+]]></content>
+<tabTrigger>rj-mobx-import-all-related</tabTrigger>
+<description>rj-mobx-import-all-related</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

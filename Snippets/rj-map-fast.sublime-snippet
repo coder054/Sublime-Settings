@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+{$1.length && $1
+  ? $1.map((${2:item}) => (
+      <$4 key={$3}> 
+        $5
+      </$4>
+    ))
+  : null
+}
+
+
+
+]]></content>
+<tabTrigger>rj-map-fast</tabTrigger>
+<description>rj-map-fast</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

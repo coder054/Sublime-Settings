@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+decorate(${1:ComponentName}, {
+	start: observable,
+	current: observable,
+	elapsedTime: computed,
+	tick: action
+})
+]]></content>
+<tabTrigger>rj-mobx-decorate</tabTrigger>
+<description>rj-mobx-decorate</description>
+<scope>source.js, meta.function-call.with-arguments.js, variable.function.js</scope>
+</snippet>

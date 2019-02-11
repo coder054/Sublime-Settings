@@ -1,0 +1,30 @@
+<snippet>
+<content><![CDATA[
+import { observable, computed, action, decorate } from 'mobx'
+
+export class ${TM_FILENAME/(\w+)\.js/\1/g} {
+  start = Date.now()
+  current = Date.now()
+
+  get elapsedTime() {
+    return this.current - this.start + 'milliseconds'
+  }
+
+  tick() {
+    console.log('tick')
+    this.current = Date.now()
+  }
+}
+decorate(${TM_FILENAME/(\w+)\.js/\1/g}, {
+  start: observable,
+  current: observable,
+  elapsedTime: computed,
+  tick: action,
+})
+
+export default new ${TM_FILENAME/(\w+)\.js/\1/g}()
+]]></content>
+<tabTrigger>rj-mobx-template-store</tabTrigger>
+<description>rj-mobx-template-store</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

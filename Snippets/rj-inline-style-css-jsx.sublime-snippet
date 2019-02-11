@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+<style jsx ${1:global}}> {`  
+  $2
+`}
+</style>
+]]></content>
+<tabTrigger>rj-inline-style-css-jsx</tabTrigger>
+<description>rj-inline-style-css-jsx</description>
+<scope>source.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

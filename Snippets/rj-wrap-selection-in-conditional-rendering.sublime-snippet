@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+{!!$4 && (
+  $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
+  ${SELECTION/([ \t]*).*/$1/}
+)}
+]]></content>
+<tabTrigger>rj-wrap-selection-in-conditional-rendering</tabTrigger>
+<description>rj-wrap-selection-in-conditional-rendering</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

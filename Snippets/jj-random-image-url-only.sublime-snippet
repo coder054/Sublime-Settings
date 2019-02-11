@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+http://lorempixel.com/400/200/
+]]></content>
+<tabTrigger>jj-random-image-url-only</tabTrigger>
+<description>jj-random-image-url-only</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, string.quoted.jsx</scope>
+</snippet>
