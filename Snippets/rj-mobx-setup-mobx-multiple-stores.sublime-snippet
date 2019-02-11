@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+//////////////////////////
+// setup Provider in index.js
+import { Provider } from 'mobx-react'
+const stores = {
+  TimeStore,
+}
+window.stores = stores
+//wrap intire App in Provider and pass stores as props
+<Provider {...stores}>
+    <App />
+</Provider>,
+
+
+// create stores folder
+////////////////////////
+]]></content>
+<tabTrigger>rj-mobx-setup-mobx-multiple-stores</tabTrigger>
+<description>rj-mobx-setup-mobx-multiple-stores</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>
