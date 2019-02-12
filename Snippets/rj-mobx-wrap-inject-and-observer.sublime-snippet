@@ -1,10 +1,10 @@
 <snippet>
 <content><![CDATA[
 const ${1:ComponentName} = inject("userStore", "UIStore")(
-		observer(
-				$0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
-				${SELECTION/([ \t]*).*/$1/}
-		)
+    observer(
+        $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
+        ${SELECTION/([ \t]*).*/$1/}
+    )
 )
 ]]></content>
 <tabTrigger>rj-mobx-wrap-inject-and-observer</tabTrigger>

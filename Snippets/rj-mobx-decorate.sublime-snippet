@@ -1,10 +1,10 @@
 <snippet>
 <content><![CDATA[
 decorate(${1:ComponentName}, {
-	start: observable,
-	current: observable,
-	elapsedTime: computed,
-	tick: action
+  start: observable,
+  current: observable,
+  elapsedTime: computed,
+  tick: action
 })
 ]]></content>
 <tabTrigger>rj-mobx-decorate</tabTrigger>
