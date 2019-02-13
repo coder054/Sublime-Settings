@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+        <Field initial="">
+          {({ bind, value }) => (
+            <div>
+              <input type="text" {...bind} />
+              <div>
+                {value.length
+                  ? `You typed: \${value}`
+                  : 'You have not typed anything :('}
+              </div>
+            </div>
+          )}
+        </Field>
+]]></content>
+<tabTrigger>rj-powerplug-field</tabTrigger>
+<description>rj-powerplug-field</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

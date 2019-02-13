@@ -1,0 +1,25 @@
+<snippet>
+<content><![CDATA[
+import {
+  Active,
+  Compose,
+  Counter,
+  Field,
+  Focus,
+  FocusManager,
+  Form,
+  Hover,
+  Interval,
+  List,
+  Map,
+  Set,
+  State,
+  Toggle,
+  Touch,
+  Value,
+} from 'react-powerplug'
+]]></content>
+<tabTrigger>rj-powerplug-import-all</tabTrigger>
+<description>rj-powerplug-import-all</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

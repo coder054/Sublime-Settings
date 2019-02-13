@@ -1,0 +1,24 @@
+<snippet>
+<content><![CDATA[
+/////////////////
+axios.post(
+  `\${ROOT_URL}/3/image/\${imageHash}`,
+  { title, description },
+  {
+    headers: {
+      Authorization: `Bearer \${token}`,
+    },
+  }
+)
+
+axios.get(`\${ROOT_URL}/3/account/me/images`, {
+  headers: {
+    Authorization: `Bearer \${token}`,
+  },
+})
+////////////////////////
+]]></content>
+<tabTrigger>rj-axios-with-header-authorization</tabTrigger>
+<description>rj-axios-with-header-authorization</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.curly.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+<content><![CDATA[
+        <Form initial={{ firstName: '', lastName: '' }}>
+          {({ field, values }) => (
+            <form
+              onSubmit={e => {
+                e.preventDefault()
+                console.log('Form Submission Data:', values)
+              }}
+            >
+              <input
+                type="text"
+                placeholder="Your First Name"
+                {...field('firstName').bind}
+              />
+              <input
+                type="text"
+                placeholder="Your Last Name"
+                {...field('lastName').bind}
+              />
+              <input type="submit" value="All Done!" />
+            </form>
+          )}
+        </Form>
+]]></content>
+<tabTrigger>rj-powerplug-form-multiple-field</tabTrigger>
+<description>rj-powerplug-form-multiple-field</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>
