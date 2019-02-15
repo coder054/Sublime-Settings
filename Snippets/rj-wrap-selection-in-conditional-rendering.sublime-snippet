@@ -1,8 +1,8 @@
 <snippet>
 <content><![CDATA[
 {!!$4 && (
-  $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
-  ${SELECTION/([ \t]*).*/$1/}
+$0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
+${SELECTION/([ \t]*).*/$1/}
 )}
 ]]></content>
 <tabTrigger>rj-wrap-selection-in-conditional-rendering</tabTrigger>

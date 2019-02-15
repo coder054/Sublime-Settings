@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-<style jsx ${1:global}}> {`  
+<style jsx ${1:global}> {`  
   $2
 `}
 </style>

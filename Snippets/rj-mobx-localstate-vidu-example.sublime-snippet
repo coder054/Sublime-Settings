@@ -1,0 +1,28 @@
+<snippet>
+<content><![CDATA[
+    /////////////////////////
+    mobxstate = {  
+      firstname: "do"
+      address: "Son Tay"
+    }
+    middlename = "tuan"
+    lastName = "anh"
+    fullname = () => this.mobxstate.firstname + " " + this.middlename + " " + this.lastName
+
+
+    decorate(Item, {
+      mobxstate: observable,
+      middlename: observable,
+      lastName: observable
+      // khong can ghi fullname la computed
+    })
+
+
+    <p> fullname: {this.fullname()} </p>  // phai dung dau ()
+    <p> <button onClick={e=> this.lastName = "Ngan" } > change name </button> </p>
+    ////////////////////////////////////////
+]]></content>
+<tabTrigger>rj-mobx-localstate-vidu-example</tabTrigger>
+<description>rj-mobx-localstate-vidu-example</description>
+<scope>source.js, meta.group.braces.round.js, meta.class.js</scope>
+</snippet>

@@ -26,5 +26,5 @@ module.exports = {
 ]]></content>
 <tabTrigger>js-setup-eslint</tabTrigger>
 <description>js-setup-eslint</description>
-<scope>source.js.eslint, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+<scope>source.js.eslint, source.js ,comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

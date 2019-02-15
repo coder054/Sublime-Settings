@@ -70,8 +70,10 @@
 		".next"
 	],
 	"font_size": 11,
+	"highlight_line": true,
 	"ignored_packages":
 	[
+		"GotoLineEnhanced",
 		"jsfmt",
 		"Nodejs",
 		"SublimeLinter-eslint",

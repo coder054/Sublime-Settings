@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+    componentDidUpdate(prevProps, prevState) {
+        // only update chart if the cityname has changed
+        if (prevProps.match.params.cityname !== this.props.match.params.cityname) {
+          this.fetchData()
+        }
+    }
+]]></content>
+<tabTrigger>rj-componentDidUpdate</tabTrigger>
+<description>rj-componentDidUpdate</description>
+<scope>source.js, meta.group.braces.round.js, meta.class.js, meta.class.property.js</scope>
+</snippet>
