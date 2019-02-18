@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+<${1:ComponentName}>
+
+  {() => (
+$0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
+${SELECTION/([ \t]*).*/$1/} 
+  )}
+
+</${1:ComponentName}>
+]]></content>
+<tabTrigger>rj-wrap-in-Render-Props-Component</tabTrigger>
+<description>rj-wrap-in-Render-Props-Component</description>
+<scope>source.js, meta.group.braces.round.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

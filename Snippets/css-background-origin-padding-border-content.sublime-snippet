@@ -1,9 +1,9 @@
 <snippet>
 <content><![CDATA[
-  background-origin: border-box; /* background bat dau tu border (border se che mat mot phan background image) */
-  background-origin: padding-box; /* default, background image bt dau trong padding 
-  (background image bat dau ngay sau khi border ket thuc) */
-  background-origin: content-box; /* background bat dau trong content, ngay sau khi padding ket thuc */
+	background-origin: border-box; /* background bat dau tu border (border se che mat mot phan background image) */
+	background-origin: padding-box; /* default, background image bt dau trong padding 
+	(background image bat dau ngay sau khi border ket thuc) */
+	background-origin: content-box; /* background bat dau trong content, ngay sau khi padding ket thuc */
 ]]></content>
 <tabTrigger>css-background-origin-padding-border-content</tabTrigger>
 <description>css-background-origin-padding-border-content</description>

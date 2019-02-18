@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+console.log('$1', toJS($1) )
+]]></content>
+<tabTrigger>colltjs</tabTrigger>
+<description>console-log-l-toJS-mobx</description>
+<scope>source.js, meta.group.braces.round.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, support.type.object.console.js</scope>
+</snippet>

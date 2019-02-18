@@ -1,31 +1,31 @@
 <snippet>
-  <content>
-    <![CDATA[
+	<content>
+		<![CDATA[
 ////////////////////////////////////////////////////
 /// Callback
 function createDog(name, callback) {
-  console.log("creating");
-  setTimeout(function() {
-    const err = true;
-    if (!err) {
-      console.log("done!");
-      callback(err, name + " is created");
-    } else {
-      callback("err when creating dog");
-    }
-  }, 2000);
+	console.log("creating");
+	setTimeout(function() {
+		const err = true;
+		if (!err) {
+			console.log("done!");
+			callback(err, name + " is created");
+		} else {
+			callback("err when creating dog");
+		}
+	}, 2000);
 }
 
 const callback = function(err, str) {
-  if (!err) {
-    console.log(str);
-  } else {
-    errHandler(err);
-  }
+	if (!err) {
+		console.log(str);
+	} else {
+		errHandler(err);
+	}
 };
 
 const errHandler = function(err) {
-  console.log(err);
+	console.log(err);
 };
 
 createDog("Tom", callback);
@@ -33,46 +33,46 @@ createDog("Tom", callback);
 ///////////////////////////
 /// Promise
 function createDog(name) {
-  console.log("creating");
+	console.log("creating");
 
-  return new Promise(function(resolve, reject) {
-    setTimeout(function() {
-      const err = true;
-      if (!err) {
-        console.log("done!");
-        resolve(name + " is created"); // chu y xxxx: ham nay luon chi co mot tham so
-      } else {
-        reject("err when creating dog");
-      }
-    }, 2000);
-  });
-  // resolve, reject cha qua la danh dau nhung noi se goi ham callback, errHandler
+	return new Promise(function(resolve, reject) {
+		setTimeout(function() {
+			const err = true;
+			if (!err) {
+				console.log("done!");
+				resolve(name + " is created"); // chu y xxxx: ham nay luon chi co mot tham so
+			} else {
+				reject("err when creating dog");
+			}
+		}, 2000);
+	});
+	// resolve, reject cha qua la danh dau nhung noi se goi ham callback, errHandler
 }
 
 const callback = function(str) {
-  console.log(str);
+	console.log(str);
 };
 
 const errHandler = function(err) {
-  console.log(err);
+	console.log(err);
 };
 
 createDog("Tom")
-  .then(callback)
-  .catch(errHandler);
+	.then(callback)
+	.catch(errHandler);
 ///////////////////////////////////////////////////////////
 
 var promise1 = Promise.resolve(123); // tra ra mot promise ma chac chan se resolve ra ket qua 123
 
 promise1.then(function(value) {
-  console.log(value);
-  // expected output: 123
+	console.log(value);
+	// expected output: 123
 });
 
 
 ]]>
-  </content>
-  <tabTrigger>js-sosanh-callback-promise</tabTrigger>
-  <description>js-sosanh-callback-promise</description>
-  <scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+	</content>
+	<tabTrigger>js-sosanh-callback-promise</tabTrigger>
+	<description>js-sosanh-callback-promise</description>
+	<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
 </snippet>

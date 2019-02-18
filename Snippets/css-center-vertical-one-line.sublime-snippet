@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+  text-align: center;
+  vertical-align: middle;
+  line-height: 138px; /* the same as your div height */
+]]></content>
+<tabTrigger>css-center-vertical-one-line</tabTrigger>
+<description>css-center-vertical-one-line</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+user-select: none;
+]]></content>
+<tabTrigger>css-disable-user-select-text</tabTrigger>
+<description>css-disable-user-select-text</description>
+<scope>source.css, meta.property-list.css, meta.property-name.css, support.type.property-name.css</scope>
+</snippet>
