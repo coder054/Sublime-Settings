@@ -1,0 +1,42 @@
+<snippet>
+<content><![CDATA[
+        <CSSTransition
+          in={this.state.show}
+          timeout={300}
+          classNames="${1:fade}"
+          unmountOnExit
+        >
+            <div>
+              <p> Lorem ipsum dolor. </p>
+              <img src="http://lorempixel.com/400/200/" alt=""/>
+            </div>
+        </CSSTransition>
+        
+
+        <style jsx>
+          {`
+            .${1:fade}-enter {
+              opacity: 0.01;
+              transform: scale(0.9) translateY(50%);
+            }
+            .${1:fade}-enter-active {
+              opacity: 1;
+              transform: scale(1) translateY(0%);
+              transition: all 300ms ease-out;
+            }
+            .${1:fade}-exit {
+              opacity: 1;
+              transform: scale(1) translateY(0%);
+            }
+            .${1:fade}-exit-active {
+              opacity: 0.01;
+              transform: scale(0.9) translateY(50%);
+              transition: all 300ms ease-out;
+            }
+          `}
+        </style>
+]]></content>
+<tabTrigger>rj-CSSTransition</tabTrigger>
+<description>rj-CSSTransition</description>
+<scope>source.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

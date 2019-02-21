@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+-webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.53);
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.53);
+]]></content>
+<tabTrigger>css-box-shadow</tabTrigger>
+<description>css-box-shadow</description>
+<scope>source.css, meta.property-list.css, meta.property-name.css, support.type.vendor-prefix.css</scope>
+</snippet>

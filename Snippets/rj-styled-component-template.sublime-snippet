@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+import styled, { css } from 'styled-components'
+
+export const ${TM_FILENAME/(\w+)\.js/\1/g} = styled.$1`
+  $2
+`
+]]></content>
+<tabTrigger>rj-styled-component-template</tabTrigger>
+<description>rj-styled-component-template</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

@@ -1,15 +1,16 @@
 <snippet>
 <content><![CDATA[
-<${1:ComponentName}>
-
-	{() => (
+<CSSTransition
+	in={this.isHetGio()}
+	timeout={300}
+	classNames="fade"
+	unmountOnExit
+>
 $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
-${SELECTION/([ \t]*).*/$1/} 
-	)}
-
-</${1:ComponentName}>
+${SELECTION/([ \t]*).*/$1/}
+</CSSTransition>
 ]]></content>
-<tabTrigger>rj-wrap-in-Render-Props-Component</tabTrigger>
-<description>rj-wrap-in-Render-Props-Component</description>
+<tabTrigger>rj-wrap-in-CSSTransition</tabTrigger>
+<description>rj-wrap-in-CSSTransition</description>
 <scope>source.js, meta.group.braces.round.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.round.js, meta.jsx.js</scope>
 </snippet>

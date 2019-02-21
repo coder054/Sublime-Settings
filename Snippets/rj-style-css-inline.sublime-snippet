@@ -1,24 +1,24 @@
 <snippet>
 <content><![CDATA[
  <div>
-  .....
-  <style jsx global>
-    {`
-      a {
-        color: white;
-      }
-      a:link {
-        text-decoration: none;
-        color: white;
-      }
-      a:hover {
-        color: white;
-      }
-      .card-columns {
-        column-count: 3;
-      }
-    `}
-  </style>
+	.....
+	<style jsx global>
+		{`
+			a {
+				color: white;
+			}
+			a:link {
+				text-decoration: none;
+				color: white;
+			}
+			a:hover {
+				color: white;
+			}
+			.card-columns {
+				column-count: 3;
+			}
+		`}
+	</style>
 </div>
 ]]></content>
 <tabTrigger>rj-style-css-inline</tabTrigger>

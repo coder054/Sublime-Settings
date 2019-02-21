@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-http://lorempixel.com/400/200/
+//via.placeholder.com/350x150
 ]]></content>
 <tabTrigger>jj-random-image-url-only</tabTrigger>
 <description>jj-random-image-url-only</description>

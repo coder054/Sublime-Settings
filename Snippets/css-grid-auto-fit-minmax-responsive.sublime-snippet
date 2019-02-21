@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+]]></content>
+<tabTrigger>css-grid-auto-fit-minmax-responsive</tabTrigger>
+<description>css-grid-auto-fit-minmax-responsive</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>
