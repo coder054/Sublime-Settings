@@ -1,8 +1,10 @@
 <snippet>
 <content><![CDATA[
-dogs(parent, args, ctx, info) {
-  $1
+
+$1(parent, args, ctx, info) {
+  $2
 },
+
 ]]></content>
 <tabTrigger>gr-function-4-arguments</tabTrigger>
 <description>gr-function-4-arguments</description>

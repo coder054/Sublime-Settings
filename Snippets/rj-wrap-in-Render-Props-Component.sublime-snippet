@@ -2,10 +2,10 @@
 <content><![CDATA[
 <${1:ComponentName}>
 
-	{() => (
+  {() => (
 $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
 ${SELECTION/([ \t]*).*/$1/} 
-	)}
+  )}
 
 </${1:ComponentName}>
 ]]></content>

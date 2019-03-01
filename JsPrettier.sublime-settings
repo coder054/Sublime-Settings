@@ -82,7 +82,7 @@
 	// Whether or not to automatically format the file on save.
 	// ----------------------------------------------------------------------
 
-	"auto_format_on_save": false,
+	"auto_format_on_save": true,
 
 	// ----------------------------------------------------------------------
 	// Auto Format on Save Excludes
@@ -103,7 +103,9 @@
 	//     ]
 	// ----------------------------------------------------------------------
 
-	"auto_format_on_save_excludes": [],
+	"auto_format_on_save_excludes": [
+		"*.css"
+	],
 
 	// ----------------------------------------------------------------------
 	// Auto Format Requires Prettier Config File

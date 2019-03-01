@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+// set up ref on Element
+<div ref={${1:myEl} => (this.${1:myEl} = ${1:myEl})}>
+  {this.renderContent()}
+</div>
+
+// after that we can use this.${1:myEl} globally
+this.${1:myEl}.classList.toggle('active') 
+]]></content>
+<tabTrigger>rj-refs-example</tabTrigger>
+<description>rj-refs-example</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

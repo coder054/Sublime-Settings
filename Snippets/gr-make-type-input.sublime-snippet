@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+  input ${1:name} {
+    username: String!
+    password: String!
+    age: Int
+  }
+  // dat trong typeDefs
+]]></content>
+<tabTrigger>gr-make-type-input</tabTrigger>
+<description>gr-make-type-input</description>
+<scope>source.js, string.interpolated.js</scope>
+</snippet>

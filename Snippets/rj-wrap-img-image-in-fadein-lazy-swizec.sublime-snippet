@@ -1,16 +1,16 @@
 <snippet>
 <content><![CDATA[
-	<FadeIn height={${1:600}} duration={100}>
-		{onload => (
+  <FadeIn height={${1:300}} duration={100}>
+    {onload => (
 $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
 ${SELECTION/([ \t]*).*/$1/}
 
 
-				onLoad={onload}
-				style={{ height: ${1:600} }}
-				/>
-		)}
-	</FadeIn>
+        onLoad={onload}
+        style={{ /* height: ${1:300} */}}
+        />
+    )}
+  </FadeIn>
 ]]></content>
 <tabTrigger>rj-wrap-img-image-in-fadein-lazy-swizec</tabTrigger>
 <description>rj-wrap-img-image-in-fadein-lazy-swizec</description>

@@ -109,11 +109,6 @@
 	},
 
 	{
-		"keys": ["ctrl+k", "ctrl+k"],
-		"command": "js_prettier"
-	},
-
-	{
 		"keys": ["ctrl+k", "ctrl+a"],
 		"command": "run_macro_file",
 		"args": {
@@ -122,7 +117,7 @@
 	},
 
 	{
-		"keys": ["ctrl+v"],
+		"keys": ["ctrl+k", "ctrl+k"],
 		"command": "chain",
 		"args": {
 			"commands": [["paste"], ["js_prettier"]]
@@ -141,9 +136,10 @@
 		"command": "js_prettier"
 	},
 
+
 	{
 		"keys": ["ctrl+k", "ctrl+n"],
 		"command": "show_overlay",
-		"args": {"overlay": "command_palette", "text": "Snippet: "}
+		"args": { "overlay": "command_palette", "text": "Snippet: " }
 	}
 ]
