@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
 @push('scripts')
-		<script src="/example.js"></script>
+    <script src="/example.js"></script>
 @endpush
 ]]></content>
 <tabTrigger>lr-blade-push-add-script</tabTrigger>

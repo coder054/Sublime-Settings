@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+add_action('$1', function () {
+    $2
+});
+]]></content>
+<tabTrigger>wp-add-action</tabTrigger>
+<description>wp-add-action</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

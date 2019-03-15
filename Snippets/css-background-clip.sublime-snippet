@@ -1,10 +1,10 @@
 <snippet>
 <content><![CDATA[
-	background-clip: content-box; /* cat bo (khong show) phan background image nam trong padding va border */
-	background-clip: border-box; /* default, khong cat bo phan nao cua background 
-	(thuong la background-color chu khong phai image) */
-	background-clip: padding-box; /* cat bo (khong show) phan background image nam trong  border 
-	(thuong la background-color chu khong phai image) */
+  background-clip: content-box; /* cat bo (khong show) phan background image nam trong padding va border */
+  background-clip: border-box; /* default, khong cat bo phan nao cua background 
+  (thuong la background-color chu khong phai image) */
+  background-clip: padding-box; /* cat bo (khong show) phan background image nam trong  border 
+  (thuong la background-color chu khong phai image) */
 ]]></content>
 <tabTrigger>css-background-clip</tabTrigger>
 <description>css-background-clip</description>

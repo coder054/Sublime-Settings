@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<% %>
+]]></content>
+<tabTrigger>jj</tabTrigger>
+<description>ejs-open-close</description>
+<scope>text.html.vue, invalid.illegal.bad-angle-bracket.html</scope>
+</snippet>

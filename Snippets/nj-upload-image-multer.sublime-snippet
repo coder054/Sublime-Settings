@@ -1,0 +1,41 @@
+<snippet>
+<content><![CDATA[
+////////////////////////////////////////
+var multer = require('multer')
+var path = require('path')
+
+const storage = multer.diskStorage({
+  destination: './public/uploads/',
+  filename: function(req, file, cb) {
+    cb(
+      null,
+      file.fieldname + '-' + Date.now() + path.extname(file.originalname)
+    )
+  },
+})
+
+const multerOptions = {
+  // storage: multer.memoryStorage(),
+  storage: storage,
+  fileFilter(req, file, next) {
+    const isPhoto = file.mimetype.startsWith('image/')
+    if (isPhoto) {
+      next(null, true)
+    } else {
+      next({ message: "That filetype isn't allowed!" }, false)
+    }
+  },
+}
+
+const upload = multer(multerOptions).single('featuredimage')
+
+router.post('/add', upload, function(req, res) {
+  // ...
+}
+///////////////////////////////////////////
+
+]]></content>
+<tabTrigger>nj-upload-image-multer</tabTrigger>
+<description>nj-upload-image-multer</description>
+<scope>source.js, meta.group.braces.round.js, variable.other.object.js, variable.other.object.js</scope>
+</snippet>

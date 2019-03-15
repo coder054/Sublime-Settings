@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+    echo "<pre>";
+    $1
+    echo "</pre>";
+]]></content>
+<tabTrigger>php-echo-pre</tabTrigger>
+<description>php-echo-pre</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.php, meta.block.php</scope>
+</snippet>

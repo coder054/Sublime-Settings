@@ -71,12 +71,14 @@
 		"dist",
 		".next"
 	],
-	"font_size": 10,
+	"font_size": 8,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"auto-save",
 		"GotoLineEnhanced",
+		"Highlight Whitespaces",
+		"Invisible Tabs Spaces Switcher",
 		"jsfmt",
 		"Nodejs",
 		"SublimeLinter-eslint",

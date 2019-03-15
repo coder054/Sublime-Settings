@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+echo "$1";
+echo "<br>";
+    
+]]></content>
+<tabTrigger>col</tabTrigger>
+<description>php-col</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.php, meta.block.php</scope>
+</snippet>

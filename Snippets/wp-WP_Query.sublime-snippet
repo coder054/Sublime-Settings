@@ -1,0 +1,26 @@
+<snippet>
+<content><![CDATA[
+<?php
+\$args_my_query = array(
+    'post_type'    =>    'post',
+    'orderby'    => 'rand'
+);
+
+\$query = new WP_Query(\$args_my_query); ?>
+    <?php if (\$query->have_posts()) :
+        while (\$query->have_posts()) :
+            \$query->the_post(); ?>
+
+        
+
+        <?php endwhile;
+        wp_reset_postdata();
+    else : ?>
+ <p><?php esc_html_e('Sorry, no posts matched your criteria.'); ?></p>
+    <?php endif; ?>
+
+]]></content>
+<tabTrigger>wp-WP_Query</tabTrigger>
+<description>wp-WP_Query</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, punctuation.section.embedded.begin.php</scope>
+</snippet>
