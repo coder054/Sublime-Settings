@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+    case 'SET_REDUX_STATE': 
+      return updateObject(state, { [action.propertyName]: action.value })
+]]></content>
+<tabTrigger>rd-case-SET_REDUX_STATE</tabTrigger>
+<description>rd-case-SET_REDUX_STATE
+</description>
+<scope>source.js, meta.group.braces.curly.js, meta.switch.js</scope>
+</snippet>

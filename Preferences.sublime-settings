@@ -72,6 +72,8 @@
 	"font_size": 11,
 	"ignored_packages":
 	[
+		"GotoLineEnhanced",
+		"Invisible Tabs Spaces Switcher",
 		"jsfmt",
 		"Nodejs",
 		"SublimeLinter-eslint",

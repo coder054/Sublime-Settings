@@ -121,13 +121,7 @@
 		}
 	},
 
-	{
-		"keys": ["ctrl+v"],
-		"command": "chain",
-		"args": {
-			"commands": [["paste"], ["js_prettier"]]
-		}
-	},
+
 
 	{
 		"keys": ["ctrl+k", "ctrl+t"],
@@ -145,5 +139,10 @@
 		"keys": ["ctrl+k", "ctrl+n"],
 		"command": "show_overlay",
 		"args": {"overlay": "command_palette", "text": "Snippet: "}
+	},
+
+		{
+		"keys": ["ctrl+k", "ctrl+f"],
+		"command": "js_prettier"
 	}
 ]

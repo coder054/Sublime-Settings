@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+import Overdrive from 'react-overdrive'
+]]></content>
+<tabTrigger>rj-import-Overdrive</tabTrigger>
+<description>rj-import-Overdrive</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>
