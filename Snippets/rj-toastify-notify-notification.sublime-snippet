@@ -1,0 +1,27 @@
+<snippet>
+<content><![CDATA[
+///////////////////////////////////////////////////
+export const notify = notifyContent => {
+	toast(notifyContent, {
+		position: 'top-right',
+		autoClose: 4000,
+		hideProgressBar: false,
+		closeOnClick: true,
+		pauseOnHover: false,
+		draggable: false
+	})
+}
+
+// render ToastContainer vao root component
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+<App>
+	<ToastContainer></ToastContainer>
+	...
+</App>
+////////////////////////////////////////////////////
+]]></content>
+<tabTrigger>rj-toastify-notify-notification</tabTrigger>
+<description>rj-toastify-notify-notification</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+import { push } from 'connected-react-router'
+]]></content>
+<tabTrigger>rj-rd-navigation-push-component</tabTrigger>
+<description>rj-rd-navigation-push-component</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+    if (window.confirm('Are you sure you want to delete this image?')) {
+      $1
+    } else {
+    }
+]]></content>
+<tabTrigger>rj-confirm</tabTrigger>
+<description>rj-confirm</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.curly.js</scope>
+</snippet>
