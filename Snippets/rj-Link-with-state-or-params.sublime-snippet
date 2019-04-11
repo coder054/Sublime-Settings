@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+        <Link
+          key={i.id}
+          to={{
+            pathname: `/img/\${i.id}`,
+            // this is the trick!
+            state: { modal: true }
+          }}> Link with state (params) </Link>
+]]></content>
+<tabTrigger>rj-Link-with-state-or-params</tabTrigger>
+<description>rj-Link-with-state-or-params</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.round.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>
