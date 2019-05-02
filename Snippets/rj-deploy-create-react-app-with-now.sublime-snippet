@@ -1,0 +1,68 @@
+<snippet>
+<content><![CDATA[
+/////////////////////
+tao file now.json (root)
+{
+  "version": 2,
+  "name": "${1:images-redux}",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "headers": { "cache-control": "s-maxage=31536000,immutable" },
+      "dest": "/static/\$1"
+    },
+    { "src": "/favicon.ico", "dest": "/favicon.ico" },
+    { "src": "/asset-manifest.json", "dest": "/asset-manifest.json" },
+    { "src": "/manifest.json", "dest": "/manifest.json" },
+    { "src": "/precache-manifest.(.*)", "dest": "/precache-manifest.\$1" },
+    {
+      "src": "/service-worker.js",
+      "headers": { "cache-control": "s-maxage=0" },
+      "dest": "/service-worker.js"
+    },
+    {
+      "src": "/(.*)",
+      "headers": { "cache-control": "s-maxage=0" },
+      "dest": "/index.html"
+    }
+  ]
+}
+
+
+modify package.json
+{
+    ...
+    "scripts": {
+      ...
+      "build": "react-scripts build",
+      "now-build": "react-scripts build"
+    }
+}
+
+
+
+
+
+create file .nowignore (root) with content
+node_modules
+
+
+
+
+
+run the command in cmd
+now
+
+//////////////////////////////////////
+]]></content>
+<tabTrigger>rj-deploy-create-react-app-with-now</tabTrigger>
+<description>rj-deploy-create-react-app-with-now</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

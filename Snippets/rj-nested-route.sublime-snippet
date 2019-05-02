@@ -26,6 +26,11 @@ function Topics({ match }) {
     </div>
   );
 }
+
+
+    <main className="container">
+      <Route path="/topics" component={Topics} /> {/* khong duoc co 'exact' */}
+    </main>
 ////////////////////////////////
 ]]></content>
 <tabTrigger>rj-nested-route</tabTrigger>

@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 0.1,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow Night - Blue.sublime-color-scheme",
 	"extra_file_exclude_patterns":
 	[
 		"*.pyc",
@@ -69,7 +69,7 @@
 		"node_modules",
 		".next"
 	],
-	"font_size": 11,
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"GotoLineEnhanced",

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+for(let $1 = ; $1 >= 0; $1--){
+  $2
+}
+]]></content>
+<tabTrigger>for-anhdt-reverse-custom-i</tabTrigger>
+<description>for-anhdt-reverse-custom-i</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.curly.js, meta.for.js, keyword.control.loop.js</scope>
+</snippet>

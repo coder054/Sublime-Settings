@@ -1,0 +1,44 @@
+<snippet>
+<content><![CDATA[
+//////////////////////////////////////////////
+// Passport Config in server.js
+
+const passport = require('passport');
+
+// Passport middleware
+app.use(passport.initialize());
+require('./config/passport')(passport);
+
+// file ./config/passport.js
+const JwtStrategy = require('passport-jwt').Strategy
+const ExtractJwt = require('passport-jwt').ExtractJwt
+const mongoose = require('mongoose')
+const User = mongoose.model('users')
+
+
+const opts = {}
+opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken()
+opts.secretOrKey = 'random_secret_key'
+
+module.exports = passport => {
+  passport.use(
+    new JwtStrategy(opts, (jwt_payload, done) => {
+      User.findById(jwt_payload.id)
+        .then(user => {
+          if (user) {
+            return done(null, user)
+          }
+          return done(null, false)
+        })
+        .catch(err => console.log(err))
+    })
+  )
+}
+
+
+///////////////////////////////////////////////
+]]></content>
+<tabTrigger>nj-passport-jwt-example</tabTrigger>
+<description>nj-passport-jwt-example</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

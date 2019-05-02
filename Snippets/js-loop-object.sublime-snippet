@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+////////////////////////
+/// loop object
+var p = {
+    "p1": "value1",
+    "p2": "value2",
+    "p3": "value3"
+};
+
+for (var key in p) {
+    if (p.hasOwnProperty(key)) {
+        console.log(key + " -> " + p[key]);
+    }
+}
+///////////////////////////
+]]></content>
+<tabTrigger>js-loop-object</tabTrigger>
+<description>js-loop-object</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+for ( let char of str ){
+	
+}
+]]></content>
+<tabTrigger>js-loop-string-for-of</tabTrigger>
+<description>js-loop-string-for-of</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

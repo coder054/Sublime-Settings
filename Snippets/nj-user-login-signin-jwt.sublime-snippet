@@ -1,0 +1,43 @@
+<snippet>
+<content><![CDATA[
+///////////////////////////////////////////////////////
+  // Find user by email
+  User.findOne({ email }).then(user => {
+    // Check for user
+    if (!user) {
+      errors.email = 'User not found';
+      return res.status(404).json(errors);
+    }
+
+    // Check Password
+    // // const bcrypt = require('bcryptjs');
+    bcrypt.compare(password, user.password).then(isMatch => {
+      if (isMatch) {
+        // User Matched
+        const payload = { id: user.id, name: user.name, avatar: user.avatar }; // Create JWT Payload
+
+        // Sign Token
+        // const jwt = require('jsonwebtoken');
+        jwt.sign(
+          payload,
+          keys.secretOrKey,
+          { expiresIn: 3600 },
+          (err, token) => {
+            res.json({
+              success: true,
+              token: 'Bearer ' + token
+            });
+          }
+        );
+      } else {
+        errors.password = 'Password incorrect';
+        return res.status(400).json(errors);
+      }
+    });
+  });
+///////////////////////////////////////////////////////////
+]]></content>
+<tabTrigger>nj-user-login-signin-jwt</tabTrigger>
+<description>nj-user-login-signin-jwt</description>
+<scope>source.js, meta.group.braces.round.js, meta.group.braces.curly.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>
