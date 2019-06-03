@@ -1,0 +1,26 @@
+<snippet>
+<content><![CDATA[
+import React from 'react'
+import Link from 'next/link'
+import axios from 'axios'
+
+export default class ${TM_FILENAME/(\w+)\.js/\1/g} extends React.Component {
+  static async getInitialProps () {
+    const json = await axios.get("https://api.github.com/repos/zeit/next.js")
+    const {data} = json
+    return { stars: data.stargazers_count }
+  }
+
+  render () {
+    return (
+      <div>
+        ${TM_FILENAME/(\w+)\.js/\1/g}
+      </div>
+    )
+  }
+}
+]]></content>
+<tabTrigger>nextjs-template-component-class</tabTrigger>
+<description>nextjs-template-component-class</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

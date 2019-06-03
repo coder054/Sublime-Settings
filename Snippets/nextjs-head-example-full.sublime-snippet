@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+////////////////////////
+import Head from 'next/head';
+<Head>
+  <title>My page title</title>
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+</Head>
+////////////////////////
+]]></content>
+<tabTrigger>nextjs-head-example-full</tabTrigger>
+<description>nextjs-head-example-full</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

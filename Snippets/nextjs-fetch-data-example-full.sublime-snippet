@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+//////////////////////////
+  static async getInitialProps () {
+    // eslint-disable-next-line no-undef
+    const res = await fetch('https://api.github.com/repos/zeit/next.js')
+    const json = await res.json()
+    return { stars: json.stargazers_count }
+  }
+//////////////////////////
+]]></content>
+<tabTrigger>nextjs-fetch-data-example-full</tabTrigger>
+<description>nextjs-fetch-data-example-full</description>
+<scope>source.js, meta.class.js</scope>
+</snippet>

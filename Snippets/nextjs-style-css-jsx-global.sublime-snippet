@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+<style global jsx>{`
+  \$1
+`}</style>
+]]></content>
+<tabTrigger>nextjs-style-css-jsx-global</tabTrigger>
+<description>nextjs-style-css-jsx-global</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

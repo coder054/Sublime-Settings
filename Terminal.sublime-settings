@@ -4,7 +4,7 @@
 	// "terminal": "C:\\Program Files\\Git\\git-bash.exe",
 
 	// "terminal": "C:\\Program Files (x86)\\cmder\\Cmder.exe",
-	"terminal": "C:\\Program Files\\cmder_mini\\cmder.exe",
+	"terminal": "E:\\cmder_mini\\cmder.exe",
 
 	// A list of default parameters to pass to the terminal, this can be
 	// overridden by passing the "parameters" key with a list value to the args
