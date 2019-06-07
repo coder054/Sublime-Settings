@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+export const ${1:actionCreatorName} = () => {
+	return dispatch => {
+		// dispatch({ type: actionTypes.INCREMENT }) // distch truc tiep mot action (tuc la mot object)
+		// dispatch(addUser(username)) // dispatch mot action creator khac (la mot ham)
+		$2
+	}
+}
+]]></content>
+<tabTrigger>rj-rd-redux-template-action-creator-thunk</tabTrigger>
+<description>rj-rd-redux-template-action-creator-thunk</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

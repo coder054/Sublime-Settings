@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+//////////////// Cach goi action trong next - redux (gia su action la getTopRepos)
+  // TH1: trong getInitialProps
+  static async getInitialProps ({ store, query }) {
+    let lang = query.lang || 'javascript'
+    await store.dispatch(getTopRepos({ lang }))
+  }
+
+
+// TH2: trong componentDidMount
+  componentDidMount () {
+    let { getTopRepos } = this.props
+    getTopRepos({ lang: 'ruby' })
+  }
+  ////////////////////////
+]]></content>
+<tabTrigger>nextjs-redux-rd-goi-action</tabTrigger>
+<description>nextjs-redux-rd-goi-action</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

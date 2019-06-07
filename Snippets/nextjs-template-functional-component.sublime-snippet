@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+import React from 'react'
+
+export default props => {
+	return (
+		$1
+	)
+}
+
+]]></content>
+<tabTrigger>nextjs-template-functional-component</tabTrigger>
+<description>nextjs-template-functional-component</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

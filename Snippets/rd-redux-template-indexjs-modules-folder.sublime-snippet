@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+///// template file index.js thu muc modules cua redux
+import { combineReducers } from 'redux'
+
+// cac file module can export default reducer (// trong file module co ca default state, action types, action, (cac action duoc named export) )
+import counter from './counter'
+import user from './user'
+import images from './images'
+
+
+export default combineReducers({
+  counter,
+  user,
+  images
+})
+//////////////////////
+]]></content>
+<tabTrigger>rd-redux-template-indexjs-modules-folder</tabTrigger>
+<description>rd-redux-template-indexjs-modules-folder</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

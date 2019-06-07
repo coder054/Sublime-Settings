@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+// li -> :global(li)
+]]></content>
+<tabTrigger>next-style-global-selector</tabTrigger>
+<description>next-style-global-selector</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, string.interpolated.js</scope>
+</snippet>

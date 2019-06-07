@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+import Link from 'next/link' 
+]]></content>
+<tabTrigger>nextjs-import-Link</tabTrigger>
+<description>nextjs-import-Link</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

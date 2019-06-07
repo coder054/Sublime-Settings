@@ -1,0 +1,30 @@
+<snippet>
+<content><![CDATA[
+//////////////////////////
+yarn add prettier --dev --exact
+yarn global add prettier
+
+
+npm install --save-dev --save-exact prettier
+npm install --global prettier
+
+// prettier.config.js
+module.exports = {
+	trailingComma: "es5",
+	tabWidth: 4,
+	semi: false,
+	singleQuote: true,
+};
+
+// cai extension, package cho editor tuong ung. Thiet lap tu dong format khi save
+
+// co the dung npm scripts de format code
+"scripts": {
+  "prettier": "prettier \"**/*.{json,js,md,scss,yaml,yml}\" --write"
+},
+////////////////////////////
+]]></content>
+<tabTrigger>js-prettier-setup</tabTrigger>
+<description>js-prettier-setup</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

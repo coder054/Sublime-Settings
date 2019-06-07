@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+return Object.assign({}, state, {
+  // name: action.name,
+  // age: action.age
+  \$1
+})
+]]></content>
+<tabTrigger>redux-update-state-object-assign</tabTrigger>
+<description>redux-update-state-object-assign</description>
+<scope>source.js, keyword.control.flow.js</scope>
+</snippet>

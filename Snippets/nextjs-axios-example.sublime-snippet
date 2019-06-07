@@ -1,9 +1,8 @@
 <snippet>
 <content><![CDATA[
-	////////////////// ham getInitialProps
-    const json = await axios.get("https://api.github.com/repos/zeit/next.js")
-    const {data} = json
-    return { stars: data.stargazers_count }
+	////////////////// 
+    const json = await axios.get("${1:https://api.github.com/repos/zeit/next.js}")
+    const data = json.data
     ///////////////////
 ]]></content>
 <tabTrigger>nextjs-axios-example</tabTrigger>

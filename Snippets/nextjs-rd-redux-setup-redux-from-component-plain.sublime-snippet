@@ -1,0 +1,33 @@
+<snippet>
+<content><![CDATA[
+////////////////////////////////////////////
+
+/// phia tren
+import { connect } from 'react-redux'
+import {
+  incrementCount,
+  decrementCount,
+  incrementCountAsync,
+  decrementCountAsync,
+  resetCount,
+} from './../modules/counter'
+
+
+// phia duoi
+function mapStateToProps(state) {
+  const { count } = state.counter
+  return { count }
+}
+export default connect(mapStateToProps)(ComponentName)
+
+
+// su dung action creator
+const { dispatch } = this.props
+dispatch(incrementCount())
+
+////////////////////////////////////////////
+]]></content>
+<tabTrigger>nextjs-rd-redux-setup-redux-from-component-plain</tabTrigger>
+<description>nextjs-rd-redux-setup-redux-from-component-plain</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>
