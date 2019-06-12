@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+text.html.basic, meta.tag.inline.any.html, punctuation.definition.tag.begin.html
+]]></content>
+<tabTrigger>sb-scope-html</tabTrigger>
+<description>sb-scope-html</description>
+<scope>text.html.basic</scope>
+</snippet>

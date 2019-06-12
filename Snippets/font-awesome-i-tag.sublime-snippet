@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<i class="fa $1"></i>
+]]></content>
+<tabTrigger>font-awesome-i-tag</tabTrigger>
+<description>font-awesome-i-tag</description>
+<scope>source.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx, text.html.basic, meta.tag.inline.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
