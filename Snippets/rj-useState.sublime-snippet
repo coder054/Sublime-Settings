@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+const [ ${1:stateName}, ${2:setterFunction} ] = useState(${3:defaultOrInitialValue})
+// const [address, setAdress] = useState('Son Tay')
+
+<input
+	type="text"
+	value={address}
+	onChange={e => setAdress(e.target.value)}
+/>
+]]></content>
+<tabTrigger>rj-useState</tabTrigger>
+<description>rj-useState</description>
+<scope>source.js, meta.group.braces.curly.js, storage.type.js</scope>
+</snippet>

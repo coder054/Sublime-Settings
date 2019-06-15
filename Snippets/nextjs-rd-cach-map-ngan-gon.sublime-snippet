@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+///
+export default connect(
+  ({ todos }) => ({ todos }),
+  { addTodo, removeTodo }
+)(Todo)
+//////
+]]></content>
+<tabTrigger>nextjs-rd-cach-map-ngan-gon</tabTrigger>
+<description>nextjs-rd-cach-map-ngan-gon
+</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

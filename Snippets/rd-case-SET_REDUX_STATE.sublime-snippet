@@ -1,7 +1,9 @@
 <snippet>
 <content><![CDATA[
-    case 'SET_REDUX_STATE': 
-      return updateObject(state, { [action.propertyName]: action.value })
+case 'SET_REDUX_STATE': 
+	return Object.assign({}, state, {
+	  [action.propertyName]: action.value
+	})
 ]]></content>
 <tabTrigger>rd-case-SET_REDUX_STATE</tabTrigger>
 <description>rd-case-SET_REDUX_STATE

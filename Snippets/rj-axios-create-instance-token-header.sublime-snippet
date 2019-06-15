@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+////////////////////////////////////////////
+const instance = axios.create({
+  baseURL: 'https://some-domain.com/api/',
+  timeout: 1000,
+  headers: {'Authorization': 'Bearer '+token}
+});
+
+instance.get('/path')
+.then(response => {
+    return response.data;
+})
+/////////////////////////////////////////////
+]]></content>
+<tabTrigger>rj-axios-create-instance-token-header</tabTrigger>
+<description>rj-axios-create-instance-token-header</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+let res = await axios.get("$1");
+let { data } = res.data;
+]]></content>
+<tabTrigger>axios-with-async-await</tabTrigger>
+<description>axios-with-async-await</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.curly.js, storage.type.js</scope>
+</snippet>

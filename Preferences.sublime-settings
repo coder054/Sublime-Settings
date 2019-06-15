@@ -69,9 +69,10 @@
 		"node_modules",
 		".next",
 		"dist",
-		"CVS"
+		"CVS",
+		"static"
 	],
-	"font_size": 10,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"GotoLineEnhanced",
@@ -79,6 +80,7 @@
 		"jsfmt",
 		"Nodejs",
 		"SublimeLinter-eslint",
+		"Transparency",
 		"Vintage"
 	],
 	"skin": "Skins/Monokai",

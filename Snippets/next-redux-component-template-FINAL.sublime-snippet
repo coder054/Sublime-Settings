@@ -1,0 +1,32 @@
+<snippet>
+<content><![CDATA[
+///////////////////////////////////////////
+import React, { useState } from 'react'
+import { connect } from 'react-redux'
+import { addTodo, removeTodo } from './../modules/todos'
+
+
+const ${TM_FILENAME/(\w+)\.js/\1/g} = ({ todos, addTodo, removeTodo }) => {
+	const [text, changeText] = useState('')
+
+
+	return (
+		\$1
+	)
+}
+
+${TM_FILENAME/(\w+)\.js/\1/g}.getInitialProps = async ({ req, store }) => {
+  // await store.dispatch(fetchUsers())
+  return {}
+}
+
+export default connect(
+	({ todos }) => ({ todos }),
+	{ addTodo, removeTodo }
+)(${TM_FILENAME/(\w+)\.js/\1/g})
+////////////////////////////////////////////
+]]></content>
+<tabTrigger>next-redux-component-template-FINAL</tabTrigger>
+<description>next-redux-component-template-FINAL</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

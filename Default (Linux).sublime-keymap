@@ -1,0 +1,157 @@
+[
+	{
+		"keys": ["shift+ctrl+space"],
+		"command": "code_intel_auto_complete"
+	},
+	{
+		"keys": ["super+alt+ctrl+up"],
+		"command": "goto_python_definition"
+	},
+	{
+		"keys": ["super+alt+ctrl+left"],
+		"command": "back_to_python_definition"
+	},
+
+	{
+		"keys": ["ctrl+alt+shift+q"],
+		"command": "chain",
+		"args": {
+			"commands": [
+				[
+					"expand_selection",
+					{
+						"to": "brackets"
+					}
+				],
+				[
+					"move",
+					{
+						"by": "characters",
+						"forward": true
+					}
+				],
+				[
+					"move",
+					{
+						"by": "characters",
+						"forward": true
+					}
+				],
+				[
+					"move_to",
+					{
+						"extend": false,
+						"to": "eol"
+					}
+				],
+				[
+					"insert",
+					{
+						"characters": "\n"
+					}
+				]
+			]
+		}
+	},
+	{
+		"keys": ["ctrl+k", "ctrl+v"],
+		"command": "paste_from_history"
+	},
+
+	{
+		"keys": ["ctrl+k", "ctrl+v"],
+		"command": "paste_from_history"
+	},
+
+	{
+		"keys": ["ctrl+s"],
+		"command": "chain",
+		"args": {
+			"commands": [["save"], ["update_source_modules"]]
+		}
+	},
+
+	{
+		"keys": ["ctrl+k", "ctrl+s"],
+		"command": "save_all"
+	},
+
+	{
+		"keys": ["ctrl+i", "ctrl+s"],
+		"command": "chain",
+		"args": {
+			"commands": [["save_all"], ["update_source_modules"]]
+		}
+	},
+
+	{
+		"keys": ["ctrl+i", "ctrl+l"],
+		"command": "chain",
+		"args": {
+			"commands": [["update_source_modules"], ["list_imports"]]
+		}
+	},
+
+	{
+		"keys": ["ctrl+i", "ctrl+i"],
+		"command": "chain",
+		"args": {
+			"commands": [["update_source_modules"], ["list_imports"]]
+		}
+	},
+
+	{
+		"keys": ["ctrl+i", "ctrl+k"],
+		"command": "chain",
+		"args": {
+			"commands": [["update_source_modules"], ["import_from_clipboard"]]
+		}
+	},
+
+	{
+		"keys": ["ctrl+k", "ctrl+k"],
+		"command": "js_prettier"
+	},
+
+	{
+		"keys": ["ctrl+k", "ctrl+a"],
+		"command": "run_macro_file",
+		"args": {
+			"file": "Packages/User/new-line-curly.sublime-macro"
+		}
+	},
+
+
+
+	{
+		"keys": ["ctrl+k", "ctrl+t"],
+		"command": "chain",
+		"args": {
+			"commands": [["select_all"], ["copy"], ["new_file"], ["paste"], ["save"]]
+		}
+	},
+	{
+		"keys": ["ctrl+k", "ctrl+f"],
+		"command": "js_prettier"
+	},
+
+	{
+		"keys": ["ctrl+k", "ctrl+n"],
+		"command": "show_overlay",
+		"args": {"overlay": "command_palette", "text": "Snippet: "}
+	},
+
+		{
+		"keys": ["ctrl+k", "ctrl+f"],
+		"command": "js_prettier"
+	},
+	{ "keys": "alt+/", "command": "auto_complete" },
+	{ "keys": "alt+/", "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	}
+
+]
