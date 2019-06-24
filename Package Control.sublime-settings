@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Transparency"
 	],
 	"installed_packages":
 	[
@@ -30,6 +29,7 @@
 		"Emmet",
 		"Emmet Css Snippets",
 		"Gist",
+		"Git blame",
 		"Gitignore",
 		"Gitignored File Excluder",
 		"GoToLastEdit",

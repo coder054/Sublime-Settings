@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+]]></content>
+<tabTrigger>css-img-responsive</tabTrigger>
+<description>css-img-responsive</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

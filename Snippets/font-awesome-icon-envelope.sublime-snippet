@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<i className="fas fa-envelope"></i>
+]]></content>
+<tabTrigger>font-awesome-icon-envelope</tabTrigger>
+<description>font-awesome-icon-envelope</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

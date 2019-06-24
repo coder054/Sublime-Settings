@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+import { Cookies } from 'react-cookie'
+const cookies = new Cookies()
+]]></content>
+<tabTrigger>rj-import-react-cookie</tabTrigger>
+<description>rj-import-react-cookie</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

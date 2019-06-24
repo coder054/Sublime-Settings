@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // Update the document title using the browser API
+    document.title = `You clicked \${count} times`;
+  });
+]]></content>
+<tabTrigger>rj-useEffect-hook</tabTrigger>
+<description>rj-useEffect-hook</description>
+<scope>source.js, meta.group.braces.curly.js</scope>
+</snippet>

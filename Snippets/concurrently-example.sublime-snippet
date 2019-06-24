@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+npm install concurrently --save
+concurrently "command1 arg" "command2 arg"
+
+// vi du
+"dev": "concurrently \"npm run server\" \"npm run client\"",
+]]></content>
+<tabTrigger>concurrently-example</tabTrigger>
+<description>concurrently-example</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

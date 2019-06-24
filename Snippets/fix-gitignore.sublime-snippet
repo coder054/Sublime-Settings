@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+git rm -r --cached .
+git add .
+git commit -m ".gitignore fix"
+]]></content>
+<tabTrigger>fix-gitignore</tabTrigger>
+<description>fix-gitignore</description>
+<scope>source.makefile</scope>
+</snippet>

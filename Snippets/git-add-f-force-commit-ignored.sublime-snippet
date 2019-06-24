@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+git add -f --all .next/
+]]></content>
+<tabTrigger>git-add-f-force-commit-ignored</tabTrigger>
+<description>git-add-f-force-commit-ignored</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

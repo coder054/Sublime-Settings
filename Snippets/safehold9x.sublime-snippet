@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+safehold9x
+123456a@
+]]></content>
+<tabTrigger>safehold9x</tabTrigger>
+<description>safehold9x</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

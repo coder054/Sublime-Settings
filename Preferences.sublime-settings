@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 0.1,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"extra_file_exclude_patterns":
 	[
 		"*.pyc",
@@ -69,8 +69,7 @@
 		"node_modules",
 		".next",
 		"dist",
-		"CVS",
-		"static"
+		"CVS"
 	],
 	"font_size": 12,
 	"ignored_packages":
@@ -79,11 +78,11 @@
 		"Invisible Tabs Spaces Switcher",
 		"jsfmt",
 		"Nodejs",
+		"Sound",
 		"SublimeLinter-eslint",
-		"Transparency",
 		"Vintage"
 	],
 	"skin": "Skins/Monokai",
 	"tab_size": 2,
-	"theme": "Default.sublime-theme"
+	"theme": "Soda Dark 3.sublime-theme"
 }

@@ -1,6 +1,8 @@
 <snippet>
 <content><![CDATA[
 ///////////////////////////////////////////////////
+
+import { toast } from 'react-toastify'
 export const notify = notifyContent => {
 	toast(notifyContent, {
 		position: 'top-right',

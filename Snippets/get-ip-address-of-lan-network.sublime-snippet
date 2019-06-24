@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+ipconfig
+]]></content>
+<tabTrigger>get-ip-address-of-lan-network</tabTrigger>
+<description>get-ip-address-of-lan-network</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>
