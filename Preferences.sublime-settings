@@ -58,7 +58,8 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		"package-lock.json"
 	],
 	"folder_exclude_patterns":
 	[
@@ -71,7 +72,8 @@
 		"dist",
 		"CVS"
 	],
-	"font_size": 12,
+	"font_size": 13,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"GotoLineEnhanced",
@@ -84,5 +86,5 @@
 	],
 	"skin": "Skins/Monokai",
 	"tab_size": 2,
-	"theme": "Soda Dark 3.sublime-theme"
+	"theme": "Soda Light 3.sublime-theme"
 }

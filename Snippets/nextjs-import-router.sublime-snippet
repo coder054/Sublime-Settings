@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+import Router from 'next/router'
+]]></content>
+<tabTrigger>nextjs-import-router</tabTrigger>
+<description>nextjs-import-router</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

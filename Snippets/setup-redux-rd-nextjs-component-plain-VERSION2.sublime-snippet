@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+/////////////////////////////////////////////
+import { connect } from 'react-redux'
+import { addTodo, removeTodo } from 'HERE'
+
+
+
+
+export default connect(
+	({ todos }) => ({ todos }),
+	{ addTodo, removeTodo }
+)(Todo)
+//////////////////////////////////
+]]></content>
+<tabTrigger>setup-redux-rd-nextjs-component-plain-VERSION2</tabTrigger>
+<description>setup-redux-rd-nextjs-component-plain-VERSION2</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

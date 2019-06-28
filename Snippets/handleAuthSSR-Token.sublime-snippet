@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+let token = (await handleAuthSSR(ctx)) || null
+]]></content>
+<tabTrigger>handleAuthSSR-Token</tabTrigger>
+<description>handleAuthSSR-Token</description>
+<scope>source.js, meta.group.braces.curly.js, storage.type.js</scope>
+</snippet>
