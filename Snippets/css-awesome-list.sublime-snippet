@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+https://www.codebeautifier.com/#skip
+]]></content>
+<tabTrigger>css-awesome-list</tabTrigger>
+<description>css-awesome-list</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>

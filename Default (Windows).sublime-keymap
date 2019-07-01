@@ -77,6 +77,11 @@
 	},
 
 	{
+		"keys": ["ctrl+s"],
+		"command": "save_all",
+	},
+
+	{
 		"keys": ["ctrl+i", "ctrl+s"],
 		"command": "chain",
 		"args": {

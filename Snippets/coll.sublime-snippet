@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-console.log('$1 :', $1)
+console.log('[$TM_FILENAME] $1 :', $1)
 ]]></content>
 <tabTrigger>coll</tabTrigger>
 <description>console.log('a', a)</description>

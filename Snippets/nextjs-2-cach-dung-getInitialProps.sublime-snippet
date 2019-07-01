@@ -1,14 +1,12 @@
 <snippet>
 <content><![CDATA[
-////////////////////
-Component.getInitialProps = async () => {
-  return {name: 'tuananh'}
+Component.getInitialProps = async (ctx) => {
+  return {}
 };
 
-  static async getInitialProps () {
-    return {name: 'ngando'}
+  static async getInitialProps (ctx) {
+    return {}
   }
-  //////////////
 ]]></content>
 <tabTrigger>nextjs-2-cach-dung-getInitialProps</tabTrigger>
 <description>nextjs-2-cach-dung-getInitialProps</description>

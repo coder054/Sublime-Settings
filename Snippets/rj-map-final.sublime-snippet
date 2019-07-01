@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+{$1 && $1.length ? (
+  $1.map((item, index) => (
+    $2
+  ))
+) : (
+  <div>
+    {' '}
+    {!$1 ? (
+      <h2> Hay chon mot teams de xem cac room!! </h2>
+    ) : (
+      <h2> No data! </h2>
+    )}{' '}
+  </div>
+)}
+// data ban dau nen de la null
+]]></content>
+<tabTrigger>rj-map-final</tabTrigger>
+<description>rj-map-final</description>
+<scope>source.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

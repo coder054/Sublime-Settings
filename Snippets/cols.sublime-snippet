@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+console.log('[$TM_FILENAME] :', '$1' )
+]]></content>
+<tabTrigger>cols</tabTrigger>
+<description>console-log-string-with-filename</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.curly.js, support.type.object.console.jsconsole-log-string-with-filename</scope>
+</snippet>

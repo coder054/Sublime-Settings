@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+$1.getInitialProps = async (ctx) => {
+	let token = (await handleAuthSSR(ctx)) || null 
+  return {token}
+};
+]]></content>
+<tabTrigger>ggg</tabTrigger>
+<description>ggg</description>
+<scope>source.js, meta.function.static.arrow.js, entity.name.class.js</scope>
+</snippet>

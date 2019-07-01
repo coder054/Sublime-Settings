@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+:root {
+	--header-height: 54px;
+}
+
+.header {
+	height: var(--header-height, 54px);
+}
+]]></content>
+<tabTrigger>css-variable-val-example-full</tabTrigger>
+<description>css-variable-val-example-full</description>
+<scope>source.css, meta.property-list.css, punctuation.separator.key-value.css</scope>
+</snippet>
