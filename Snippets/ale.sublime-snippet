@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+alert(`[$TM_FILENAME] $1: \${$1}`)
+]]></content>
+<tabTrigger>ale</tabTrigger>
+<description>alert-javascript-with file name</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.curly.js, meta.group.braces.curly.js, meta.group.braces.curly.js, meta.function-call.without-arguments.js, variable.function.js</scope>
+</snippet>
