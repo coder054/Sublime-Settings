@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+deploy
+ssh -i nola-admin.pem ubuntu@54.169.174.12
+deploy2
+sudo ssh -i nola-web-admin.pem ubuntu@18.139.111.133
+]]></content>
+<tabTrigger>deploy-ssh</tabTrigger>
+<description>deploy-ssh</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

@@ -1,0 +1,31 @@
+<snippet>
+<content><![CDATA[
+import React, {Component} from 'react'
+
+
+
+
+class allroles extends Component{
+  render(){
+    return (
+      <div className="allroles-wrapper">
+        allroles
+      </div>
+    )
+  }
+}
+
+
+allroles.getInitialProps = async (ctx) => {
+	let token = (await handleAuthSSR(ctx)) || null
+  return {token}
+};
+
+
+export default allroles
+]]></content>
+<tabTrigger>nextjs-template-component-handleauth</tabTrigger>
+<description>nextjs-template-component-handleauth
+</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

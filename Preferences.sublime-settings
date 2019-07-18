@@ -35,7 +35,8 @@
 		"node_modules",
 		".next",
 		"dist",
-		"CVS"
+		"CVS",
+		"out"
 	],
 	"file_exclude_patterns":
 	[
@@ -69,10 +70,11 @@
 		"CVS",
 		"node_modules",
 		".next",
+		"out",
 		"dist",
 		"CVS"
 	],
-	"font_size": 13,
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[

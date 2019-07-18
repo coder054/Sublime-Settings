@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+_.debounce( ${1:fun} , 700, {
+	leading: true,
+	trailing: false
+})
+
+]]></content>
+<tabTrigger>js-lodash-debounce</tabTrigger>
+<description>js-lodash-debounce</description>
+<scope>source.js, variable.other.object.js, variable.other.object.js</scope>
+</snippet>

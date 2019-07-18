@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+var p = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
+p.replace(/dog/gi, 'ferret')
+// expected output: "The quick brown fox jumps over the lazy ferret. If the ferret reacted, was it really lazy?"
+]]></content>
+<tabTrigger>js-replace-string-with-regular-expression</tabTrigger>
+<description>js-replace-string-with-regular-expression</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

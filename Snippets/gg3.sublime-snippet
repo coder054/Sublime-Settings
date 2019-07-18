@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+gg$1($0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}${SELECTION/([ \t]*).*/$1/})
+]]></content>
+<tabTrigger>gg3</tabTrigger>
+<description>wrap-selection-in-gg</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.curly.js, meta.group.braces.curly.js, meta.group.braces.curly.js, variable.other.object.js, variable.other.object.js</scope>
+</snippet>

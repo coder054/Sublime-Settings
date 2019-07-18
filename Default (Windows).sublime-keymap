@@ -78,7 +78,7 @@
 
 	{
 		"keys": ["ctrl+s"],
-		"command": "save_all",
+		"command": "save_all"
 	},
 
 	{
@@ -126,8 +126,6 @@
 		}
 	},
 
-
-
 	{
 		"keys": ["ctrl+k", "ctrl+t"],
 		"command": "chain",
@@ -143,28 +141,21 @@
 	{
 		"keys": ["ctrl+k", "ctrl+n"],
 		"command": "show_overlay",
-		"args": {"overlay": "command_palette", "text": "Snippet: "}
+		"args": { "overlay": "command_palette", "text": "Snippet: " }
 	},
 
 	{
 		"keys": ["ctrl+k", "ctrl+j"],
 		"command": "show_overlay",
-		"args": {"overlay": "goto", "text": "#"}
+		"args": { "overlay": "goto", "text": "#" }
 	},
-
-		{
+	{
+		"keys": ["ctrl+k", "ctrl+b"],
+		"command": "expand_selection",
+		"args": { "to": "brackets" }
+	},
+	{
 		"keys": ["ctrl+k", "ctrl+f"],
 		"command": "js_prettier"
 	}
 ]
-
-
-
-
-
-
-
-
-
-
-

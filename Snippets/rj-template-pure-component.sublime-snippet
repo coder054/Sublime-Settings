@@ -1,0 +1,21 @@
+
+<snippet>
+<content><![CDATA[
+class $1 extends React.PureComponent {
+
+  render() {
+    const { $2 } = this.props;
+
+    return (
+      $3
+    )
+  }
+
+}
+
+export default $1;
+]]></content>
+<tabTrigger>rj-template-pure-component</tabTrigger>
+<description>rj-template-pure-component</description>
+<scope>source.js, meta.class.js, storage.type.class.js, storage.type.class.js</scope>
+</snippet>

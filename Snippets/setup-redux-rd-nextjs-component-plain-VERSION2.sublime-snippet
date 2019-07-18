@@ -1,17 +1,15 @@
 <snippet>
 <content><![CDATA[
-/////////////////////////////////////////////
 import { connect } from 'react-redux'
-import { addTodo, removeTodo } from 'HERE'
+import { $1 } from '$2'
 
 
 
 
 export default connect(
-	({ todos }) => ({ todos }),
-	{ addTodo, removeTodo }
-)(Todo)
-//////////////////////////////////
+	({ ${3:chat} }) => ({ $4 }),
+	{ $1 }
+)($5)
 ]]></content>
 <tabTrigger>setup-redux-rd-nextjs-component-plain-VERSION2</tabTrigger>
 <description>setup-redux-rd-nextjs-component-plain-VERSION2</description>

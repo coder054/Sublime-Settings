@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+https://github.com/zeit/next.js/issues/109
+]]></content>
+<tabTrigger>nextjs-deploy-guide</tabTrigger>
+<description>nextjs-deploy-guide</description>
+<scope>source.js, constant.other.object.key.js, string.unquoted.label.js</scope>
+</snippet>
