@@ -59,8 +59,7 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.sublime-workspace",
-		"package-lock.json"
+		"*.sublime-workspace"
 	],
 	"folder_exclude_patterns":
 	[

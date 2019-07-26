@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+$1.getInitialProps = async (ctx) => {
+  return {}
+}
+]]></content>
+<tabTrigger>nextjs-getInitialProps</tabTrigger>
+<description>nextjs-getInitialProps</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, variable.other.object.js, variable.other.object.js</scope>
+</snippet>
