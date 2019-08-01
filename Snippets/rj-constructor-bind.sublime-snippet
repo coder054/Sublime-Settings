@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+	constructor(props) {
+		super(props)
+		this.$1 = this.$1.bind(this)
+	}
+]]></content>
+<tabTrigger>rj-constructor-bind</tabTrigger>
+<description>rj-constructor-bind</description>
+<scope>source.js, meta.class.js</scope>
+</snippet>

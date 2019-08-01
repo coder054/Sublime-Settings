@@ -1,0 +1,24 @@
+<snippet>
+<content><![CDATA[
+		// Client connection
+		import { w3cwebsocket as W3CWebSocket } from 'websocket'
+		const client = await new W3CWebSocket(socketUrl)
+		await this.props.setChatState('client', client)
+		client.onopen = () => {
+			console.log('client on open')
+			console.log('client send CONNECTION')
+			client.send(
+				JSON.stringify({
+					type: 'CONNECTION',
+					data: {
+						token: this.props.tokenredux || this.props.token
+					},
+					receiveID: ''
+				})
+			)
+		}
+]]></content>
+<tabTrigger>websocket-client-open-connection</tabTrigger>
+<description>websocket-client-open-connection</description>
+<scope>source.jsx, source.js, meta.export.js</scope>
+</snippet>

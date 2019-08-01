@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+// TODO $1
+]]></content>
+<tabTrigger>tdd</tabTrigger>
+<description>tdd-to-do</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.curly.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

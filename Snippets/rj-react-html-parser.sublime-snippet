@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+class HtmlComponent extends React.Component {
+  render() {
+    const html = '<div>Example HTML string</div>';
+    return <div>{ ReactHtmlParser(html) }</div>;
+  }
+}
+]]></content>
+<tabTrigger>rj-react-html-parser</tabTrigger>
+<description>rj-react-html-parser</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>
