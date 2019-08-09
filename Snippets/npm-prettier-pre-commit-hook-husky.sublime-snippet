@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+npm install pretty-quick husky --dev
+
+
+// add to package.json
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+
+
+]]></content>
+<tabTrigger>npm-prettier-pre-commit-hook-husky</tabTrigger>
+<description>npm-prettier-pre-commit-hook-husky</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

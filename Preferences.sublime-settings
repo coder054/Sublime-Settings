@@ -33,6 +33,7 @@
 		".hg",
 		"CVS",
 		"node_modules",
+		"**/.laya",
 		".next",
 		"dist",
 		"CVS",
@@ -68,6 +69,7 @@
 		".hg",
 		"CVS",
 		"node_modules",
+		"**/.laya",
 		".next",
 		"out",
 		"dist",
@@ -87,5 +89,5 @@
 	],
 	"skin": "Skins/Monokai",
 	"tab_size": 2,
-	"theme": "Soda Light 3.sublime-theme"
+	"theme": "Default.sublime-theme"
 }

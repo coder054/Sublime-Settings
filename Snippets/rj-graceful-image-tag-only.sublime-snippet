@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+<Image
+  src="$1"
+  width="${2:300}"
+  height="${3:300}"
+  alt="$4"
+/>
+]]></content>
+<tabTrigger>rj-graceful-image-tag-only</tabTrigger>
+<description>rj-graceful-image-tag-only</description>
+<scope>source.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

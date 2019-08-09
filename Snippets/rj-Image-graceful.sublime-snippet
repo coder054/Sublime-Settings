@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+
+import Image from 'react-graceful-image'
+<Image
+  src="path_to_image"
+  width="300"
+  height="300"
+  alt="My awesome image"
+/>
+
+]]></content>
+<tabTrigger>rj-Image-graceful</tabTrigger>
+<description>rj-Image-graceful</description>
+<scope>source.js</scope>
+</snippet>

@@ -152,5 +152,17 @@
 	{
 		"keys": ["ctrl+k", "ctrl+f"],
 		"command": "js_prettier"
+	},
+	{
+		"no_outside_adj": null,
+		"keys": ["ctrl+k", "ctrl+y"],
+		"command": "bh_key",
+		"args": {
+			"lines": true,
+			"plugin": {
+				"type": ["__all__"],
+				"command": "bh_modules.bracketselect"
+			}
+		}
 	}
 ]
