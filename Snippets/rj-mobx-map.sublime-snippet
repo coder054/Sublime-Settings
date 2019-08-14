@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+{values( ${1:store.todos} ).map(${4:todo} => (
+  <${3:TodoView} ${4:todo}={${4:todo}} key={$5}>
+  </${3:TodoView}>
+))}
+const ${3:TodoView} = observer(props => {
+	const { ${4:todo} } = props
+  return (
+    $6
+  )
+}) 
+]]></content>
+<tabTrigger>rj-mobx-map</tabTrigger>
+<description>rj-mobx-map</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, punctuation.section.embedded.begin.jsx</scope>
+</snippet>

@@ -60,7 +60,8 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		"bundle.js"
 	],
 	"folder_exclude_patterns":
 	[
@@ -75,7 +76,7 @@
 		"dist",
 		"CVS"
 	],
-	"font_size": 10,
+	"font_size": 9,
 	"highlight_line": true,
 	"ignored_packages":
 	[
