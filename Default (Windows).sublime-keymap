@@ -65,10 +65,7 @@
 
 	{
 		"keys": ["ctrl+s"],
-		"command": "chain",
-		"args": {
-			"commands": [["save"], ["update_source_modules"]]
-		}
+		"command": "save_all"
 	},
 
 	{
@@ -77,20 +74,7 @@
 	},
 
 	{
-		"keys": ["ctrl+s"],
-		"command": "save_all"
-	},
-
-	{
-		"keys": ["ctrl+i", "ctrl+s"],
-		"command": "chain",
-		"args": {
-			"commands": [["save_all"], ["update_source_modules"]]
-		}
-	},
-
-	{
-		"keys": ["ctrl+i", "ctrl+l"],
+		"keys": ["alt+i", "alt+l"],
 		"command": "chain",
 		"args": {
 			"commands": [["update_source_modules"], ["list_imports"]]

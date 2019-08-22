@@ -76,11 +76,12 @@
 		"dist",
 		"CVS"
 	],
-	"font_size": 9,
+	"font_size": 8,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"GotoLineEnhanced",
+		"ImportHelper",
 		"Invisible Tabs Spaces Switcher",
 		"jsfmt",
 		"Nodejs",

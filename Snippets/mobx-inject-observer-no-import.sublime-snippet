@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+@inject( $1 )
+@observer
+]]></content>
+<tabTrigger>mobx-inject-observer-no-import</tabTrigger>
+<description>mobx-inject-observer-no-import</description>
+<scope>source.js, tag.decorator.js, punctuation.definition.tag.js</scope>
+</snippet>

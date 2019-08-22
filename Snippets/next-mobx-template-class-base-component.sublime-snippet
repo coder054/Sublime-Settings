@@ -1,0 +1,27 @@
+<snippet>
+<content><![CDATA[
+import React from 'react'
+import Link from 'next/link'
+import { inject, observer } from 'mobx-react'
+
+@inject( $1 )
+@observer
+class ${TM_FILENAME/(\w+)\.js/\1/g} extends React.Component {
+
+  render() {
+    const { $2 } = this.props 
+    return (
+      <div className="${TM_FILENAME/(\w+)\.js/\1/g}-wr">
+        ${TM_FILENAME/(\w+)\.js/\1/g}
+      </div>
+    )
+  }
+}
+
+export default ${TM_FILENAME/(\w+)\.js/\1/g}
+
+]]></content>
+<tabTrigger>next-mobx-template-class-base-component</tabTrigger>
+<description>next-mobx-template-class-base-component</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

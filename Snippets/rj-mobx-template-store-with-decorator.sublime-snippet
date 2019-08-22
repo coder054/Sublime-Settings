@@ -1,0 +1,42 @@
+<snippet>
+<content><![CDATA[
+import { observable, action, computed } from 'mobx';
+import { useStaticRendering } from 'mobx-react'
+
+const isServer = typeof window === 'undefined'
+useStaticRendering(isServer)
+
+
+export class ${TM_FILENAME/(\w+)\.js/\1/g} {
+
+    @observable firstName = 'Alex';
+    @observable lastName = 'Smith';
+    @observable age = 25;
+    @observable authenticated = false;
+
+    @computed get fullName() {
+        console.log('calculating fullname')
+        return `\${this.firstName} \${this.lastName}`
+    };
+
+    @action changeFirstName(firstName) {
+        this.firstName = firstName;
+    }
+
+    @action changeLastName(lastName) {
+        this.lastName = lastName;
+    }
+
+    @action changeAuthentication(status) {
+        this.authenticated = status;
+    }
+
+
+}
+
+export default new ${TM_FILENAME/(\w+)\.js/\1/g}();
+]]></content>
+<tabTrigger>rj-mobx-template-store-with-decorator</tabTrigger>
+<description>rj-mobx-template-store-with-decorator</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

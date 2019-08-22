@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+const options = {
+  method: 'POST',
+  headers: { 'content-type': 'application/x-www-form-urlencoded' },
+  data: qs.stringify(data),
+  url,
+};
+axios(options);
+]]></content>
+<tabTrigger>axios-full</tabTrigger>
+<description>axios-full</description>
+<scope>source.js, meta.group.braces.round.js, meta.group.braces.curly.js, storage.type.js</scope>
+</snippet>

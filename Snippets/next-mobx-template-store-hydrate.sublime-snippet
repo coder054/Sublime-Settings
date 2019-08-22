@@ -1,0 +1,41 @@
+<snippet>
+<content><![CDATA[
+import { action, observable, computed, autorun } from 'mobx'
+import { useStaticRendering } from 'mobx-react'
+
+const isServer = typeof window === 'undefined'
+useStaticRendering(isServer)
+
+export class ${TM_FILENAME/(\w+)\.js/\1/g}  {
+  @observable lastUpdate = 0
+  @observable light = false
+
+  hydrate(serializedStore) {
+    this.lastUpdate =
+      serializedStore.lastUpdate != null
+        ? serializedStore.lastUpdate
+        : Date.now()
+    this.light = !!serializedStore.light
+  }
+
+  @action start = () => {
+    this.timer = setInterval(() => {
+      this.lastUpdate = Date.now()
+      this.light = true
+    }, 1000)
+  }
+
+  stop = () => clearInterval(this.timer)
+}
+
+export async function fetchInitial${TM_FILENAME/(\w+)\.js/\1/g}State() {
+  return {}
+}
+
+export default new ${TM_FILENAME/(\w+)\.js/\1/g} ()
+
+]]></content>
+<tabTrigger>next-mobx-template-store-hydrate</tabTrigger>
+<description>next-mobx-template-store-hydrate</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

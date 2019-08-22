@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@action $1 = () => {
+
+}
+]]></content>
+<tabTrigger>mobx-action-trong-store-template</tabTrigger>
+<description>mobx-action-trong-store-template</description>
+<scope>source.js, meta.class.js, meta.class.property.js</scope>
+</snippet>

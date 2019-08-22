@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+// jsconfig.json not .js
+// { "compilerOptions": { "experimentalDecorators": true } }
+]]></content>
+<tabTrigger>jsconfig-for-mobx-decorator</tabTrigger>
+<description>jsconfig-for-mobx-decorator</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>
