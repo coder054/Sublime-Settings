@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+  left: 50%;
+  transform: translateX(-50%);
+]]></content>
+<tabTrigger>css-center-x-position</tabTrigger>
+<description>css-center-x-position</description>
+<scope>source.css, meta.property-list.css</scope>
+</snippet>

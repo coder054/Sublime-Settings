@@ -9,7 +9,7 @@ import { inject, observer } from 'mobx-react'
 class ${TM_FILENAME/(\w+)\.js/\1/g} extends React.Component {
 
   render() {
-    const { $2 } = this.props 
+    const { $1 } = this.props 
     return (
       <div className="${TM_FILENAME/(\w+)\.js/\1/g}-wr">
         ${TM_FILENAME/(\w+)\.js/\1/g}

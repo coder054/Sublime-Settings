@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+./../assets/${1:light}/drawable-xxxhdpi/$2.png
+]]></content>
+<tabTrigger>wawa-path-assets-image-css-file</tabTrigger>
+<description>wawa-path-assets-image-css-file</description>
+<scope>source.css, meta.property-list.css, meta.property-value.css, meta.function-call.css, meta.group.css, string.quoted.single.css</scope>
+</snippet>

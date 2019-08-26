@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+@inject( $2 )
+@observer
+class $1 extends React.Component {
+  render() {
+    const { $2 } = this.props 
+    $3
+  }
+  
+}
+]]></content>
+<tabTrigger>mobx-template-classbased-NO-import</tabTrigger>
+<description>mobx-template-classbased-NO-import</description>
+<scope>source.js, tag.decorator.js, punctuation.definition.tag.js</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+--url$1: url('./../assets/light/drawable-xxxhdpi/$1.png');
+--url$1: url('./../assets/dark/drawable-xxxhdpi/$1.png');
+]]></content>
+<tabTrigger>wwc</tabTrigger>
+<description>wawa-css-variable-url-background-image</description>
+<scope>source.css, meta.property-list.css, meta.property-name.css, support.type.custom-property.css, punctuation.definition.custom-property.css</scope>
+</snippet>

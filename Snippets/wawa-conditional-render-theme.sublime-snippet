@@ -1,0 +1,23 @@
+<snippet>
+<content><![CDATA[
+{UISt.theme === 'light' ? (
+  <img className="$1"
+  	width="$3"
+  	height="$4"
+    src="./static/assets/light/drawable-xxxhdpi/$1.png"
+    alt=""
+  />
+) : (
+  <img
+  	width="$3"
+  	height="$4"  	
+  	className="$1"
+    src="./static/assets/dark/drawable-xxxhdpi/$1.png"
+    alt=""
+  />
+)}
+]]></content>
+<tabTrigger>wawa-conditional-render-theme</tabTrigger>
+<description>wawa-conditional-render-theme</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, punctuation.section.embedded.begin.jsx</scope>
+</snippet>
