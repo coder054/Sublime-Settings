@@ -1,21 +1,12 @@
 <snippet>
 <content><![CDATA[
-{UISt.theme === 'light' ? (
-  <img className="$1"
-  	width="$3"
-  	height="$4"
-    src="./static/assets/light/drawable-xxxhdpi/$1.png"
-    alt=""
-  />
-) : (
-  <img
-  	width="$3"
-  	height="$4"  	
-  	className="$1"
-    src="./static/assets/dark/drawable-xxxhdpi/$1.png"
-    alt=""
-  />
-)}
+<img
+	width="$1"
+	height="$2"  	
+	className="$3"
+  src={`./static/assets/\${UISt.theme === 'dark' ?  'dark' : 'light'}/drawable-xxxhdpi/$3.png`}
+  alt=""
+/>
 ]]></content>
 <tabTrigger>wawa-conditional-render-theme</tabTrigger>
 <description>wawa-conditional-render-theme</description>

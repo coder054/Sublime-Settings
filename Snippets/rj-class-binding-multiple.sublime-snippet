@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-className={classNames('big', {red: this.state.red,'is-active': this.state.isActive})}
+className={classNames('$1', { $2 } )}
 ]]></content>
 <tabTrigger>rj-class-binding-multiple</tabTrigger>
 <description>rj-class-binding-multiple</description>

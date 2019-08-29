@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+{
+	"keys": ["ctrl+k", "ctrl+$2"],
+	"command": "run_macro_file",
+	"args": {
+		"file": "Packages/User/${1:new-line-curly}.sublime-macro"
+	}
+},
+]]></content>
+<tabTrigger>sb-keybinding-helpers-create-macro-hotkey-shortkey</tabTrigger>
+<description>sb-keybinding-helpers-create-macro-hotkey-shortkey</description>
+<scope>source.json.sublime, meta.sequence.json, meta.mapping.json, punctuation.section.mapping.begin.json</scope>
+</snippet>

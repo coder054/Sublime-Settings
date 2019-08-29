@@ -76,14 +76,17 @@
 		"dist",
 		"CVS"
 	],
-	"font_size": 9,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Angular 2 Snippets (John Papa)",
+		"Angular CLI",
 		"GotoLineEnhanced",
 		"ImportHelper",
 		"Invisible Tabs Spaces Switcher",
 		"jsfmt",
+		"LastModifiedIndicator",
 		"Nodejs",
 		"Sound",
 		"SublimeLinter-eslint",

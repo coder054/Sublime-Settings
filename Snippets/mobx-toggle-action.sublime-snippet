@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+@action toggle = propertyname => {
+  let target = this[propertyname] ? false : true
+  this[propertyname] = target
+}
+]]></content>
+<tabTrigger>mobx-toggle-action</tabTrigger>
+<description>mobx-toggle-action</description>
+<scope>source.js, meta.class.js, meta.class.property.js, tag.decorator.js, punctuation.definition.tag.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+]]></content>
+<tabTrigger>css-center-X-AND-Y-position</tabTrigger>
+<description>css-center-X-AND-Y-position</description>
+<scope>source.css, meta.property-list.css, meta.property-name.css, support.type.property-name.css</scope>
+</snippet>
