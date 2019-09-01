@@ -121,7 +121,7 @@
 		"keys": ["ctrl+k", "ctrl+n"],
 		"command": "show_overlay",
 		"args": { "overlay": "command_palette", "text": "Snippet: " }
-	},	
+	},
 	{
 		"keys": ["ctrl+k", "ctrl+l"],
 		"command": "show_overlay",
@@ -153,5 +153,10 @@
 				"command": "bh_modules.bracketselect"
 			}
 		}
-	}
+	},
+	{ "keys": ["ctrl+q", "ctrl+n"], "command": "find_next_conflict" },
+	{ "keys": ["ctrl+q", "ctrl+1"], "command": "keep", "args": { "keep": "ours" } },
+	{ "keys": ["ctrl+alt+t"], "command": "keep", "args": { "keep": "theirs" } },
+	{ "keys": ["ctrl+alt+a"], "command": "keep", "args": { "keep": "ancestor" } },
+	{ "keys": ["ctrl+alt+c"], "command": "list_conflict_files" }
 ]

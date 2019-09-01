@@ -3,7 +3,7 @@
   top: 50%;
   transform: translateY(-50%);
 ]]></content>
-<tabTrigger>css-center-y-position</tabTrigger>
-<description>css-center-y-position</description>
+<tabTrigger>css-center-vertical-position</tabTrigger>
+<description>css-center-vertical-position</description>
 <scope>source.css, meta.property-list.css</scope>
 </snippet>

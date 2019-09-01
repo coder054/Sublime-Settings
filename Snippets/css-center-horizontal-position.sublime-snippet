@@ -3,7 +3,7 @@
   left: 50%;
   transform: translateX(-50%);
 ]]></content>
-<tabTrigger>css-center-x-position</tabTrigger>
-<description>css-center-x-position</description>
+<tabTrigger>css-center-horizontal-position</tabTrigger>
+<description>css-center-horizontal-position</description>
 <scope>source.css, meta.property-list.css</scope>
 </snippet>
