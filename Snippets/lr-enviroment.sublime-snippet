@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+\$environment = app()->environment();
+// \$enviroment = env('APP_ENV');
+]]></content>
+<tabTrigger>lr-enviroment</tabTrigger>
+<description>lr-enviroment</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, meta.group.php, meta.function.php, meta.block.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

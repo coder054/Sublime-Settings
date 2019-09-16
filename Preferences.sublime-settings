@@ -61,7 +61,8 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"bundle.js"
+		"bundle.js",
+		"pages/ingame.js"
 	],
 	"folder_exclude_patterns":
 	[
@@ -76,12 +77,13 @@
 		"dist",
 		"CVS"
 	],
-	"font_size": 9,
+	"font_size": 8,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Angular 2 Snippets (John Papa)",
 		"Angular CLI",
+		"Git Conflict Resolver",
 		"GotoLineEnhanced",
 		"ImportHelper",
 		"Invisible Tabs Spaces Switcher",
@@ -89,7 +91,6 @@
 		"LastModifiedIndicator",
 		"Nodejs",
 		"Sound",
-		"SublimeLinter-eslint",
 		"Vintage"
 	],
 	"skin": "Skins/Monokai",

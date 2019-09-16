@@ -1,0 +1,25 @@
+<snippet>
+<content><![CDATA[
+import { observable, action, computed } from 'mobx'
+import { commonAxios } from './../helper'
+import authSt from './authSt.js'
+import { sampleSt } from './sampleSt.js'
+
+export class ${TM_FILENAME/(\w+)\.js/\1/g} extends sampleSt {
+    @action fetchTurnOverDashboard = () => {
+    commonAxios(authSt.token)
+      .get('/dashboard/turnovers/day')
+      .then(resp => {
+        console.log('resp.data :', resp.data)
+      })
+      .catch(err => console.log('err :', err))
+  }
+}
+
+export default new ${TM_FILENAME/(\w+)\.js/\1/g}()
+
+]]></content>
+<tabTrigger>wawa-mobx-template-store</tabTrigger>
+<description>wawa-mobx-template-store</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

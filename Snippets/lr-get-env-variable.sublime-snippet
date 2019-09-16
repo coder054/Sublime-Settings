@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+env('${1:APP_NAME}', 'default value'),
+]]></content>
+<tabTrigger>lr-get-env-variable</tabTrigger>
+<description>lr-get-env-variable</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, meta.group.php, meta.function.php, meta.block.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

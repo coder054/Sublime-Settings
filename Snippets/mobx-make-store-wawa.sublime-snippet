@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+class $1St {
+  @observable x = 1
+  @action increaseX = () => {
+    this.x++
+  }
+  @action setter = (propertyname, value) => {
+    this[propertyname] = value
+  }
+  @action toggle = propertyname => {
+    let target = this[propertyname] ? false : true
+    this[propertyname] = target
+  }
+}
+
+store = new $1St()
+]]></content>
+<tabTrigger>mobx-make-store-wawa</tabTrigger>
+<description>mobx-make-store-wawa</description>
+<scope>source.js, meta.class.js, storage.type.class.js, storage.type.class.js</scope>
+</snippet>

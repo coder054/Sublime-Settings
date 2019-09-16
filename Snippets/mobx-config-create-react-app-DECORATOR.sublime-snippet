@@ -1,0 +1,23 @@
+<snippet>
+<content><![CDATA[
+npm install -D -E customize-cra react-app-rewired @babel/plugin-proposal-decorators
+
+//make file config-overrides.js
+const { addDecoratorsLegacy, override } = require('customize-cra')
+
+module.exports = {
+  webpack: override(addDecoratorsLegacy()),
+}
+
+// edit package.json
+"scripts": {
+ "start": "react-app-rewired start",
+ "build": "react-app-rewired build",
+ "test": "react-app-rewired test",
+ "eject": "react-app-rewired eject"
+  },
+]]></content>
+<tabTrigger>mobx-config-create-react-app-DECORATOR</tabTrigger>
+<description>mobx-config-create-react-app-DECORATOR</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+\$router->get('$1', function () {
+    return '$2'
+});
+]]></content>
+<tabTrigger>lr-get-route</tabTrigger>
+<description>lr-get-route</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

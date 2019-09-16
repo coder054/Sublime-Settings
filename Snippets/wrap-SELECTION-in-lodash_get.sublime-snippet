@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+_.get( $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g} ${SELECTION/([ \t]*).*/$1/} , '$2' )
+]]></content>
+<tabTrigger>wrap-SELECTION-in-lodash_get</tabTrigger>
+<description>wrap-SELECTION-in-lodash_get</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.property.class.js, variable.other.class.js</scope>
+</snippet>
