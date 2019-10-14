@@ -13,6 +13,7 @@
   animation-name: nottification;
   animation-duration: 10s;
   animation-fill-mode: forwards;
+  animation-timing-function: linear;
   z-index: 100;
 
   @keyframes nottification {

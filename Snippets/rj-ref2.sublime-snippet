@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+ref={this.${1:myRef}} 
+ this.${1:myRef} = React.createRef();
+]]></content>
+<tabTrigger>rj-ref2</tabTrigger>
+<description>rj-ref2</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

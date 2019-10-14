@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+componentDidUpdate(prevProps, prevState, snapshot){
+  
+}
+]]></content>
+<tabTrigger>rj-cdu-componentDidUpdate-full</tabTrigger>
+<description>rj-cdu-componentDidUpdate-full</description>
+<scope>source.js, meta.group.braces.round.js, meta.class.js, meta.class.property.js, meta.method.js, string.unquoted.js, entity.name.function.js</scope>
+</snippet>

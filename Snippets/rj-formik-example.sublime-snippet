@@ -31,6 +31,7 @@ import * as Yup from 'yup';
         } = props;
         return (
           <form onSubmit={handleSubmit}>
+             {/**/}
             <label htmlFor="${1:myEmail}" style={{ display: 'block' }}>
               Email
             </label>
@@ -47,16 +48,16 @@ import * as Yup from 'yup';
             />
             {errors.${1:myEmail} &&
               touched.${1:myEmail} && <div className="input-feedback">{errors.${1:myEmail}}</div>}
-
+            {/**/}
             <button
               type="button"
-              className="outline"
+              className="outline btn btn-primary btn-reset1"
               onClick={handleReset}
               disabled={!dirty || isSubmitting}
             >
               Reset
             </button>
-            <button type="submit" disabled={isSubmitting}>
+            <button className="btn btn-success btn-submit1" type="submit" disabled={isSubmitting}>
               Submit
             </button>
           </form>

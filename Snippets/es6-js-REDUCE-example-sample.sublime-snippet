@@ -1,0 +1,24 @@
+<snippet>
+<content><![CDATA[
+///////////////////////////////////////////
+
+let a = [2, 5, 8, 9]
+
+let target = a.reduce((a, b) => {
+  console.log(a)
+  console.log(b)
+  console.log('--------------')
+  return a + b
+}, 0)
+console.log('result ', target)
+
+$1.reduce((derived, item) => {
+  //
+}, initialValue)
+
+///////////////////////////////////////////
+]]></content>
+<tabTrigger>es6-js-REDUCE-example-sample</tabTrigger>
+<description>es6-js-REDUCE-example-sample</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

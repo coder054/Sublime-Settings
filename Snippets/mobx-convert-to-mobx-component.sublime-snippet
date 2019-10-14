@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+import { inject, observer } from 'mobx-react'
+
+@inject(  )
+@observer
+]]></content>
+<tabTrigger>mobx-convert-to-mobx-component</tabTrigger>
+<description>mobx-convert-to-mobx-component</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

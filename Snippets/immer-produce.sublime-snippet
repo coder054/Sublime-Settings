@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+import produce from "immer"
+const $1 = produce($2, draftState => {
+    $3
+})
+]]></content>
+<tabTrigger>immer-produce</tabTrigger>
+<description>immer-produce</description>
+<scope>source.js, storage.type.js</scope>
+</snippet>

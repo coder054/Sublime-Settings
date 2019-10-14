@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+#SingleInstance,Force
+]]></content>
+<tabTrigger>ahk-singleInstance-force</tabTrigger>
+<description>ahk-singleInstance-force</description>
+<scope>source.ahk, preprocessordirective.ahk, keyword.control.ahk</scope>
+</snippet>

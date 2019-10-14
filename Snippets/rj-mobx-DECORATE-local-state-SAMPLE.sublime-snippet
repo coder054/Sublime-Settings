@@ -1,0 +1,54 @@
+<snippet>
+<content><![CDATA[
+////////////////////////////////////////////////////////////////
+/// rj-mobx-DECORATE-local-state-SAMPLE
+import React, { Component } from 'react'
+import { decorate, observable, action, computed } from 'mobx'
+import { observer } from "mobx-react"
+
+const testmobx = observer(
+  class testmobx extends Component {
+    fn = 'dotuan'
+    ln = 'anh'
+
+    get fullname() {
+      return this.fn + ' ' + this.ln
+    }
+
+    setFn(str) {
+      console.log('str :', str)
+      console.log('this.fn :', this.fn)
+      this.fn = str
+    }
+
+    render() {
+      return (
+        <div className="testmobx-wrapper">
+          <p>{this.fullname}</p>
+          <p>
+            {' '}
+            <button onClick={this.setFn.bind(this, 'aaaaa')}>
+              Change first name
+            </button>{' '}
+          </p>
+        </div>
+      )
+    }
+  }
+)
+
+decorate(testmobx, {
+  fn: observable,
+  ln: observable,
+  fullname: computed,
+  setFn: action,
+})
+
+export default testmobx
+
+//////////////////////////////////////////////////////////////
+]]></content>
+<tabTrigger>rj-mobx-DECORATE-local-state-SAMPLE</tabTrigger>
+<description>rj-mobx-DECORATE-local-state-SAMPLE</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

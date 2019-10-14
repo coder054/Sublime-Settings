@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+              isUpdate={true}
+              isCreate={false}
+              isDetail={false}
+              idItem={this.props.match.params.id}
+]]></content>
+<tabTrigger>wawa-form-ATTRIBUTE-FORMIK</tabTrigger>
+<description>wawa-form-ATTRIBUTE-FORMIK</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

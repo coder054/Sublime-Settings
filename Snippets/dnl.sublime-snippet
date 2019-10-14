@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+// eslint-disable-next-line
+]]></content>
+<tabTrigger>dnl</tabTrigger>
+<description>dnl-eslint-disable-next-line</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

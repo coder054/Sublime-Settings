@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+<Table hover bordered striped responsive>
+  <thead>
+    <tr>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TuanAnhDo</td>
+    </tr>
+  </tbody>
+</Table>
+]]></content>
+<tabTrigger>wawa-table</tabTrigger>
+<description>wawa-table</description>
+<scope>source.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

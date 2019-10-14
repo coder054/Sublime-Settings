@@ -1,0 +1,30 @@
+<snippet>
+<content><![CDATA[
+{/**/}
+<div className="onefield">
+  <label htmlFor="\${1:myEmail}">
+    \$1
+  </label>
+  <input
+    autocomplete="off"
+    id="\${1:myEmail}"
+    type="text"
+    value={values.\${1:myEmail}}
+    onChange={handleChange}
+    onBlur={handleBlur}
+    className={
+      errors.\${1:myEmail} && touched.\${1:myEmail}
+        ? 'text-input error'
+        : 'text-input'
+    }
+  />
+  {errors.\${1:myEmail} && touched.\${1:myEmail} && (
+    <div className="input-feedback">{errors.\${1:myEmail}}</div>
+  )}
+</div>
+{/**/}
+]]></content>
+<tabTrigger>formik-ONE-FIELD-NOT-HTML-FOR</tabTrigger>
+<description>formik-ONE-FIELD-NOT-HTML-FOR</description>
+<scope>source.js, meta.group.braces.curly.js, meta.brace.curly.begin.js</scope>
+</snippet>

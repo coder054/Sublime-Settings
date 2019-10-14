@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+// them vao columns
+sorter: (a, b) => a.address.length - b.address.length,
+sortDirections: ['descend', 'ascend'],
+
+]]></content>
+<tabTrigger>wawa-table-sort</tabTrigger>
+<description>wawa-table-sort</description>
+<scope>source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

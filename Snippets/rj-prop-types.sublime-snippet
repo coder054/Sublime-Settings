@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+import PropTypes from 'prop-types';
+${TM_FILENAME/(\w+)\.js/\1/g}.propTypes = {
+  requiredAny: PropTypes.any.isRequired,
+};
+]]></content>
+<tabTrigger>rj-prop-types</tabTrigger>
+<description>rj-prop-types</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

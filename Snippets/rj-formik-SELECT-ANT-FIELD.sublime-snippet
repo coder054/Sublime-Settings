@@ -1,0 +1,31 @@
+<snippet>
+<content><![CDATA[
+{/**/}
+<div className="onefield">
+  <label htmlFor="${1:theme}">${1:theme}</label>
+  <Select
+    id="${1:theme}"
+    value={values.${1:theme}}
+    name="${1:theme}"
+    className={
+      errors.${1:theme} && touched.${1:theme}
+        ? 'text-input error'
+        : 'text-input'
+    }
+  >
+    <Option value="LIGHT">Light</Option>
+    <Option value="DARK">Dark</Option>
+  </Select>
+
+  {errors.${1:theme} && touched.${1:theme} && (
+    <div className="input-feedback">{errors.${1:theme}}</div>
+  )}
+</div>
+{/**/}
+import { Select } from '@jbuschke/formik-antd'
+const { Option } = Select
+]]></content>
+<tabTrigger>rj-formik-SELECT-ANT-FIELD</tabTrigger>
+<description>rj-formik-SELECT-ANT-FIELD</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, punctuation.section.embedded.begin.jsx</scope>
+</snippet>

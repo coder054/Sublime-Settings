@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+$1.setter('$2', $3 )
+]]></content>
+<tabTrigger>stt</tabTrigger>
+<description>mobx-setter-involke-st</description>
+<scope>source.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.function-call.static.with-arguments.js, variable.other.class.js</scope>
+</snippet>

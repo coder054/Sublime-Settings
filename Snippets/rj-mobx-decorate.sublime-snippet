@@ -1,5 +1,6 @@
 <snippet>
 <content><![CDATA[
+import { decorate, observable, action, computed } from 'mobx'	
 decorate(${1:ComponentName}, {
 	start: observable,
 	current: observable,

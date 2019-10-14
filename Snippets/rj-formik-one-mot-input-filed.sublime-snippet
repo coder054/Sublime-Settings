@@ -1,32 +1,28 @@
 <snippet>
 <content><![CDATA[
-{/**************************/}
-<label htmlFor="${1:myEmail}" style={{ display: 'block' }}>
-	Email
-</label>
-<input
-	id="${1:myEmail}"
-	placeholder="Enter your email"
-	type="text"
-	value={values.${1:myEmail}}
-	onChange={handleChange}
-	onBlur={handleBlur}
-	className={
-		errors.${1:myEmail} && touched.${1:myEmail}
-			? 'text-input error'
-			: 'text-input'
-	}
-/>
-{errors.${1:myEmail} && touched.${1:myEmail} && (
-	<div className="input-feedback">{errors.${1:myEmail}}</div>
-)}
-
-// trong validationSchema
-${1:myEmail}: Yup.string()
-.email()
-.required('Required'),
-
-{/*************************/}
+{/**/}
+<div className="onefield">
+	<label htmlFor="${1:myEmail}">
+		$1
+	</label>
+	<input
+		autocomplete="off"
+		id="${1:myEmail}"
+		type="text"
+		value={values.${1:myEmail}}
+		onChange={handleChange}
+		onBlur={handleBlur}
+		className={
+			errors.${1:myEmail} && touched.${1:myEmail}
+				? 'text-input error'
+				: 'text-input'
+		}
+	/>
+	{errors.${1:myEmail} && touched.${1:myEmail} && (
+		<div className="input-feedback">{errors.${1:myEmail}}</div>
+	)}
+</div>
+{/**/}
 ]]></content>
 <tabTrigger>rj-formik-one-mot-input-filed</tabTrigger>
 <description>rj-formik-one-mot-input-filed</description>

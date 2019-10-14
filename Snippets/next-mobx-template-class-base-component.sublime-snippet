@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
 import React from 'react'
-import Link from 'next/link'
+//import Link from 'next/link'
 import { inject, observer } from 'mobx-react'
 
 @inject( $1 )
@@ -9,6 +9,7 @@ import { inject, observer } from 'mobx-react'
 class ${TM_FILENAME/(\w+)\.js/\1/g} extends React.Component {
 
   render() {
+  	// eslint-disable-next-line
     const { $1 } = this.props 
     return (
       <div className="${TM_FILENAME/(\w+)\.js/\1/g}-wr">
