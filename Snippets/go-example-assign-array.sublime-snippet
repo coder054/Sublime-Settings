@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
+]]></content>
+<tabTrigger>go-example-assign-array</tabTrigger>
+<description>go-example-assign-array</description>
+<scope>source.go, meta.block.go, variable.declaration.go</scope>
+</snippet>

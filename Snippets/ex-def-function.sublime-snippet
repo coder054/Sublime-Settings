@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+def $1 do
+	$2
+	
+end
+
+
+]]></content>
+<tabTrigger>ex-def-function</tabTrigger>
+<description>ex-def-function</description>
+<scope>source.elixir, keyword.control.elixir</scope>
+</snippet>

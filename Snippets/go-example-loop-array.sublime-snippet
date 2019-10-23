@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+// note: d is an deck
+// type deck []string	
+for index, card := range d {
+	fmt.Println(index, card)
+}
+
+cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
+for _, suit := range cardSuits {
+	//
+}
+
+]]></content>
+<tabTrigger>go-example-loop-array</tabTrigger>
+<description>go-example-loop-array</description>
+<scope>source.go, meta.block.go, keyword.control.go</scope>
+</snippet>

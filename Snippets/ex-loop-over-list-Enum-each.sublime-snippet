@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+Enum.each ${1:list}, fn ${2:item} ->
+	IO.puts ${2:item}
+end
+]]></content>
+<tabTrigger>ex-loop-over-list-Enum-each</tabTrigger>
+<description>ex-loop-over-list-Enum-each</description>
+<scope>source.elixir, keyword.control.elixir</scope>
+</snippet>

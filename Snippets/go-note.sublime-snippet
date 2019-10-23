@@ -1,0 +1,93 @@
+<snippet>
+<content><![CDATA[
+// go co cac global function, vi du	
+append(cards, value+" of "+suit)
+
+
+// Cac items trong array va slice phai co cung mot type
+
+
+
+receiver : chinh la caller cua function
+func (d deck) shuffle(){
+	//
+}
+
+d.shuffle() // d duoc goi la receiver
+
+
+
+
+
+
+
+receiver chi nen co mot chu cai
+d deck
+c card
+
+
+
+
+
+
+trong cung mot package, khong can phai import function gi ca
+
+
+
+
+
+
+
+
+Cac loi thuong gap:
+
+// error1
+import {
+	"fmt"
+}
+// dung ()
+
+
+
+// error2
+*p.firstname = firstname
+// (*p).firstname = firstname
+
+
+
+// error3
+&jim.updateName("jimmy333")
+// (&jim).updateName("jimmy333")
+
+
+
+// error4
+'tuananh'
+// "tuananh"
+
+
+
+// error5
+func (p person) print {
+	fmt.Printf("%+v", p)
+}
+//func (p person) print () {
+//	fmt.Printf("%+v", p)
+//}
+
+
+
+// error6
+jim = person{
+	firstname: "jim",
+	lastname: "partly"
+}
+// forget the ","
+
+
+
+]]></content>
+<tabTrigger>go-note</tabTrigger>
+<description>go-note</description>
+<scope>source.go, meta.block.go, meta.block.go, meta.block.go, variable.function.go, support.function.builtin.go</scope>
+</snippet>

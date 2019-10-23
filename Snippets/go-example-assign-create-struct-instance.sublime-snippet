@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+// type person struct {
+// 	firstname string
+// 	lastname  string
+// }
+
+// Cach 1:
+var alex person // create an instance of person (struct) with "zero" values
+
+// Cach 2:
+alex := person {
+	firstname: "alex"
+	lastname: "anderson"
+}
+]]></content>
+<tabTrigger>go-example-assign-create-struct-instance</tabTrigger>
+<description>go-example-assign-create-struct-instance</description>
+<scope>source.go, meta.block.go, comment.line.go, punctuation.definition.comment.go</scope>
+</snippet>

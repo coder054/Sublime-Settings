@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+type contactInfo struct {
+	email   string
+	zipCode int
+}
+]]></content>
+<tabTrigger>go-example-declare-structs</tabTrigger>
+<description>go-example-declare-structs</description>
+<scope>source.go, storage.type.keyword.type.go</scope>
+</snippet>

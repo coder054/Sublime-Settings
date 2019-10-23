@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+IO.inspect ${1:variable}
+]]></content>
+<tabTrigger>ex-inspect-IO</tabTrigger>
+<description>ex-inspect-IO</description>
+<scope>source.elixir, entity.name.type.class.elixir</scope>
+</snippet>

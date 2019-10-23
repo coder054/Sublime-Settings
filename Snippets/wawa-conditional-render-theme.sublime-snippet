@@ -4,7 +4,7 @@
 	width="$1"
 	height="$2"  	
 	className="$3"
-  src={`./static/assets/\${UISt.theme === 'dark' ?  'dark' : 'light'}/drawable-xxxhdpi/$3.png`}
+  src={`./static/assets/\${UISt.theme === 'DARK' ?  'dark' : 'light'}/drawable-xxxhdpi/$3.png`}
   alt=""
 />
 ]]></content>

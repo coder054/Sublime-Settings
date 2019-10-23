@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+value+" of "+suit
+]]></content>
+<tabTrigger>go-example-noi-chuoi-concat-string</tabTrigger>
+<description>go-example-noi-chuoi-concat-string</description>
+<scope>source.go, meta.block.go, meta.block.go, meta.block.go, variable.other.go</scope>
+</snippet>

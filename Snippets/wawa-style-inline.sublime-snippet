@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+        style={{
+          backgroundColor:
+            UISt.theme === 'DARK'
+              ? 'rgba(44, 43, 43, 1)'
+              : 'rgba(237, 237, 237, 1)',
+        }}
+]]></content>
+<tabTrigger>wawa-style-inline</tabTrigger>
+<description>wawa-style-inline</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

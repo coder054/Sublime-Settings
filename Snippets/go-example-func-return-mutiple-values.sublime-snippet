@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+func deal(d deck, handSize int) (deck, deck) {
+	return d[:handSize], d[handSize:]
+}
+
+d := newDeck()
+deck1, deck2 = deal(d, 4)
+]]></content>
+<tabTrigger>go-example-func-return-mutiple-values</tabTrigger>
+<description>go-example-func-return-mutiple-values</description>
+<scope>source.go, storage.type.keyword.function.go</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+fmt.Printf("%+v", $1 )
+]]></content>
+<tabTrigger>gprf</tabTrigger>
+<description>go-printf-struct</description>
+<scope>source.go, meta.block.go, variable.other.go</scope>
+</snippet>

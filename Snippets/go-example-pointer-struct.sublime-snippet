@@ -1,0 +1,32 @@
+<snippet>
+<content><![CDATA[
+//VD1
+func (p *person) updateName(firstname string) {
+	(*p).firstname = firstname
+}
+// KHONG bat buoc pointer phai la mot receiver (co the la mot argument)
+jim = person{
+	firstname: "jim",
+	lastname: "partly",
+}
+jim.updateName("jimmy333") // KHONG bat buoc (&jim).updateName(...)
+
+
+
+//VD2
+func main() {
+	name := "tuananh"
+	foo( &name ) // o day bat buoc phai la &name (khong co shortcut)
+	fmt.Println( name )
+}
+
+func foo (name *string){
+	(*name) = "newname"
+}
+
+
+]]></content>
+<tabTrigger>go-example-pointer-struct</tabTrigger>
+<description>go-example-pointer-struct</description>
+<scope>source.go, storage.type.keyword.function.go</scope>
+</snippet>

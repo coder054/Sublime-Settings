@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+import (
+	"fmt"
+	"io/ioutil"
+	"math/rand"
+	"os"
+	"strings"
+	"time"
+)
+]]></content>
+<tabTrigger>go-import</tabTrigger>
+<description>go-import</description>
+<scope>source.go, keyword.other.import.go</scope>
+</snippet>

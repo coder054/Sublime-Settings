@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+func \${1:functionname}(x int, y int) \${2:returntype} {
+	return x + y
+}
+]]></content>
+<tabTrigger>go-function-declare-example</tabTrigger>
+<description>go-function-declare-example</description>
+<scope>source.go, storage.type.keyword.function.go</scope>
+</snippet>

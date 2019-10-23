@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+fmt.Println( $1 )
+]]></content>
+<tabTrigger>gprl</tabTrigger>
+<description>go-fmt-Println</description>
+<scope>source.go, meta.block.go, meta.block.go, variable.other.go</scope>
+</snippet>

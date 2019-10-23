@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+defmodule $1 do
+	$2
+
+end
+
+]]></content>
+<tabTrigger>ex-def-module</tabTrigger>
+<description>ex-def-module</description>
+<scope>source.elixir, meta.module.elixir, keyword.control.module.elixir</scope>
+</snippet>

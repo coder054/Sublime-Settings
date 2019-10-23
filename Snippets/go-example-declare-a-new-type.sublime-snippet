@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+type deck []string
+]]></content>
+<tabTrigger>go-example-declare-a-new-type</tabTrigger>
+<description>go-example-declare-a-new-type</description>
+<scope>source.go, storage.type.keyword.type.go</scope>
+</snippet>

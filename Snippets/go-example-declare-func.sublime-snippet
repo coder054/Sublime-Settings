@@ -1,0 +1,31 @@
+<snippet>
+<content><![CDATA[
+func deal(d deck, handSize int) (deck, deck) { // return multiple values
+	return d[:handSize], d[handSize:]
+}
+
+
+func (d deck) toString() string {
+ // this function will be call by an deck ( deckInstance.toString() )
+ // function nay khong thay doi thuoc tinh cua caller
+	return strings.Join([]string(d), ",")
+}
+
+func (d deck) shuffle() { 
+	// function nay thay doi thuoc tinh cua caller
+	source := rand.NewSource(time.Now().UnixNano())
+	r := rand.New(source)
+
+	for i := range d {
+		newPosition := r.Intn(len(d) - 1)
+
+		d[i], d[newPosition] = d[newPosition], d[i]
+	}
+}
+
+
+]]></content>
+<tabTrigger>go-example-declare-func</tabTrigger>
+<description>go-example-declare-func</description>
+<scope>source.go, storage.type.keyword.function.go</scope>
+</snippet>
