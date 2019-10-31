@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+<Form.Item>
+              {getFieldDecorator('username', {
+                rules: [
+                  { required: true, message: 'Please input your username!' },
+                ],
+              })(
+                <Input
+                  prefix={
+                    <Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />
+                  }
+                  placeholder="Username"
+                />
+              )}
+            </Form.Item>
+]]></content>
+<tabTrigger>ant-form-item</tabTrigger>
+<description>ant-form-item</description>
+<scope>source.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

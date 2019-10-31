@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<Icon type="loading" />
+]]></content>
+<tabTrigger>ant-loading</tabTrigger>
+<description>ant-loading</description>
+<scope>source.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

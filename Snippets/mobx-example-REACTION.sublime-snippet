@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+  componentDidMount() {
+    reaction(
+      () => this.props.IngameSt.chats.length,
+      () => {
+        this.scrollToBottom()
+      }
+    )
+  }
+]]></content>
+<tabTrigger>mobx-example-REACTION</tabTrigger>
+<description>mobx-example-REACTION</description>
+<scope>source.js, meta.class.js</scope>
+</snippet>

@@ -1,0 +1,41 @@
+<snippet>
+<content><![CDATA[
+// Declare Cach 1
+	var colors map[string]string
+	colors = map[string]string{
+		"red":   "#ff0000",
+		"green": "#00ff00",
+	}
+
+// Declare Cach 2
+	colors := map[string]string{
+		"red":   "#ff0000",
+		"green": "#00ff00",
+	}
+
+// Add values to map
+colors["white"] = "#ffffff"
+
+// Access map values
+whiteColorCode := colors["white"] // KHONG duoc viet colors.white
+
+colors := map[int]string{
+	1: "#ff0000",
+	2: "#00ff00",
+	3: "#3333333",
+	4: "#444444",
+}
+fmt.Println(colors[2])
+
+
+
+// Delete from map
+delete(colors, 3 )
+delete(colors, "red" )
+
+
+]]></content>
+<tabTrigger>go-example-map</tabTrigger>
+<description>go-example-map</description>
+<scope>source.go, meta.block.go, comment.line.go, punctuation.definition.comment.go</scope>
+</snippet>

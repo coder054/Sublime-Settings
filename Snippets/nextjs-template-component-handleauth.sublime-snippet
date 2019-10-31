@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
 import React, {Component} from 'react'
-
+import {auth} from './$2'
 
 
 
@@ -17,7 +17,7 @@ class allroles extends Component{
 
 
 allroles.getInitialProps = async (ctx) => {
-	let token = (await handleAuthSSR(ctx)) || null
+	let token = (await auth(ctx)) || null
   return {token}
 };
 

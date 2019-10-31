@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+trong next, neu click vao mot link de sang mot trang, ham constructor se chay o front end thoi
+
+
+
+
+
+
+
+
+
+store mobx chi chay o client, khong chay o server
+
+
+
+]]></content>
+<tabTrigger>next-js-note</tabTrigger>
+<description>next-js-note</description>
+<scope>source.js, variable.other.readwrite.js</scope>
+</snippet>

@@ -43,6 +43,7 @@
 		"Git Conflict Resolver",
 		"Gitignore",
 		"Gitignored File Excluder",
+		"Golang",
 		"GoToLastEdit",
 		"GotoLineEnhanced",
 		"GoToPoint",
@@ -92,5 +93,9 @@
 		"Vuejs Snippets",
 		"Vuejs Snippets Airbnb",
 		"Web Inspector"
+	],
+	"repositories":
+	[
+		"https://raw.githubusercontent.com/yields/sublime-go/master/repo.json"
 	]
 }

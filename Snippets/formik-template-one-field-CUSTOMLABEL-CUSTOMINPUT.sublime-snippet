@@ -1,0 +1,31 @@
+<snippet>
+<content><![CDATA[
+{/**/}
+<div className="onefield">
+  <CustomLabel formType={formType} htmlFor="${1:email}">
+    ${1:email}
+  </CustomLabel>
+  <CustomInput
+    formType={formType}    
+    autoComplete="off"
+    id="${1:email}"
+    type="text"
+    value={values.${1:email}}
+    onChange={handleChange}
+    onBlur={handleBlur}
+    className={
+      errors.${1:email} && touched.${1:email}
+        ? 'text-input error'
+        : 'text-input'
+    }
+  />
+  {errors.${1:email} && touched.${1:email} && (
+    <div className="input-feedback">{errors.${1:email}}</div>
+  )}
+</div>
+{/**/}
+]]></content>
+<tabTrigger>formik-template-one-field-CUSTOMLABEL-CUSTOMINPUT</tabTrigger>
+<description>formik-template-one-field-CUSTOMLABEL-CUSTOMINPUT</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.tag.jsx, punctuation.definition.tag.begin.jsx</scope>
+</snippet>

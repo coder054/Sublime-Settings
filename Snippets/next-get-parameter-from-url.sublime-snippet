@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+ctx.query.id
+]]></content>
+<tabTrigger>next-get-parameter-from-url</tabTrigger>
+<description>next-get-parameter-from-url</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.round.js, variable.other.object.js, variable.other.object.js</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+import Cookies from 'js-cookie'
+
+Cookies.set('$1', '$2', { path: '/' })
+Cookies.get('$1')
+Cookies.remove('$1', { path: '/' })
+]]></content>
+<tabTrigger>rj-example-cookies-react-cookie</tabTrigger>
+<description>rj-example-cookies-react-cookie</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

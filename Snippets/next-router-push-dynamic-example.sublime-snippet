@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+Router.push('/chat/[teamId]/[pageId]', `/chat/\${this.props.idTeamSelected}/\${idSelectedRoom2}`)
+]]></content>
+<tabTrigger>next-router-push-dynamic-example</tabTrigger>
+<description>next-router-push-dynamic-example</description>
+<scope>source.js, meta.class.js</scope>
+</snippet>

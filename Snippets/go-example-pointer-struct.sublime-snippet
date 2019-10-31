@@ -24,6 +24,12 @@ func foo (name *string){
 	(*name) = "newname"
 }
 
+// values types (must use pointer)
+int, float, string, bool, structs
+
+// reference types (no need pointer)
+slices, maps, channels, pointers, functions
+
 
 ]]></content>
 <tabTrigger>go-example-pointer-struct</tabTrigger>

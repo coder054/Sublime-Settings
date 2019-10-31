@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+<Link href="/setting/[pageName]" as="/setting/reply">
+  <a>  </a>
+</Link>
+
+<Link href="/users/[id]" as={`/users/\${id}`}>
+  <a>  </a>
+</Link>
+]]></content>
+<tabTrigger>nextjs-link-dynamic-example</tabTrigger>
+<description>nextjs-link-dynamic-example</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

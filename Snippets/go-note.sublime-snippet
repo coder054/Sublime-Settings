@@ -82,7 +82,106 @@ jim = person{
 	firstname: "jim",
 	lastname: "partly"
 }
+
+colors := map[string]string{
+	"red":   "#ff0000",
+	"green": "#00ff00"
+}
 // forget the ","
+
+
+
+
+
+
+
+
+
+
+
+// values types (must use pointer)
+int, float, string, bool, structs
+
+// reference types (no need pointer)
+slices, maps, channels, pointers, functions
+
+
+
+
+
+
+
+Tat ca cac keys cua mot map phai cung mot type
+Tat ca cac values cua mot map phai cung mot type
+Keys va Values KHONG bat buoc phai cung type ( 2 set of type )
+
+
+
+
+
+
+
+format duoc chua chac da chay duoc
+
+
+
+
+
+
+
+
+ta co the tao mot ham voi receiver nhung khong su dung no, khi do chi can type cua receiver, khong can ten bien
+
+func (englishBot) getGreeting() string {
+	...
+}
+
+
+
+
+
+
+Neu ham trong interface khong return gi, ta chi can bo trong
+type bot interface {
+	printGreeting()
+}
+
+
+
+
+
+// KHONG duoc phep su dung interface nhu mot receiver
+// wrong way
+func (s shape)  measure  {
+	fmt.Println( s )
+	fmt.Println( s.chuvi() )
+	fmt.Println( s.dientich() )
+}
+
+// correct way
+func measure (s shape) {
+	fmt.Println( s )
+	fmt.Println( s.chuvi() )
+	fmt.Println( s.dientich() )
+}
+
+
+
+
+
+
+
+
+Khi implement interface, bat buoc phai la mot receiver
+// wrong way
+func chuvi (r rec) float64 {
+	return 2 * ( r.width + r.height )
+}
+
+// correct way
+func (r rec) chuvi () float64 {
+	return 2 * ( r.width + r.height )
+}
 
 
 

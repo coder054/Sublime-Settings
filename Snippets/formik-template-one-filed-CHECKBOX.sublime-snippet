@@ -1,0 +1,28 @@
+<snippet>
+<content><![CDATA[
+{/**/}
+<div className="onefield">
+  <CustomLabel formType={formType} htmlFor="${1:shopManager}">
+    ${1:shopManager}
+  </CustomLabel>
+  <Checkbox
+    disabled={formType === 'details'}
+    id="${1:shopManager}"
+    value={values.${1:shopManager}}
+    name="${1:shopManager}"
+    className={
+      errors.${1:shopManager} && touched.${1:shopManager}
+        ? 'text-input error'
+        : 'text-input'
+    }
+  ></Checkbox>
+  {errors.${1:shopManager} && touched.${1:shopManager} && (
+    <div className="input-feedback">{errors.${1:shopManager}}</div>
+  )}
+</div>
+{/**/}
+]]></content>
+<tabTrigger>formik-template-one-filed-CHECKBOX</tabTrigger>
+<description>formik-template-one-filed-CHECKBOX</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js, meta.embedded.expression.jsx, punctuation.section.embedded.begin.jsx</scope>
+</snippet>
