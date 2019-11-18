@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+fmt.Printf("(%v, %T)\n", $1, $1)
+]]></content>
+<tabTrigger>go-describe-console.log</tabTrigger>
+<description>go-describe-console.log</description>
+<scope>source.go, meta.block.go, variable.other.go</scope>
+</snippet>

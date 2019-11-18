@@ -1,0 +1,14 @@
+
+<snippet>
+<content><![CDATA[
+func main() {
+	x := "tuan anh"
+	defer fmt.Println(x)
+	x = "alex"
+	fmt.Println("hello")
+}
+]]></content>
+<tabTrigger>go-example-defer</tabTrigger>
+<description>go-example-defer</description>
+<scope>source.go, storage.type.keyword.function.go</scope>
+</snippet>

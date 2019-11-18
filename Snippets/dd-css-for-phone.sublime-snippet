@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@include for-phone-only {
+  $1
+}
+]]></content>
+<tabTrigger>dd-css-for-phone</tabTrigger>
+<description>dd-css-for-phone</description>
+<scope>source.scss</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+for i := 1; i < 5; i++ {
+  //
+}
+]]></content>
+<tabTrigger>go-loop-anhdt</tabTrigger>
+<description>go-loop-anhdt</description>
+<scope>source.go, meta.block.go, keyword.control.go</scope>
+</snippet>

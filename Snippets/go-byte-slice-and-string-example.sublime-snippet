@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+//////////////////////////////////////////////////////
+// make an byte slice of 99999 empty elements
+bs := make([]byte, 999999)
+
+// from string to byte slice
+[]byte("hello world")
+
+// from byte slice to string
+str := string(bs)
+//////////////////////////////////////////////////////
+]]></content>
+<tabTrigger>go-byte-slice-and-string-example</tabTrigger>
+<description>go-byte-slice-and-string-example</description>
+<scope>source.go, comment.line.go, punctuation.definition.comment.go</scope>
+</snippet>

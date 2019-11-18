@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+func main() {
+	v := 42 // change me!
+	fmt.Printf("v is of type %T\n", v)
+}
+]]></content>
+<tabTrigger>go-example-print-type</tabTrigger>
+<description>go-example-print-type</description>
+<scope>source.go, storage.type.keyword.function.go</scope>
+</snippet>

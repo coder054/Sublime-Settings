@@ -1,0 +1,27 @@
+<snippet>
+<content><![CDATA[
+package main
+
+import (
+	"fmt"
+)
+
+type Myint int
+
+func (n Myint) Test() string {
+	if n < 0 {
+		return "so am"
+	}
+	return "so duong"
+}
+
+func main() {	
+	n := Myint(-4)
+	fmt.Println( n.Test() )
+}
+
+]]></content>
+<tabTrigger>go-example-method</tabTrigger>
+<description>go-example-method</description>
+<scope>source.go, keyword.other.package.go</scope>
+</snippet>

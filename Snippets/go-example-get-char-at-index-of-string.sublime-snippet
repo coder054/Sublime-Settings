@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+string([]rune("Hello world!")[1]) // e
+]]></content>
+<tabTrigger>go-example-get-char-at-index-of-string</tabTrigger>
+<description>go-example-get-char-at-index-of-string</description>
+<scope>source.go, meta.block.go, variable.function.go, support.type.builtin.go</scope>
+</snippet>

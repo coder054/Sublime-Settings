@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+c := make(chan ${1:type})
+]]></content>
+<tabTrigger>go-channel-declare-make</tabTrigger>
+<description>go-channel-declare-make</description>
+<scope>source.go, meta.block.go, variable.declaration.go</scope>
+</snippet>
