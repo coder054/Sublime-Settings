@@ -1,0 +1,4 @@
+
+*.log
+Xdebug.breakpoints
+Xdebug.expressions
