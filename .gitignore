@@ -2,3 +2,5 @@
 *.log
 Xdebug.breakpoints
 Xdebug.expressions
+Package Control.cache/*.*
+
