@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+?>
+$1
+<?php
+]]></content>
+<tabTrigger>jjj</tabTrigger>
+<description>php-close-open-tag</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, punctuation.section.embedded.end.php</scope>
+</snippet>

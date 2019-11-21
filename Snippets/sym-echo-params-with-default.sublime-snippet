@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php echo \$sf_params->get('name', 'John Doe') ?>
+]]></content>
+<tabTrigger>sym-echo-params-with-default</tabTrigger>
+<description>sym-echo-params-with-default</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

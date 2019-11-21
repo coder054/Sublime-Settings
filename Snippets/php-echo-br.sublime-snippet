@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+echo "</br>";
+]]></content>
+<tabTrigger>php-echo-br</tabTrigger>
+<description>php-echo-br</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, support.function.construct.php</scope>
+</snippet>

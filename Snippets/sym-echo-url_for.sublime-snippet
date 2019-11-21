@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php echo url_for('${1:module/...}') ?>
+]]></content>
+<tabTrigger>sym-echo-url_for</tabTrigger>
+<description>sym-echo-url_for</description>
+<scope>embedding.php, text.html.basic, meta.tag.block.form.html, meta.attribute-with-value.html, string.quoted.double.html, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

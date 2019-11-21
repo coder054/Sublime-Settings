@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php echo link_to('${1:linktext}', '${2:module/...}') ?>
+]]></content>
+<tabTrigger>sym-echo-link_to</tabTrigger>
+<description>sym-echo-link_to</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+ALTER TABLE ${1:table_name}
+    ADD CONSTRAINT fk_${2:foreign_key_name}
+    FOREIGN KEY (${2:foreign_key_name})
+    REFERENCES ${3:target_table}(${4:target_key_name});
+
+// example:
+ALTER TABLE comment
+    ADD CONSTRAINT fk_post_id
+    FOREIGN KEY (post_id)
+    REFERENCES post(id);
+]]></content>
+<tabTrigger>sql-make-create-foreign-key</tabTrigger>
+<description>sql-make-create-foreign-key</description>
+<scope>source.js, variable.other.constant.js</scope>
+</snippet>
