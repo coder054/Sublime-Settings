@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+articles:
+  class:                    sfDoctrineRouteCollection
+  options:
+    model:                  Article
+    module:                 articles
+    prefix_path:            articles
+    with_wildcard_routes:   true
+ 
+
+
+doctrine:generate-admin backend articles
+]]></content>
+<tabTrigger>sym-amin-generator-in-php</tabTrigger>
+<description>sym-amin-generator-in-php</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, entity.name.label.php</scope>
+</snippet>

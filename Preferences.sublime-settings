@@ -95,7 +95,8 @@
 		"Nodejs",
 		"Sound",
 		"SublimeLinter-eslint",
-		"Vintage"
+		"Vintage",
+		"zzz A File Icon zzz"
 	],
 	"skin": "Skins/Monokai",
 	"tab_size": 2,

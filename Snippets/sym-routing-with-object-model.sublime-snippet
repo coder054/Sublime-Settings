@@ -1,0 +1,66 @@
+<snippet>
+<content><![CDATA[
+////////////////////////////////////////////////////////////
+public function execute${1:Show}(sfWebRequest \$request) viethoa
+{
+  \$this->${2:jobeet_job} = \$this->getRoute()->getObject();
+}
+
+# config/routing.yml
+${3:job_show_user}:
+url:     /job/:company_slug/:location_slug/:id/:position_slug
+class:   sfDoctrineRoute
+options:
+  model: ${5:JobeetJob}
+  type:  object
+  method_for_query: ${4:retrieveActiveJob}
+param:   { module: job, action: ${1:show} }
+requirements:
+  id: \d+
+
+
+// lib/model/doctrine/${5:JobeetJob}Table.class.php
+public function ${4:retrieveActiveJob}(Doctrine_Query \$q)
+{
+  \$q->andWhere('a.expires_at > ?', date('Y-m-d h:i:s', time()));
+ 
+  return \$q->fetchOne();
+}
+
+// lib/model/doctrine/${5:JobeetJob}.class.php
+	public function getCompanySlug()
+	{
+	  return Jobeet::slugify($this->getCompany());
+	}
+	 
+	public function getPositionSlug()
+	{
+	  return Jobeet::slugify($this->getPosition());
+	}
+	 
+	public function getLocationSlug()
+	{
+	  return Jobeet::slugify($this->getLocation());
+	}  
+
+// make file lib/Jobeet.class.php
+class Jobeet
+{
+  static public function slugify($text)
+  {
+    // replace all non letters or digits by -
+    $text = preg_replace('/\W+/', '-', $text);
+ 
+    // trim and lowercase
+    $text = strtolower(trim($text, '-'));
+ 
+    return $text;
+  }
+}
+
+////////////////////////////////////////////////////////////
+]]></content>
+<tabTrigger>sym-routing-with-object-model</tabTrigger>
+<description>sym-routing-with-object-model</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, comment.line.double-slash.php, punctuation.definition.comment.php, source.yaml, string.unquoted.plain.out.yaml</scope>
+</snippet>

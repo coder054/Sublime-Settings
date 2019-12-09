@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+# default rules
+homepage:
+  url:   /
+  param: { module: ${job}, action: ${2:index} }
+]]></content>
+<tabTrigger>sym-default-route-homepage</tabTrigger>
+<description>sym-default-route-homepage</description>
+<scope>source.yaml, comment.line.number-sign.yaml, punctuation.definition.comment.line.number-sign.yaml</scope>
+</snippet>

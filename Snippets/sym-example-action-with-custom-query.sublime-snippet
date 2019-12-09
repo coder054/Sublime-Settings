@@ -1,0 +1,45 @@
+<snippet>
+<content><![CDATA[
+// executeIndex
+\$this->jobeet_job_list = Doctrine::getTable('JobeetJob')->getActiveJobs();
+
+//class JobeetJobTable extends Doctrine_Table
+//{
+//  public function getActiveJobs()
+//  {
+//    $q = $this->createQuery('j')
+//      ->where('j.expires_at > ?', date('Y-m-d H:i:s', time()));
+//    return $q->execute();
+//  }
+//}
+
+  <tbody>
+    <?php foreach ($jobeet_job_list as $jobeet_job): ?>
+    <tr>
+      <td><a href="<?php echo url_for('job/show?id='.$jobeet_job['id']) ?>"><?php echo $jobeet_job->getid() ?></a></td>
+      <td><?php echo $jobeet_job->getcategory_id() ?></td>
+      <td><?php echo $jobeet_job->gettype() ?></td>
+      <td><?php echo $jobeet_job->getcompany() ?></td>
+      <td><?php echo $jobeet_job->getlogo() ?></td>
+      <td><?php echo $jobeet_job->geturl() ?></td>
+      <td><?php echo $jobeet_job->getposition() ?></td>
+      <td><?php echo $jobeet_job->getlocation() ?></td>
+      <td><?php echo $jobeet_job->getdescription() ?></td>
+      <td><?php echo $jobeet_job->gethow_to_apply() ?></td>
+      <td><?php echo $jobeet_job->gettoken() ?></td>
+      <td><?php echo $jobeet_job->getis_public() ?></td>
+      <td><?php echo $jobeet_job->getis_activated() ?></td>
+      <td><?php echo $jobeet_job->getemail() ?></td>
+      <td><?php echo $jobeet_job->getexpires_at() ?></td>
+      <td><?php echo $jobeet_job->getcreated_at() ?></td>
+      <td><?php echo $jobeet_job->getupdated_at() ?></td>
+    </tr>
+    <?php endforeach; ?>
+  </tbody>
+
+
+]]></content>
+<tabTrigger>sym-example-action-with-custom-query</tabTrigger>
+<description>sym-example-action-with-custom-query</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>

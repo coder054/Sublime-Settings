@@ -1,0 +1,18 @@
+<snippet>
+<content><![CDATA[
+articles:
+  class:                    sfDoctrineRouteCollection
+  options:
+    model:                  Article
+    module:                 articles
+    prefix_path:            articles
+    with_wildcard_routes:   true
+ 
+
+
+doctrine:generate-admin backend articles
+]]></content>
+<tabTrigger>sym-admin-generator-in-yml</tabTrigger>
+<description>sym-admin-generator-in-yml</description>
+<scope>source.yaml, string.unquoted.plain.out.yaml, entity.name.tag.yaml</scope>
+</snippet>

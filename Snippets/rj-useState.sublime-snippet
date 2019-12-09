@@ -1,13 +1,6 @@
 <snippet>
 <content><![CDATA[
-const [ ${1:stateName}, ${2:setterFunction} ] = useState(${3:defaultOrInitialValue})
-// const [address, setAdress] = useState('Son Tay')
-
-<input
-	type="text"
-	value={address}
-	onChange={e => setAdress(e.target.value)}
-/>
+const [ ${1:name}, set_${1:name} ] = useState(${3:defaultOrInitialValue})
 ]]></content>
 <tabTrigger>rj-useState</tabTrigger>
 <description>rj-useState</description>

@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+        var_dump(get_class_methods(\$this));
+        die;
+]]></content>
+<tabTrigger>sym-php-get-class-methods-this</tabTrigger>
+<description>sym-php-get-class-methods-this</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php</scope>
+</snippet>

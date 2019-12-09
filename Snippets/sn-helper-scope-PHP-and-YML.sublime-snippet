@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, comment.line.double-slash.php, punctuation.definition.comment.php, source.yaml, string.unquoted.plain.out.yaml
+]]></content>
+<tabTrigger>sn-helper-scope-PHP-and-YML</tabTrigger>
+<description>sn-helper-scope-PHP-and-YML</description>
+<scope>text.xml</scope>
+</snippet>

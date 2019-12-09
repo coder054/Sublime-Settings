@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php include_partial('${1:module-name}/${2:partial-name}', array('${3:foo}' => $4 )) ?>
+]]></content>
+<tabTrigger>sym-include_partial</tabTrigger>
+<description>sym-include_partial</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

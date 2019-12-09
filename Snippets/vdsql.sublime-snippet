@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+var_dump( \$this-> $1 ->getData()[0]->getData());
+    die();
+]]></content>
+<tabTrigger>vdsql</tabTrigger>
+<description>sym-var-dump-sql-result</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.function-call.php, support.function.var.php</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+php symfony doctrine:generate-module --with-show --non-verbose-templates ${1:app} ${2:module} ${3:model}
+// php symfony doctrine:generate-module --with-show --non-verbose-templates frontend job JobeetJob
+]]></content>
+<tabTrigger>sym-generate-module-model</tabTrigger>
+<description>sym-generate-module-model-doctrine</description>
+<scope>embedding.php, text.html.basic</scope>
+</snippet>

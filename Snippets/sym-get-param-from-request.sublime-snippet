@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$request->getParameter('$1')
+]]></content>
+<tabTrigger>sym-get-param-from-request</tabTrigger>
+<description>sym-get-param-from-request</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.group.php, meta.function-call.php, meta.group.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>

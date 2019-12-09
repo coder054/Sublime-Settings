@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php echo link_to('Delete', 'job_delete', \$job, array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
+]]></content>
+<tabTrigger>sym-link_to-delete</tabTrigger>
+<description>sym-link_to-delete</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

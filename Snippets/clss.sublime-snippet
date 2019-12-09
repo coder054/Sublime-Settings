@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+ className={`\${cls.secondrow} \${this.state.expanded === false ? cls.collap : "" }`}	
+]]></content>
+<tabTrigger>clss</tabTrigger>
+<description>rj-className-cls-multiple</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

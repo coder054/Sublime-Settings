@@ -1,0 +1,20 @@
+<snippet>
+<content><![CDATA[
+//////////////////////////////////////////////////////////
+// https://material.io/resources/icons/?search=arrow&icon=keyboard_arrow_down&style=baseline
+// download then put at exampleAssets
+
+
+// exampleAssets/index.js
+export { default as ${1:arrowd} } from './${1:arrowd}.svg'
+
+
+// su dung
+import * as images from '@exampleAssets'
+<img alt="" src={images.${1:arrowd}} />
+//////////////////////////////////////////////////////////////
+]]></content>
+<tabTrigger>driver-doc-icon-svg</tabTrigger>
+<description>driver-doc-icon-svg</description>
+<scope>source.js, meta.group.braces.curly.js, variable.other.readwrite.js</scope>
+</snippet>

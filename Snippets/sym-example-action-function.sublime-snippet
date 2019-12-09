@@ -1,0 +1,26 @@
+<snippet>
+<content><![CDATA[
+public function executeIndex(sfWebRequest \$request)
+{
+    // Retrieving request parameters
+    \$password = \$request->getParameter('password');
+
+    // Retrieving controller information
+    \$moduleName = \$this->getModuleName();
+    \$actionName = \$this->getActionName();
+
+    // Retrieving framework core objects
+    \$userSession = \$this->getUser();
+    \$response    = \$this->getResponse();
+    \$controller  = \$this->getController();
+    \$context     = \$this->getContext();
+
+    // Setting action variables to pass information to the template
+    \$this->setVar('foo', 'bar');
+    \$this->foo = 'bar'; // Shorter version
+}
+]]></content>
+<tabTrigger>sym-example-action-function</tabTrigger>
+<description>sym-example-action-function</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, storage.modifier.php</scope>
+</snippet>

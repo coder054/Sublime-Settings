@@ -1,0 +1,26 @@
+<snippet>
+<content><![CDATA[
+/////////////////////////////
+public function getActiveJobs(){
+\$q = \$this->createQuery('j')
+  ->where('j.expires_at > ?', date('Y-m-d H:i:s', time()));
+
+return \$q->execute();
+}
+
+// su dung trong action
+$this->jobeet_jobs = Doctrine_Core::getTable('JobeetJob')->getActiveJobs();
+
+
+// query trong action tuong duong
+// \$q = Doctrine_Query::create()
+//   ->from('JobeetJob j')
+//   ->where('j.expires_at > ?', date('Y-m-d H:i:s', time()));
+
+// \$this->jobeet_jobs = \$q->execute();  	  
+/////////////////////////////
+]]></content>
+<tabTrigger>sym-query-trong-model-table-class</tabTrigger>
+<description>sym-query-trong-model-table-class</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php</scope>
+</snippet>

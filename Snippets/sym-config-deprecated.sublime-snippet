@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php echo ((E_ALL | E_STRICT) ^ E_DEPRECATED)."\n" ?>
+]]></content>
+<tabTrigger>sym-config-deprecated</tabTrigger>
+<description>sym-config-deprecated</description>
+<scope>source.yaml, string.unquoted.plain.out.yaml</scope>
+</snippet>
