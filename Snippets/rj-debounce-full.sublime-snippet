@@ -1,0 +1,47 @@
+<snippet>
+<content><![CDATA[
+import _ from 'lodash'
+import React from 'react'
+//import Link from 'next/link'
+import { inject, observer } from 'mobx-react'
+
+@inject('ChurnRuleSt')
+@observer
+class SearchInputView extends React.Component {
+  constructor(props) {
+    super(props)    
+    this.$2Debounced = _.debounce(this.$3, 400, {
+      leading: false,
+      trailing: true,
+    })
+  }
+  $3() {
+    const { ChurnRuleSt } = this.props
+    ChurnRuleSt.fetchChurnRuleList()
+  }
+
+  $1 = event => {
+    // some code
+    this.$2Debounced()
+  }
+
+  render() {
+    const { ChurnRuleSt } = this.props
+    return (
+      <input
+        type="text"
+        className="input-search"
+        placeholder="Search"
+        value={ChurnRuleSt.search}
+        onChange={this.$1}
+      />
+    )
+  }
+}
+
+export default SearchInputView
+]]></content>
+<tabTrigger>rj-debounce-full</tabTrigger>
+<description>rj-debounce-full</description>
+<scope>source.js, keyword.operator.module.js</scope>
+</snippet>

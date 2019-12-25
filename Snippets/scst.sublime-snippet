@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+this.props.setChatState('$1', $2 )
+]]></content>
+<tabTrigger>scst</tabTrigger>
+<description>nola-setChatState</description>
+<scope>source.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.group.braces.curly.js, variable.language.this.js</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.messagesuccess {
+  @extend %message-shared;
+  border-color: green;
+}
+]]></content>
+<tabTrigger>scss-sass-extend</tabTrigger>
+<description>scss-sass-extend</description>
+<scope>source.scss, meta.selector.css, entity.other.attribute-name.placeholder.sass, punctuation.definition.entity.sass</scope>
+</snippet>

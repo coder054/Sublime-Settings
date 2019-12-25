@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+animateScroll.scrollMore(200, {
+  containerId: 'ggg',
+  duration: 200
+})
+]]></content>
+<tabTrigger>rj-react-scroll-scrollMore</tabTrigger>
+<description>rj-react-scroll-scrollMore</description>
+<scope>source.js, meta.class.js, meta.group.braces.curly.js, variable.other.object.js, variable.other.object.js</scope>
+</snippet>

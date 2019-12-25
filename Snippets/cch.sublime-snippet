@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+$1: chat.$1,
+]]></content>
+<tabTrigger>cch</tabTrigger>
+<description>nola-chat-cham-connect-module-chat</description>
+<scope>source.js, meta.group.braces.round.js, meta.group.braces.round.js, meta.group.braces.curly.js, constant.other.object.key.js, string.unquoted.label.js</scope>
+</snippet>
