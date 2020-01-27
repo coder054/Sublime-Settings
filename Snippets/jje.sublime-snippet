@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php echo $1 ; ?>
+]]></content>
+<tabTrigger>jje</tabTrigger>
+<description>php-echo-inline</description>
+<scope>embedding.php, text.html.basic, meta.tag.inline.form.html, meta.attribute-with-value.html, string.quoted.double.html, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

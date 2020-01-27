@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 0.1,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"color_scheme": "Packages/1337 Color Scheme/1337.tmTheme",
 	"extra_file_exclude_patterns":
 	[
 		"*.pyc",
@@ -80,7 +80,7 @@
 		"dist",
 		"CVS"
 	],
-	"font_size": 9,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[

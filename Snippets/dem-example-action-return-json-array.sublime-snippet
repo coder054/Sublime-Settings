@@ -1,0 +1,23 @@
+<snippet>
+<content><![CDATA[
+    public function executeGetListCategoryOfCustomer(sfWebRequest \$request){
+        \$list_customer = PrCategoriesTable::getListCategoryOfCustomer(\$request->getParameter('customer_id'));
+        return \$this->renderText(json_encode(\$list_customer));
+    }
+
+
+//PrCategoriesTable.class.php
+    public static function getListCategoryOfCustomer($customer_id){
+        return PrCategoriesTable::getInstance()->createQuery('a')
+            ->select('category_name, id')
+            ->where('customer_id = ?', $customer_id)
+            ->andWhere("is_delete = ?", 0)
+            ->orderBy('category_name ASC')
+            ->fetchArray();
+    
+    }    
+]]></content>
+<tabTrigger>dem-example-action-return-json-array</tabTrigger>
+<description>dem-example-action-return-json-array</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php</scope>
+</snippet>

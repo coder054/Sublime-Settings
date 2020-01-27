@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+include_partial('PrProgram/form_field', array(
+            'name' => \$name,
+            'attributes' => \$field->getConfig('attributes', array()),
+            'label' => \$field->getConfig('label'),
+            'help' => \$field->getConfig('help'),
+            'form' => \$form,
+            'field' => \$field,
+            'class' => 'sf_admin_form_row sf_admin_' . strtolower(\$field->getType()) . ' sf_admin_form_field_' . \$name,
+            'pr_program' => \$pr_program)) 
+]]></content>
+<tabTrigger>dem-include_partial</tabTrigger>
+<description>dem-include_partial</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function-call.php, variable.function.php</scope>
+</snippet>

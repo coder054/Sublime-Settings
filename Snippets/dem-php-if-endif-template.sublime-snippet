@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+             <?php if (\$form->hasGlobalErrors()): ?>
+              <?php echo \$form->renderGlobalErrors() ?>
+              <?php endif; ?>
+]]></content>
+<tabTrigger>dem-php-if-endif-template</tabTrigger>
+<description>dem-php-if-endif-template</description>
+<scope>embedding.php, text.html.basic</scope>
+</snippet>

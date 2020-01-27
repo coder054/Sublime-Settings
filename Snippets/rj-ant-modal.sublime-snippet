@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+
+	handleCancel = () => {
+		this.props.setChatState('showModalTrangThaiChamMessV2', false)
+	}
+
+				<Modal
+					visible={this.props.showModalTrangThaiChamMessV2}
+					title="Trạng thái gửi"
+					onCancel={this.handleCancel}
+					footer={null}
+				>
+					<p className="text-info dangguitin">Đang gửi tin ...</p>
+					{/*<p className="text-success hoanthanhguitin" >Hoàn thành gửi tin</p>*/}
+				</Modal>
+]]></content>
+<tabTrigger>rj-ant-modal</tabTrigger>
+<description>rj-ant-modal</description>
+<scope>source.js, meta.class.js, meta.class.property.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.jsx.js</scope>
+</snippet>

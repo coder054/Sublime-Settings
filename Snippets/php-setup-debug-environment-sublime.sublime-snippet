@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ],
+    "settings": {
+        "xdebug": {
+             "url": "${1:http://localhost/debug/}",
+        }
+    }
+}
+
+]]></content>
+<tabTrigger>php-setup-debug-environment-sublime</tabTrigger>
+<description>php-setup-debug-environment-sublime</description>
+<scope>source.json.sublime, meta.mapping.json, punctuation.section.mapping.begin.json</scope>
+</snippet>

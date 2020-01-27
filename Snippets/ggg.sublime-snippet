@@ -1,9 +1,6 @@
 <snippet>
 <content><![CDATA[
-$1.getInitialProps = async (ctx) => {
-	let token = (await handleAuthSSR(ctx)) || null 
-  return {token}
-};
+_.get( $1 , '$2' )
 ]]></content>
 <tabTrigger>ggg</tabTrigger>
 <description>ggg</description>

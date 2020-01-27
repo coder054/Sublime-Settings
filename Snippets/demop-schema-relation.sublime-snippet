@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+PrBrandCategory: { class: PrCategories, local: category_id, type: one, foreignAlias: PrBrandCategory}
+]]></content>
+<tabTrigger>demop-schema-relation</tabTrigger>
+<description>demop-schema-relation</description>
+<scope>source.yaml, string.unquoted.plain.out.yaml, entity.name.tag.yaml</scope>
+</snippet>

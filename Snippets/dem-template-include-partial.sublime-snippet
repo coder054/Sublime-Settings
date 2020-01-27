@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<?php include_partial('PrProgram/more_info_program', array('pr_program' => \$pr_program, 'form' => \$form, 'fields' => \$fields, 'configuration' => \$configuration, 'helper' => \$helper)) ?>
+]]></content>
+<tabTrigger>dem-template-include-partial</tabTrigger>
+<description>dem-template-include-partial</description>
+<scope>embedding.php, text.html.basic, meta.embedded.line.php, punctuation.section.embedded.begin.php</scope>
+</snippet>

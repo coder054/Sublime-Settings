@@ -1,0 +1,47 @@
+<snippet>
+<content><![CDATA[
+
+////////////////////////////////////////////////////////////////////////
+// routing
+getList${1:CategoryOfCustomer}:
+  url:  /getList${1:CategoryOfCustomer}
+  param: {module: ${3:PrProgram}, action: getList${1:CategoryOfCustomer}}
+
+
+// action
+public function executeGetList${1:CategoryOfCustomer}(sfWebRequest \$request){
+    \$list = ${4:PrCategoriesTable}::getList${1:CategoryOfCustomer}(\$request->getParameter('${2:customer}_id'));
+    return \$this->renderText(json_encode(\$list));
+}
+
+
+// ${4:PrCategoriesTable}
+public static function getList${1:CategoryOfCustomer}(\$${2:customer}_id){
+    return ${4:PrCategoriesTable}::getInstance()->createQuery('a')
+        ->select('category_name, id')
+        ->where('${2:customer}_id = ?', \$${2:customer}_id)
+        ->andWhere("is_delete = ?", 0)
+        ->orderBy('category_name ASC')
+        ->fetchArray();
+}
+
+// ajax
+var url = '/backend.php/getList${1:CategoryOfCustomer}'
+\$.ajax({
+    url: url,
+    type: 'post',
+    dataType: 'json',
+    data: {
+        ${2:customer}_id: VALUE_HERE,
+    },
+    success: function(result) {
+      debugger
+    },
+})
+////////////////////////////////////////////////////////////////////////
+
+]]></content>
+<tabTrigger>dem-ajax-get-route-full-example</tabTrigger>
+<description>dem-ajax-get-route-full-example</description>
+<scope>source.yaml, embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php</scope>
+</snippet>

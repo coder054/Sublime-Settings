@@ -1,7 +1,8 @@
 <snippet>
 <content><![CDATA[
-for(let i = 0; i < $2; i++){
-  $3
+for(let i = 0; i < _.size($2); i++){
+  let item = $2[i]
+  
 }
 ]]></content>
 <tabTrigger>for-anhdt</tabTrigger>

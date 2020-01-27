@@ -116,6 +116,11 @@
 		"keys": ["ctrl+k", "ctrl+f"],
 		"command": "js_prettier"
 	},
+	{
+		"keys": ["ctrl+q", "ctrl+w"],
+		"command": "reopen_last_file"
+	},
+	 
 
 	{
 		"keys": ["ctrl+k", "ctrl+n"],
@@ -159,4 +164,5 @@
 	{ "keys": ["ctrl+q", "ctrl+2"], "command": "keep", "args": { "keep": "theirs" } },
 	{ "keys": ["ctrl+alt+a"], "command": "keep", "args": { "keep": "ancestor" } },
 	{ "keys": ["ctrl+alt+c"], "command": "list_conflict_files" }
+
 ]

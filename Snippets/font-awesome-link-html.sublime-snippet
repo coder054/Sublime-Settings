@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<i class="fa fa-automobile"></i>
+]]></content>
+<tabTrigger>font-awesome-link-html</tabTrigger>
+<description>font-awesome-link-html</description>
+<scope>embedding.php, text.html.basic, meta.tag.inline.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
