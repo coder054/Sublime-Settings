@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+////////////////////////////////////////////////////////
+public static function getVoucherById(\$voucher_id)
+{
+    return PrVoucherTable::getInstance()->createQuery('a')
+        ->where('a.id =?', \$voucher_id)
+        ->fetchOne();
+}
+
+\$checkVoucherValid = PrVoucherTable::getVoucherById(\$redemption->voucher_id);
+if(\$checkVoucherValid == false){
+    \$jsonObj = new jsonObject(410, "Data sale redemption is invalid!");
+    return \$this->renderText(\$jsonObj->toJson());
+}
+////////////////////////////////////////////////////////
+]]></content>
+<tabTrigger>dem-get-by-id-query-full</tabTrigger>
+<description>dem-get-by-id-query-full</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, comment.line.double-slash.php, punctuation.definition.comment.php</scope>
+</snippet>

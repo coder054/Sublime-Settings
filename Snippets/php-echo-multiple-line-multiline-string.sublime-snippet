@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+echo <<<XML
+	$1		
+XML;
+]]></content>
+<tabTrigger>php-echo-multiple-line-multiline-string</tabTrigger>
+<description>php-echo-multiple-line-multiline-string</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php</scope>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+<content><![CDATA[
+//////////////////////////////////////////    
+                \$pr_product = \$form->save();
+                \$file = \$request->getFiles('pr_product')['product_sku_image'];
+                if (!empty(\$file['name'])) {
+                    if (\$tempFileName = uploadImage(\$file, sfConfig::get('sf_upload_dir') . '/product/')) {
+                        \$pr_product->setProductSkuImage(\$tempFileName);
+                    }
+                }
+                \$pr_product->save();
+
+
+function uploadImage(\$inputFileData, \$uploadPath){
+    if (!file_exists(\$uploadPath)) {
+        mkdir(\$uploadPath, 0777, true);
+    }
+    \$extension = pathinfo(\$inputFileData['name'] ,PATHINFO_EXTENSION);
+    \$fileName = sha1(pathinfo(\$inputFileData['name'] ,PATHINFO_FILENAME));
+    \$targetDir = \$uploadPath . '/' . \$fileName . '.' . \$extension;
+
+    if (move_uploaded_file(\$inputFileData['tmp_name'], \$targetDir)) {
+        return \$fileName . '.' . \$extension;
+    }
+
+    return false;
+}         
+//////////////////////////////////////////           
+]]></content>
+<tabTrigger>dem-upload-image-lamlam</tabTrigger>
+<description>dem-upload-image-lamlam</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php</scope>
+</snippet>

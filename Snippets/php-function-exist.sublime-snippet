@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+if (function_exists('$1')) { 
+} else {
+    function $1(\$time){
+        //
+    }
+}
+]]></content>
+<tabTrigger>php-function-exist</tabTrigger>
+<description>php-function-exist</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, keyword.control.php</scope>
+</snippet>

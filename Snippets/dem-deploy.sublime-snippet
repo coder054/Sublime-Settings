@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+ssh -i demopower.pem ubuntu@18.138.236.69
+]]></content>
+<tabTrigger>dem-deploy</tabTrigger>
+<description>dem-deploy</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, constant.other.php</scope>
+</snippet>

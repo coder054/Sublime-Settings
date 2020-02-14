@@ -1,0 +1,15 @@
+<snippet>
+<content><![CDATA[
+if(!\$testMode){
+$0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
+${SELECTION/([ \t]*).*/$1/}
+}
+
+
+
+
+]]></content>
+<tabTrigger>dem-wrap-in-test-mode</tabTrigger>
+<description>dem-wrap-in-test-mode</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php</scope>
+</snippet>

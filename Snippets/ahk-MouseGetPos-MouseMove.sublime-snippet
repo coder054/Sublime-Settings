@@ -1,0 +1,25 @@
+<snippet>
+<content><![CDATA[
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+Numpad1::
+MouseGetPos, x3, y3
+Return
+
+Numpad2::
+MouseGetPos, x, y
+MouseMove, x3, y3, 0
+sleep 1000
+MouseMove, x, y, 0
+
+
+
+
+]]></content>
+<tabTrigger>ahk-MouseGetPos-MouseMove</tabTrigger>
+<description>ahk-MouseGetPos-MouseMove</description>
+<scope>source.ahk, preprocessordirective.ahk, keyword.control.ahk</scope>
+</snippet>
