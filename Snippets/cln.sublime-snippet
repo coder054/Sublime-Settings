@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+className="$1"
+]]></content>
+<tabTrigger>cln</tabTrigger>
+<description>rj-className</description>
+<scope>source.jsx, source.js, meta.export.js, meta.function.js, meta.block.js, meta.group.js, meta.object-literal.js, meta.group.js, meta.embedded.block.jsx, source.jsx.embedded, meta.tag.other.html, meta.attribute-with-value.html, entity.other.attribute-name.html</scope>
+</snippet>

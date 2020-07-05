@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+::selection {
+  color: red;
+  background: yellow;
+}
+]]></content>
+<tabTrigger>css-selection</tabTrigger>
+<description>css-selection</description>
+<scope>source.css, meta.selector.css, entity.other.pseudo-element.css, punctuation.definition.entity.css</scope>
+</snippet>

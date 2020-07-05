@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+notiFailed( $1 )
+]]></content>
+<tabTrigger>aj</tabTrigger>
+<description>qp-noti-failed</description>
+<scope>source.jsx, source.js, meta.export.js, meta.function.js, meta.block.js, meta.function-call.js, variable.function.js</scope>
+</snippet>

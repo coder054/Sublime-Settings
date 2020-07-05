@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+        \$this->validatorSchema->setPostValidator(
+          new sfValidatorDoctrineUnique(array('model' => '${1:PrStore}', 'column' => array('${2:store_name}')))
+        );
+]]></content>
+<tabTrigger>dem-unique</tabTrigger>
+<description>dem-unique</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php</scope>
+</snippet>

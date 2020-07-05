@@ -1,0 +1,30 @@
+<snippet>
+<content><![CDATA[
+//////////
+
+import styled from 'styled-components';
+
+const ${2:Layout} = styled('${1:div}')`
+  width: 90%;
+  max-width: 1600px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-rows: \${({ variant }) => variant.rows};
+  grid-template-columns: \${({ variant }) => variant.columns};
+  grid-template-areas: \${({ variant }) => variant.areas};
+`;
+
+<${2:Layout}>
+  $3
+</${2:Layout}>
+
+////////////////
+]]></content>
+<tabTrigger>qp-styled-component</tabTrigger>
+<description>qp-styled-component</description>
+<scope>source.jsx, source.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

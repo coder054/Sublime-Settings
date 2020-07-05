@@ -4,10 +4,6 @@ if(!\$testMode){
 $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
 ${SELECTION/([ \t]*).*/$1/}
 }
-
-
-
-
 ]]></content>
 <tabTrigger>dem-wrap-in-test-mode</tabTrigger>
 <description>dem-wrap-in-test-mode</description>

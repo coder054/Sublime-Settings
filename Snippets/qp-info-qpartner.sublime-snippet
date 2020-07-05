@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+
+GITLAB ba.hoang@blackgibbon.com / matkhau1@*
+Repo qpartner app: https://gitlab.com/qcells-bd-team/qpartner-app
+Repo qpartner admin: https://gitlab.com/qcells-bd-team/qpartner
+
+
+localhost:3000
+mansoor.bahramand@us.q-cells.com / hanwha123!
+
+]]></content>
+<tabTrigger>qp-info-qpartner</tabTrigger>
+<description>qp-info-qpartner</description>
+<scope>source.js</scope>
+</snippet>

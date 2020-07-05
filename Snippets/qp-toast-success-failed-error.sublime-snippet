@@ -1,0 +1,36 @@
+<snippet>
+<content><![CDATA[
+//success
+toast(
+  () => (
+    <Grid container spacing={2}>
+      <Grid item></Grid>
+      <Grid item>
+        <img src={ToastImg} />
+      </Grid>
+      <Grid item>
+        <p style={{ lineHeight: '30px' }}>
+          Edit product successfully
+        </p>
+      </Grid>
+    </Grid>
+  ),
+  {
+    className: 'toast-body',
+    progressClassName: 'toast-progress-bar',
+    // autoClose: false
+  }
+);
+
+// failed
+toast(`Category can't be blank`, {
+  className: 'toast-error-body',
+  progressClassName: 'toast-error-progress-bar',
+  // autoClose: false
+});
+return;
+]]></content>
+<tabTrigger>qp-toast-success-failed-error</tabTrigger>
+<description>qp-toast-success-failed-error</description>
+<scope>source.jsx, source.js, meta.function.js, meta.block.js, meta.group.js, meta.group.js, meta.object-literal.js, meta.group.js, meta.object-literal.js, meta.group.js, meta.embedded.block.jsx, source.jsx.embedded, meta.tag.inline.form.html, meta.attribute-with-value.html, meta.embedded.block.jsx.js, meta.function.js, meta.block.js, meta.conditional.js, meta.block.js, comment.line.double-slash.js, punctuation.definition.comment.js</scope>
+</snippet>

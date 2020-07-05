@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+        \$query = "
+SELECT ppr.retailer_id, ppr.program_id, pf.id as format_id ,pf.name FROM promoter.pr_program_retailer ppr
+left join pr_program_retailer_format pprf on ( ppr.id = pprf.program_retailer_id)
+left join pr_format pf on ( pf.id = pprf.format_id )
+where ppr.program_id = 83 and ppr.retailer_id = 1; 
+        ";
+
+        \$conn = Doctrine_Manager::connection();
+        \$statement = \$conn->execute(\$query, array());
+        return \$statement->fetchAll();
+        // how to use
+        \$result = PrProgramRetailerTable::testRawSql();
+]]></content>
+<tabTrigger>dem-raw-query</tabTrigger>
+<description>dem-raw-query</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php</scope>
+</snippet>

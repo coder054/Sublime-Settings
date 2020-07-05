@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 0.1,
 	"caret_style": "solid",
-	"color_scheme": "Packages/1337 Color Scheme/1337.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"extra_file_exclude_patterns":
 	[
 		"*.pyc",
@@ -80,6 +80,11 @@
 		"dist",
 		"CVS"
 	],
+	"font-options":
+	[
+		"normal"
+	],
+	"font_face": "ibm plex mono",
 	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":

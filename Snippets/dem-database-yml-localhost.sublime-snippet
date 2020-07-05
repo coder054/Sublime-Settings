@@ -4,19 +4,21 @@ all:
   slave:
     class: sfDoctrineDatabase
     param:
-      dsn: 'mysql:host=localhost;dbname=promoter_dev'
+      dsn: 'mysql:host=18.138.236.69;dbname=promoter'
       username: root
-      password: 
+      password: vmo2020
       attributes: { default_table_charset: utf8, default_table_collate: utf8_general_ci }
       options: {1002: "SET time_zone = '08:00'"}
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn: 'mysql:host=localhost;dbname=promoter_dev'
+      dsn: 'mysql:host=18.138.236.69;dbname=promoter'
       username: root
-      password: 
+      password: vmo2020
       attributes: { default_table_charset: utf8, default_table_collate: utf8_general_ci }
       options: {1002: "SET time_zone = '08:00'"}
+
+
 ]]></content>
 <tabTrigger>dem-database-yml-localhost</tabTrigger>
 <description>dem-database-yml-localhost</description>

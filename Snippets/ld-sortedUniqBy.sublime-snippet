@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+_.sortedUniqBy( _.sortBy( _.get( $1 , '$2'), '${3:id}' )  , '${3:id}')
+]]></content>
+<tabTrigger>ld-sortedUniqBy</tabTrigger>
+<description>ld-sortedUniqBy</description>
+<scope>source.js, meta.group.braces.curly.js, meta.group.braces.round.js, meta.group.braces.curly.js, meta.group.braces.curly.js, variable.other.object.js, variable.other.object.js</scope>
+</snippet>

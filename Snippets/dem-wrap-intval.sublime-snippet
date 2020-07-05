@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+intval($0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
+${SELECTION/([ \t]*).*/$1/})
+]]></content>
+<tabTrigger>dem-wrap-intval</tabTrigger>
+<description>dem-wrap-intval</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.function-call.php, support.function.var.php</scope>
+</snippet>

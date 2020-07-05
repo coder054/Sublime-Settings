@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+<a href="#"> $0${SELECTION/([ \t]*)([^\n]*)/\t$1$2/g}
+${SELECTION/([ \t]*).*/$1/} </a>
+]]></content>
+<tabTrigger>tggg</tabTrigger>
+<description>html-wrap-in-a-tag</description>
+<scope>text.html.basic, meta.tag.inline.a.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
